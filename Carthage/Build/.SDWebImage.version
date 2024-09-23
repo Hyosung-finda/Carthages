@@ -1,0 +1,29 @@
+{
+  "iOS" : [
+    {
+      "hash" : "0d1e2bd6f180003d626be8c75baee12a65f4ee387b6b3dbe835250ac06d832a0",
+      "container" : "SDWebImage.xcframework",
+      "name" : "SDWebImage",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "name" : "SDWebImage",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "ceef17c59f5074b75554377566e4edd8b5419be88f17753b57ebd7fcad0b05d1",
+      "container" : "SDWebImage.xcframework"
+    },
+    {
+      "identifier" : "ios-arm64",
+      "container" : "SDWebImageMapKit.xcframework",
+      "hash" : "44287acef7498a13d71bb5823c1642897502210cf052319b95f0c6dfecf1ea28",
+      "name" : "SDWebImageMapKit"
+    },
+    {
+      "hash" : "a45fcf7b4cdd540db7bc5254e237865c7febdb51d640ecc1787a2abad8ee6a5a",
+      "container" : "SDWebImageMapKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "SDWebImageMapKit"
+    }
+  ],
+  "commitish" : "5.19.1"
+}

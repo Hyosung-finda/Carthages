@@ -1,0 +1,11 @@
+framework module ChannelIOFront {
+  umbrella header "ChannelIOFront.h"
+  export *
+
+  module * { export * }
+}
+
+module ChannelIOFront.Swift {
+  header "ChannelIOFront-Swift.h"
+  requires objc
+}

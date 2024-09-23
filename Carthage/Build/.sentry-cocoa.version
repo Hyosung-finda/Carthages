@@ -1,0 +1,33 @@
+{
+  "commitish" : "8.31.0",
+  "iOS" : [
+    {
+      "container" : "Sentry.xcframework",
+      "name" : "Sentry",
+      "hash" : "cb3ad575a7f89b135e41fff1d22db9293915b9ee659b7c9ba4dbc9749c31a1ef",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "bff65904c1f0290f0388e4ae21581b2ac5167db159ef45edac125ce85550d504",
+      "container" : "Sentry.xcframework",
+      "name" : "Sentry",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "353cb19168170fbd189d3e87db5d44ae30af86e3a0389be67a41706e96f29dfa",
+      "identifier" : "ios-arm64",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "container" : "SentrySwiftUI.xcframework",
+      "name" : "SentrySwiftUI"
+    },
+    {
+      "container" : "SentrySwiftUI.xcframework",
+      "hash" : "a37eea7ee4ce67301d9e1639f1b8a0e6a01aa75b3156186389600398d2f36b54",
+      "name" : "SentrySwiftUI",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+    }
+  ]
+}

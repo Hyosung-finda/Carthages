@@ -1,0 +1,19 @@
+{
+  "iOS" : [
+    {
+      "hash" : "b30eb332ad5dd69efe5b692920104e0b2427cc5970bc97131ddc65c697500e6c",
+      "identifier" : "ios-arm64",
+      "container" : "BonMot.xcframework",
+      "name" : "BonMot",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+    },
+    {
+      "hash" : "d47ac10f6fd9eb20a170a516002322bc9707a73b5a98203ca7a3d1abf50bb834",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "name" : "BonMot",
+      "container" : "BonMot.xcframework"
+    }
+  ],
+  "commitish" : "6.1.3"
+}

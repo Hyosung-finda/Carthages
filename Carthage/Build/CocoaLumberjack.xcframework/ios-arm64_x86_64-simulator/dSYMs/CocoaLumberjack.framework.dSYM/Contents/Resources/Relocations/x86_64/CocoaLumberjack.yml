@@ -1,0 +1,557 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/h/Library/Caches/org.carthage.CarthageKit/DerivedData/15.2_15C500b/CocoaLumberjack/3.8.5/Build/Products/Release-iphonesimulator/CocoaLumberjack.framework/CocoaLumberjack'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x56D41, size: 0x8, addend: 0x0, symName: _CocoaLumberjackVersionString, symObjAddr: 0x0, symBinAddr: 0x132A0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x56D76, size: 0x8, addend: 0x0, symName: _CocoaLumberjackVersionNumber, symObjAddr: 0x38, symBinAddr: 0x132D8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x56DB3, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter init]', symObjAddr: 0x0, symBinAddr: 0x1560, symSize: 0x84 }
+  - { offsetInCU: 0x179, offset: 0x56F05, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter init]', symObjAddr: 0x0, symBinAddr: 0x1560, symSize: 0x84 }
+  - { offsetInCU: 0x204, offset: 0x56F90, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter formatLogMessage:]', symObjAddr: 0x84, symBinAddr: 0x15E4, symSize: 0x114 }
+  - { offsetInCU: 0x30C, offset: 0x57098, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x198, symBinAddr: 0x16F8, symSize: 0x16 }
+  - { offsetInCU: 0x331, offset: 0x570BD, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1AE, symBinAddr: 0x170E, symSize: 0xF }
+  - { offsetInCU: 0x35C, offset: 0x570E8, size: 0x8, addend: 0x0, symName: '___37-[DDMultiFormatter formatLogMessage:]_block_invoke', symObjAddr: 0x1BD, symBinAddr: 0x171D, symSize: 0x1DA }
+  - { offsetInCU: 0x46E, offset: 0x571FA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x397, symBinAddr: 0x18F7, symSize: 0x44 }
+  - { offsetInCU: 0x4AF, offset: 0x5723B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x3DB, symBinAddr: 0x193B, symSize: 0x33 }
+  - { offsetInCU: 0x4E6, offset: 0x57272, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter logMessageForLine:originalMessage:]', symObjAddr: 0x40E, symBinAddr: 0x196E, symSize: 0x4D }
+  - { offsetInCU: 0x57E, offset: 0x5730A, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter formatters]', symObjAddr: 0x45B, symBinAddr: 0x19BB, symSize: 0xB9 }
+  - { offsetInCU: 0x5F8, offset: 0x57384, size: 0x8, addend: 0x0, symName: '___30-[DDMultiFormatter formatters]_block_invoke', symObjAddr: 0x514, symBinAddr: 0x1A74, symSize: 0x3A }
+  - { offsetInCU: 0x65F, offset: 0x573EB, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter addFormatter:]', symObjAddr: 0x5A5, symBinAddr: 0x1AAE, symSize: 0x8D }
+  - { offsetInCU: 0x714, offset: 0x574A0, size: 0x8, addend: 0x0, symName: '___33-[DDMultiFormatter addFormatter:]_block_invoke', symObjAddr: 0x632, symBinAddr: 0x1B3B, symSize: 0x1E }
+  - { offsetInCU: 0x76F, offset: 0x574FB, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter removeFormatter:]', symObjAddr: 0x69A, symBinAddr: 0x1B59, symSize: 0x8D }
+  - { offsetInCU: 0x810, offset: 0x5759C, size: 0x8, addend: 0x0, symName: '___36-[DDMultiFormatter removeFormatter:]_block_invoke', symObjAddr: 0x727, symBinAddr: 0x1BE6, symSize: 0x1E }
+  - { offsetInCU: 0x86B, offset: 0x575F7, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter removeAllFormatters]', symObjAddr: 0x745, symBinAddr: 0x1C04, symSize: 0x4B }
+  - { offsetInCU: 0x8B4, offset: 0x57640, size: 0x8, addend: 0x0, symName: '___39-[DDMultiFormatter removeAllFormatters]_block_invoke', symObjAddr: 0x790, symBinAddr: 0x1C4F, symSize: 0x1A }
+  - { offsetInCU: 0x8FF, offset: 0x5768B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x7B9, symBinAddr: 0x1C69, symSize: 0xF }
+  - { offsetInCU: 0x92A, offset: 0x576B6, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter isFormattingWithFormatter:]', symObjAddr: 0x7C8, symBinAddr: 0x1C78, symSize: 0xD2 }
+  - { offsetInCU: 0x9E4, offset: 0x57770, size: 0x8, addend: 0x0, symName: '___46-[DDMultiFormatter isFormattingWithFormatter:]_block_invoke', symObjAddr: 0x89A, symBinAddr: 0x1D4A, symSize: 0x34 }
+  - { offsetInCU: 0xA4F, offset: 0x577DB, size: 0x8, addend: 0x0, symName: '-[DDMultiFormatter .cxx_destruct]', symObjAddr: 0x8CE, symBinAddr: 0x1D7E, symSize: 0x28 }
+  - { offsetInCU: 0x35, offset: 0x57E6C, size: 0x8, addend: 0x0, symName: _DDLoggerNameASL, symObjAddr: 0xF0, symBinAddr: 0x18540, symSize: 0x0 }
+  - { offsetInCU: 0x60, offset: 0x57E97, size: 0x8, addend: 0x0, symName: _DDLoggerNameTTY, symObjAddr: 0xF8, symBinAddr: 0x18548, symSize: 0x0 }
+  - { offsetInCU: 0x76, offset: 0x57EAD, size: 0x8, addend: 0x0, symName: _DDLoggerNameOS, symObjAddr: 0x100, symBinAddr: 0x18550, symSize: 0x0 }
+  - { offsetInCU: 0x8C, offset: 0x57EC3, size: 0x8, addend: 0x0, symName: _DDLoggerNameFile, symObjAddr: 0x108, symBinAddr: 0x18558, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x57F02, size: 0x8, addend: 0x0, symName: '+[DDTTYLogger initializeColors16]', symObjAddr: 0x0, symBinAddr: 0x1DA6, symSize: 0x340 }
+  - { offsetInCU: 0x41, offset: 0x57F1C, size: 0x8, addend: 0x0, symName: _codesFg, symObjAddr: 0x13620, symBinAddr: 0x20518, symSize: 0x0 }
+  - { offsetInCU: 0x5C, offset: 0x57F37, size: 0x8, addend: 0x0, symName: _codesBg, symObjAddr: 0x13628, symBinAddr: 0x20520, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x57F4D, size: 0x8, addend: 0x0, symName: _colors, symObjAddr: 0x13630, symBinAddr: 0x20528, symSize: 0x0 }
+  - { offsetInCU: 0x7C, offset: 0x57F57, size: 0x8, addend: 0x0, symName: '+[DDTTYLogger sharedInstance]', symObjAddr: 0x94E, symBinAddr: 0x26F4, symSize: 0x63 }
+  - { offsetInCU: 0xA8, offset: 0x57F83, size: 0x8, addend: 0x0, symName: _sharedInstance.DDTTYLoggerOnceToken, symObjAddr: 0x13638, symBinAddr: 0x20530, symSize: 0x0 }
+  - { offsetInCU: 0x10F, offset: 0x57FEA, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger logMessage:]', symObjAddr: 0x226D, symBinAddr: 0x3F24, symSize: 0x71B }
+  - { offsetInCU: 0x60C, offset: 0x584E7, size: 0x8, addend: 0x0, symName: '-[DDTTYLoggerColorProfile initWithForegroundColor:backgroundColor:flag:context:]', symObjAddr: 0x29FB, symBinAddr: 0x46B2, symSize: 0x45C }
+  - { offsetInCU: 0xB3F, offset: 0x58A1A, size: 0x8, addend: 0x0, symName: _isaColorTTY, symObjAddr: 0x13641, symBinAddr: 0x20539, symSize: 0x0 }
+  - { offsetInCU: 0xB63, offset: 0x58A3E, size: 0x8, addend: 0x0, symName: _isaXcodeColorTTY, symObjAddr: 0x13640, symBinAddr: 0x20538, symSize: 0x0 }
+  - { offsetInCU: 0xB80, offset: 0x58A5B, size: 0x8, addend: 0x0, symName: _sharedInstance, symObjAddr: 0x13648, symBinAddr: 0x20540, symSize: 0x0 }
+  - { offsetInCU: 0xF4B, offset: 0x58E26, size: 0x8, addend: 0x0, symName: '+[DDTTYLogger initializeColors16]', symObjAddr: 0x0, symBinAddr: 0x1DA6, symSize: 0x340 }
+  - { offsetInCU: 0x108B, offset: 0x58F66, size: 0x8, addend: 0x0, symName: '+[DDTTYLogger initializeColors256]', symObjAddr: 0x340, symBinAddr: 0x20E6, symSize: 0x27A }
+  - { offsetInCU: 0x1322, offset: 0x591FD, size: 0x8, addend: 0x0, symName: '+[DDTTYLogger getRed:green:blue:fromColor:]', symObjAddr: 0x5BA, symBinAddr: 0x2360, symSize: 0x16E }
+  - { offsetInCU: 0x15D1, offset: 0x594AC, size: 0x8, addend: 0x0, symName: '+[DDTTYLogger codeIndexForColor:]', symObjAddr: 0x728, symBinAddr: 0x24CE, symSize: 0x226 }
+  - { offsetInCU: 0x17B5, offset: 0x59690, size: 0x8, addend: 0x0, symName: '___29+[DDTTYLogger sharedInstance]_block_invoke', symObjAddr: 0x9B1, symBinAddr: 0x2757, symSize: 0xD1 }
+  - { offsetInCU: 0x18C7, offset: 0x597A2, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger init]', symObjAddr: 0xA82, symBinAddr: 0x2828, symSize: 0x2D8 }
+  - { offsetInCU: 0x1A80, offset: 0x5995B, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger loggerName]', symObjAddr: 0xD5A, symBinAddr: 0x2B00, symSize: 0x14 }
+  - { offsetInCU: 0x1AB4, offset: 0x5998F, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger loadDefaultColorProfiles]', symObjAddr: 0xD6E, symBinAddr: 0x2B14, symSize: 0xE2 }
+  - { offsetInCU: 0x1BF0, offset: 0x59ACB, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger colorsEnabled]', symObjAddr: 0xE50, symBinAddr: 0x2BF6, symSize: 0xCE }
+  - { offsetInCU: 0x1C8F, offset: 0x59B6A, size: 0x8, addend: 0x0, symName: '___28-[DDTTYLogger colorsEnabled]_block_invoke', symObjAddr: 0xF1E, symBinAddr: 0x2CC4, symSize: 0x79 }
+  - { offsetInCU: 0x1D1F, offset: 0x59BFA, size: 0x8, addend: 0x0, symName: '___28-[DDTTYLogger colorsEnabled]_block_invoke_2', symObjAddr: 0xF97, symBinAddr: 0x2D3D, symSize: 0x1F }
+  - { offsetInCU: 0x1D7A, offset: 0x59C55, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger setColorsEnabled:]', symObjAddr: 0x100D, symBinAddr: 0x2D5C, symSize: 0xEA }
+  - { offsetInCU: 0x1E54, offset: 0x59D2F, size: 0x8, addend: 0x0, symName: '___32-[DDTTYLogger setColorsEnabled:]_block_invoke', symObjAddr: 0x10F7, symBinAddr: 0x2E46, symSize: 0x62 }
+  - { offsetInCU: 0x1EBF, offset: 0x59D9A, size: 0x8, addend: 0x0, symName: '___32-[DDTTYLogger setColorsEnabled:]_block_invoke.128', symObjAddr: 0x1177, symBinAddr: 0x2EA8, symSize: 0x3F }
+  - { offsetInCU: 0x1F40, offset: 0x59E1B, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:]', symObjAddr: 0x120B, symBinAddr: 0x2EE7, symSize: 0x18 }
+  - { offsetInCU: 0x1FD7, offset: 0x59EB2, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]', symObjAddr: 0x1223, symBinAddr: 0x2EFF, symSize: 0x184 }
+  - { offsetInCU: 0x218C, offset: 0x5A067, size: 0x8, addend: 0x0, symName: '___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke', symObjAddr: 0x13A7, symBinAddr: 0x3083, symSize: 0x221 }
+  - { offsetInCU: 0x2304, offset: 0x5A1DF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x15C8, symBinAddr: 0x32A4, symSize: 0x2C }
+  - { offsetInCU: 0x2351, offset: 0x5A22C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x15F4, symBinAddr: 0x32D0, symSize: 0x2C }
+  - { offsetInCU: 0x2394, offset: 0x5A26F, size: 0x8, addend: 0x0, symName: '___66-[DDTTYLogger setForegroundColor:backgroundColor:forFlag:context:]_block_invoke.138', symObjAddr: 0x1620, symBinAddr: 0x32FC, symSize: 0x3F }
+  - { offsetInCU: 0x2415, offset: 0x5A2F0, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]', symObjAddr: 0x165F, symBinAddr: 0x333B, symSize: 0x190 }
+  - { offsetInCU: 0x2603, offset: 0x5A4DE, size: 0x8, addend: 0x0, symName: '___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke', symObjAddr: 0x17EF, symBinAddr: 0x34CB, symSize: 0x80 }
+  - { offsetInCU: 0x26D9, offset: 0x5A5B4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x186F, symBinAddr: 0x354B, symSize: 0x33 }
+  - { offsetInCU: 0x2732, offset: 0x5A60D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x18A2, symBinAddr: 0x357E, symSize: 0x33 }
+  - { offsetInCU: 0x2781, offset: 0x5A65C, size: 0x8, addend: 0x0, symName: '___57-[DDTTYLogger setForegroundColor:backgroundColor:forTag:]_block_invoke.141', symObjAddr: 0x18D5, symBinAddr: 0x35B1, symSize: 0x3F }
+  - { offsetInCU: 0x2802, offset: 0x5A6DD, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger clearColorsForFlag:]', symObjAddr: 0x1914, symBinAddr: 0x35F0, symSize: 0x14 }
+  - { offsetInCU: 0x2866, offset: 0x5A741, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger clearColorsForFlag:context:]', symObjAddr: 0x1928, symBinAddr: 0x3604, symSize: 0x107 }
+  - { offsetInCU: 0x2966, offset: 0x5A841, size: 0x8, addend: 0x0, symName: '___42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke', symObjAddr: 0x1A2F, symBinAddr: 0x370B, symSize: 0x1B0 }
+  - { offsetInCU: 0x2A70, offset: 0x5A94B, size: 0x8, addend: 0x0, symName: '___42-[DDTTYLogger clearColorsForFlag:context:]_block_invoke.146', symObjAddr: 0x1BDF, symBinAddr: 0x38BB, symSize: 0x3F }
+  - { offsetInCU: 0x2AF1, offset: 0x5A9CC, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger clearColorsForTag:]', symObjAddr: 0x1C1E, symBinAddr: 0x38FA, symSize: 0x12A }
+  - { offsetInCU: 0x2C21, offset: 0x5AAFC, size: 0x8, addend: 0x0, symName: '___33-[DDTTYLogger clearColorsForTag:]_block_invoke', symObjAddr: 0x1D48, symBinAddr: 0x3A24, symSize: 0x3E }
+  - { offsetInCU: 0x2C80, offset: 0x5AB5B, size: 0x8, addend: 0x0, symName: '___33-[DDTTYLogger clearColorsForTag:]_block_invoke.149', symObjAddr: 0x1DAB, symBinAddr: 0x3A62, symSize: 0x3F }
+  - { offsetInCU: 0x2D01, offset: 0x5ABDC, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger clearColorsForAllFlags]', symObjAddr: 0x1DEA, symBinAddr: 0x3AA1, symSize: 0xFC }
+  - { offsetInCU: 0x2DDF, offset: 0x5ACBA, size: 0x8, addend: 0x0, symName: '___37-[DDTTYLogger clearColorsForAllFlags]_block_invoke', symObjAddr: 0x1EE6, symBinAddr: 0x3B9D, symSize: 0x3A }
+  - { offsetInCU: 0x2E2D, offset: 0x5AD08, size: 0x8, addend: 0x0, symName: '___37-[DDTTYLogger clearColorsForAllFlags]_block_invoke.152', symObjAddr: 0x1F20, symBinAddr: 0x3BD7, symSize: 0x3F }
+  - { offsetInCU: 0x2EAE, offset: 0x5AD89, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger clearColorsForAllTags]', symObjAddr: 0x1F5F, symBinAddr: 0x3C16, symSize: 0xFC }
+  - { offsetInCU: 0x2F8C, offset: 0x5AE67, size: 0x8, addend: 0x0, symName: '___36-[DDTTYLogger clearColorsForAllTags]_block_invoke', symObjAddr: 0x205B, symBinAddr: 0x3D12, symSize: 0x3A }
+  - { offsetInCU: 0x2FDA, offset: 0x5AEB5, size: 0x8, addend: 0x0, symName: '___36-[DDTTYLogger clearColorsForAllTags]_block_invoke_2', symObjAddr: 0x2095, symBinAddr: 0x3D4C, symSize: 0x3F }
+  - { offsetInCU: 0x305B, offset: 0x5AF36, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger clearAllColors]', symObjAddr: 0x20D4, symBinAddr: 0x3D8B, symSize: 0xFC }
+  - { offsetInCU: 0x3139, offset: 0x5B014, size: 0x8, addend: 0x0, symName: '___29-[DDTTYLogger clearAllColors]_block_invoke', symObjAddr: 0x21D0, symBinAddr: 0x3E87, symSize: 0x5E }
+  - { offsetInCU: 0x31A3, offset: 0x5B07E, size: 0x8, addend: 0x0, symName: '___29-[DDTTYLogger clearAllColors]_block_invoke_2', symObjAddr: 0x222E, symBinAddr: 0x3EE5, symSize: 0x3F }
+  - { offsetInCU: 0x3280, offset: 0x5B15B, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger automaticallyAppendNewlineForCustomFormatters]', symObjAddr: 0x2988, symBinAddr: 0x463F, symSize: 0x10 }
+  - { offsetInCU: 0x32B5, offset: 0x5B190, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger setAutomaticallyAppendNewlineForCustomFormatters:]', symObjAddr: 0x2998, symBinAddr: 0x464F, symSize: 0x10 }
+  - { offsetInCU: 0x32F2, offset: 0x5B1CD, size: 0x8, addend: 0x0, symName: '-[DDTTYLogger .cxx_destruct]', symObjAddr: 0x29A8, symBinAddr: 0x465F, symSize: 0x53 }
+  - { offsetInCU: 0x3325, offset: 0x5B200, size: 0x8, addend: 0x0, symName: '-[DDTTYLoggerColorProfile description]', symObjAddr: 0x2E57, symBinAddr: 0x4B0E, symSize: 0x6E }
+  - { offsetInCU: 0x3372, offset: 0x5B24D, size: 0x8, addend: 0x0, symName: '-[DDTTYLoggerColorProfile .cxx_destruct]', symObjAddr: 0x2EC5, symBinAddr: 0x4B7C, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x5BF7B, size: 0x8, addend: 0x0, symName: '+[DDLog sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4BB0, symSize: 0x63 }
+  - { offsetInCU: 0x35, offset: 0x5BF89, size: 0x8, addend: 0x0, symName: '+[DDLog sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4BB0, symSize: 0x63 }
+  - { offsetInCU: 0x5F, offset: 0x5BFB3, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x18E10, symBinAddr: 0x20548, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x5BFC9, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x18E18, symBinAddr: 0x20550, symSize: 0x0 }
+  - { offsetInCU: 0x1A8, offset: 0x5C0FC, size: 0x8, addend: 0x0, symName: '+[DDLog initialize]', symObjAddr: 0x95, symBinAddr: 0x4C45, symSize: 0x24 }
+  - { offsetInCU: 0x1CE, offset: 0x5C122, size: 0x8, addend: 0x0, symName: _initialize.DDLogOnceToken, symObjAddr: 0x18E20, symBinAddr: 0x20558, symSize: 0x0 }
+  - { offsetInCU: 0x222, offset: 0x5C176, size: 0x8, addend: 0x0, symName: _GlobalLoggingQueueIdentityKey, symObjAddr: 0x4B38, symBinAddr: 0x186B0, symSize: 0x0 }
+  - { offsetInCU: 0x243, offset: 0x5C197, size: 0x8, addend: 0x0, symName: __loggingQueue, symObjAddr: 0x18E28, symBinAddr: 0x20560, symSize: 0x0 }
+  - { offsetInCU: 0x259, offset: 0x5C1AD, size: 0x8, addend: 0x0, symName: __loggingGroup, symObjAddr: 0x18E30, symBinAddr: 0x20568, symSize: 0x0 }
+  - { offsetInCU: 0x26F, offset: 0x5C1C3, size: 0x8, addend: 0x0, symName: __numProcessors, symObjAddr: 0x18E38, symBinAddr: 0x20570, symSize: 0x0 }
+  - { offsetInCU: 0x72B, offset: 0x5C67F, size: 0x8, addend: 0x0, symName: '___23+[DDLog sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x4C13, symSize: 0x32 }
+  - { offsetInCU: 0x782, offset: 0x5C6D6, size: 0x8, addend: 0x0, symName: '___19+[DDLog initialize]_block_invoke', symObjAddr: 0xB9, symBinAddr: 0x4C69, symSize: 0xB5 }
+  - { offsetInCU: 0x8C5, offset: 0x5C819, size: 0x8, addend: 0x0, symName: '-[DDLog init]', symObjAddr: 0x16E, symBinAddr: 0x4D1E, symSize: 0xDE }
+  - { offsetInCU: 0x997, offset: 0x5C8EB, size: 0x8, addend: 0x0, symName: '+[DDLog loggingQueue]', symObjAddr: 0x24C, symBinAddr: 0x4DFC, symSize: 0x11 }
+  - { offsetInCU: 0x9CA, offset: 0x5C91E, size: 0x8, addend: 0x0, symName: '-[DDLog applicationWillTerminate:]', symObjAddr: 0x25D, symBinAddr: 0x4E0D, symSize: 0x12 }
+  - { offsetInCU: 0xA1C, offset: 0x5C970, size: 0x8, addend: 0x0, symName: '+[DDLog addLogger:]', symObjAddr: 0x26F, symBinAddr: 0x4E1F, symSize: 0x69 }
+  - { offsetInCU: 0xABC, offset: 0x5CA10, size: 0x8, addend: 0x0, symName: '-[DDLog addLogger:]', symObjAddr: 0x2D8, symBinAddr: 0x4E88, symSize: 0x19 }
+  - { offsetInCU: 0xB1F, offset: 0x5CA73, size: 0x8, addend: 0x0, symName: '+[DDLog addLogger:withLevel:]', symObjAddr: 0x2F1, symBinAddr: 0x4EA1, symSize: 0x77 }
+  - { offsetInCU: 0xBD6, offset: 0x5CB2A, size: 0x8, addend: 0x0, symName: '-[DDLog addLogger:withLevel:]', symObjAddr: 0x368, symBinAddr: 0x4F18, symSize: 0x9F }
+  - { offsetInCU: 0xCA2, offset: 0x5CBF6, size: 0x8, addend: 0x0, symName: '___29-[DDLog addLogger:withLevel:]_block_invoke', symObjAddr: 0x407, symBinAddr: 0x4FB7, symSize: 0x37 }
+  - { offsetInCU: 0xD0D, offset: 0x5CC61, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x43E, symBinAddr: 0x4FEE, symSize: 0x25 }
+  - { offsetInCU: 0xD4E, offset: 0x5CCA2, size: 0x8, addend: 0x0, symName: '+[DDLog removeLogger:]', symObjAddr: 0x488, symBinAddr: 0x5018, symSize: 0x69 }
+  - { offsetInCU: 0xDEE, offset: 0x5CD42, size: 0x8, addend: 0x0, symName: '-[DDLog removeLogger:]', symObjAddr: 0x4F1, symBinAddr: 0x5081, symSize: 0x9A }
+  - { offsetInCU: 0xE97, offset: 0x5CDEB, size: 0x8, addend: 0x0, symName: '___22-[DDLog removeLogger:]_block_invoke', symObjAddr: 0x58B, symBinAddr: 0x511B, symSize: 0x33 }
+  - { offsetInCU: 0xEF2, offset: 0x5CE46, size: 0x8, addend: 0x0, symName: '+[DDLog removeAllLoggers]', symObjAddr: 0x5BE, symBinAddr: 0x514E, symSize: 0x3D }
+  - { offsetInCU: 0xF51, offset: 0x5CEA5, size: 0x8, addend: 0x0, symName: '-[DDLog removeAllLoggers]', symObjAddr: 0x5FB, symBinAddr: 0x518B, symSize: 0x4E }
+  - { offsetInCU: 0xF9B, offset: 0x5CEEF, size: 0x8, addend: 0x0, symName: '___25-[DDLog removeAllLoggers]_block_invoke', symObjAddr: 0x649, symBinAddr: 0x51D9, symSize: 0x2F }
+  - { offsetInCU: 0xFE9, offset: 0x5CF3D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x678, symBinAddr: 0x5208, symSize: 0xF }
+  - { offsetInCU: 0x101C, offset: 0x5CF70, size: 0x8, addend: 0x0, symName: '+[DDLog allLoggers]', symObjAddr: 0x696, symBinAddr: 0x5226, symSize: 0x50 }
+  - { offsetInCU: 0x1080, offset: 0x5CFD4, size: 0x8, addend: 0x0, symName: '-[DDLog allLoggers]', symObjAddr: 0x6E6, symBinAddr: 0x5276, symSize: 0xBC }
+  - { offsetInCU: 0x1110, offset: 0x5D064, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x7A2, symBinAddr: 0x5332, symSize: 0x16 }
+  - { offsetInCU: 0x1135, offset: 0x5D089, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x7B8, symBinAddr: 0x5348, symSize: 0xF }
+  - { offsetInCU: 0x1160, offset: 0x5D0B4, size: 0x8, addend: 0x0, symName: '___19-[DDLog allLoggers]_block_invoke', symObjAddr: 0x7C7, symBinAddr: 0x5357, symSize: 0x4D }
+  - { offsetInCU: 0x11CB, offset: 0x5D11F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x814, symBinAddr: 0x53A4, symSize: 0x30 }
+  - { offsetInCU: 0x1200, offset: 0x5D154, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x844, symBinAddr: 0x53D4, symSize: 0x27 }
+  - { offsetInCU: 0x122B, offset: 0x5D17F, size: 0x8, addend: 0x0, symName: '+[DDLog allLoggersWithLevel]', symObjAddr: 0x86B, symBinAddr: 0x53FB, symSize: 0x50 }
+  - { offsetInCU: 0x128F, offset: 0x5D1E3, size: 0x8, addend: 0x0, symName: '-[DDLog allLoggersWithLevel]', symObjAddr: 0x8BB, symBinAddr: 0x544B, symSize: 0xBC }
+  - { offsetInCU: 0x130B, offset: 0x5D25F, size: 0x8, addend: 0x0, symName: '___28-[DDLog allLoggersWithLevel]_block_invoke', symObjAddr: 0x977, symBinAddr: 0x5507, symSize: 0x4D }
+  - { offsetInCU: 0x1376, offset: 0x5D2CA, size: 0x8, addend: 0x0, symName: '-[DDLog queueLogMessage:asynchronously:]', symObjAddr: 0x9C4, symBinAddr: 0x5554, symSize: 0xD1 }
+  - { offsetInCU: 0x1493, offset: 0x5D3E7, size: 0x8, addend: 0x0, symName: '___40-[DDLog queueLogMessage:asynchronously:]_block_invoke', symObjAddr: 0xA95, symBinAddr: 0x5625, symSize: 0x33 }
+  - { offsetInCU: 0x14F2, offset: 0x5D446, size: 0x8, addend: 0x0, symName: '+[DDLog log:level:flag:context:file:function:line:tag:format:]', symObjAddr: 0xAC8, symBinAddr: 0x5658, symSize: 0xCC }
+  - { offsetInCU: 0x15D7, offset: 0x5D52B, size: 0x8, addend: 0x0, symName: '-[DDLog log:level:flag:context:file:function:line:tag:format:]', symObjAddr: 0xB94, symBinAddr: 0x5724, symSize: 0xCC }
+  - { offsetInCU: 0x16BC, offset: 0x5D610, size: 0x8, addend: 0x0, symName: '+[DDLog log:level:flag:context:file:function:line:tag:format:args:]', symObjAddr: 0xC60, symBinAddr: 0x57F0, symSize: 0xD9 }
+  - { offsetInCU: 0x1836, offset: 0x5D78A, size: 0x8, addend: 0x0, symName: '-[DDLog log:level:flag:context:file:function:line:tag:format:args:]', symObjAddr: 0xD39, symBinAddr: 0x58C9, symSize: 0x170 }
+  - { offsetInCU: 0x1A2E, offset: 0x5D982, size: 0x8, addend: 0x0, symName: '+[DDLog log:message:]', symObjAddr: 0xEA9, symBinAddr: 0x5A39, symSize: 0x75 }
+  - { offsetInCU: 0x1AE8, offset: 0x5DA3C, size: 0x8, addend: 0x0, symName: '-[DDLog log:message:]', symObjAddr: 0xF1E, symBinAddr: 0x5AAE, symSize: 0x19 }
+  - { offsetInCU: 0x1B61, offset: 0x5DAB5, size: 0x8, addend: 0x0, symName: '+[DDLog flushLog]', symObjAddr: 0xF37, symBinAddr: 0x5AC7, symSize: 0x3D }
+  - { offsetInCU: 0x1BC1, offset: 0x5DB15, size: 0x8, addend: 0x0, symName: '-[DDLog flushLog]', symObjAddr: 0xF74, symBinAddr: 0x5B04, symSize: 0x4E }
+  - { offsetInCU: 0x1C0B, offset: 0x5DB5F, size: 0x8, addend: 0x0, symName: '___17-[DDLog flushLog]_block_invoke', symObjAddr: 0xFC2, symBinAddr: 0x5B52, symSize: 0x2F }
+  - { offsetInCU: 0x1C59, offset: 0x5DBAD, size: 0x8, addend: 0x0, symName: '+[DDLog isRegisteredClass:]', symObjAddr: 0xFF1, symBinAddr: 0x5B81, symSize: 0xFD }
+  - { offsetInCU: 0x1E72, offset: 0x5DDC6, size: 0x8, addend: 0x0, symName: '+[DDLog registeredClasses]', symObjAddr: 0x10EE, symBinAddr: 0x5C7E, symSize: 0x112 }
+  - { offsetInCU: 0x200A, offset: 0x5DF5E, size: 0x8, addend: 0x0, symName: '+[DDLog registeredClassNames]', symObjAddr: 0x1200, symBinAddr: 0x5D90, symSize: 0x1B3 }
+  - { offsetInCU: 0x2143, offset: 0x5E097, size: 0x8, addend: 0x0, symName: '+[DDLog levelForClass:]', symObjAddr: 0x13B3, symBinAddr: 0x5F43, symSize: 0x3E }
+  - { offsetInCU: 0x21BD, offset: 0x5E111, size: 0x8, addend: 0x0, symName: '+[DDLog levelForClassWithName:]', symObjAddr: 0x13F1, symBinAddr: 0x5F81, symSize: 0x3D }
+  - { offsetInCU: 0x2255, offset: 0x5E1A9, size: 0x8, addend: 0x0, symName: '+[DDLog setLevel:forClass:]', symObjAddr: 0x142E, symBinAddr: 0x5FBE, symSize: 0x3D }
+  - { offsetInCU: 0x22E3, offset: 0x5E237, size: 0x8, addend: 0x0, symName: '+[DDLog setLevel:forClassWithName:]', symObjAddr: 0x146B, symBinAddr: 0x5FFB, symSize: 0x39 }
+  - { offsetInCU: 0x237C, offset: 0x5E2D0, size: 0x8, addend: 0x0, symName: '-[DDLog lt_addLogger:level:]', symObjAddr: 0x14A4, symBinAddr: 0x6034, symSize: 0x397 }
+  - { offsetInCU: 0x2667, offset: 0x5E5BB, size: 0x8, addend: 0x0, symName: '___28-[DDLog lt_addLogger:level:]_block_invoke', symObjAddr: 0x183B, symBinAddr: 0x63CB, symSize: 0x37 }
+  - { offsetInCU: 0x26C2, offset: 0x5E616, size: 0x8, addend: 0x0, symName: '___28-[DDLog lt_addLogger:level:]_block_invoke_2', symObjAddr: 0x1872, symBinAddr: 0x6402, symSize: 0x2F }
+  - { offsetInCU: 0x270C, offset: 0x5E660, size: 0x8, addend: 0x0, symName: '-[DDLog lt_removeLogger:]', symObjAddr: 0x18A1, symBinAddr: 0x6431, symSize: 0x20A }
+  - { offsetInCU: 0x2896, offset: 0x5E7EA, size: 0x8, addend: 0x0, symName: '___25-[DDLog lt_removeLogger:]_block_invoke', symObjAddr: 0x1AAB, symBinAddr: 0x663B, symSize: 0x2F }
+  - { offsetInCU: 0x28E0, offset: 0x5E834, size: 0x8, addend: 0x0, symName: '-[DDLog lt_removeAllLoggers]', symObjAddr: 0x1ADA, symBinAddr: 0x666A, symSize: 0x1EA }
+  - { offsetInCU: 0x29CC, offset: 0x5E920, size: 0x8, addend: 0x0, symName: '___28-[DDLog lt_removeAllLoggers]_block_invoke', symObjAddr: 0x1CC4, symBinAddr: 0x6854, symSize: 0x33 }
+  - { offsetInCU: 0x2A16, offset: 0x5E96A, size: 0x8, addend: 0x0, symName: '-[DDLog lt_allLoggers]', symObjAddr: 0x1CF7, symBinAddr: 0x6887, symSize: 0x1AB }
+  - { offsetInCU: 0x2B4A, offset: 0x5EA9E, size: 0x8, addend: 0x0, symName: '-[DDLog lt_allLoggersWithLevel]', symObjAddr: 0x1EA2, symBinAddr: 0x6A32, symSize: 0x203 }
+  - { offsetInCU: 0x2CA8, offset: 0x5EBFC, size: 0x8, addend: 0x0, symName: '-[DDLog lt_log:]', symObjAddr: 0x20A5, symBinAddr: 0x6C35, symSize: 0x361 }
+  - { offsetInCU: 0x2EA7, offset: 0x5EDFB, size: 0x8, addend: 0x0, symName: '___16-[DDLog lt_log:]_block_invoke', symObjAddr: 0x2406, symBinAddr: 0x6F96, symSize: 0x37 }
+  - { offsetInCU: 0x2F02, offset: 0x5EE56, size: 0x8, addend: 0x0, symName: '___16-[DDLog lt_log:]_block_invoke_2', symObjAddr: 0x243D, symBinAddr: 0x6FCD, symSize: 0x37 }
+  - { offsetInCU: 0x2F5D, offset: 0x5EEB1, size: 0x8, addend: 0x0, symName: '-[DDLog lt_flush]', symObjAddr: 0x2474, symBinAddr: 0x7004, symSize: 0x1C4 }
+  - { offsetInCU: 0x3033, offset: 0x5EF87, size: 0x8, addend: 0x0, symName: '___17-[DDLog lt_flush]_block_invoke', symObjAddr: 0x2638, symBinAddr: 0x71C8, symSize: 0x33 }
+  - { offsetInCU: 0x307D, offset: 0x5EFD1, size: 0x8, addend: 0x0, symName: _DDExtractFileNameWithoutExtension, symObjAddr: 0x266B, symBinAddr: 0x71FB, symSize: 0xB2 }
+  - { offsetInCU: 0x3158, offset: 0x5F0AC, size: 0x8, addend: 0x0, symName: '-[DDLog _loggers]', symObjAddr: 0x271D, symBinAddr: 0x72AD, symSize: 0xA }
+  - { offsetInCU: 0x318D, offset: 0x5F0E1, size: 0x8, addend: 0x0, symName: '-[DDLog set_loggers:]', symObjAddr: 0x2727, symBinAddr: 0x72B7, symSize: 0x11 }
+  - { offsetInCU: 0x31CC, offset: 0x5F120, size: 0x8, addend: 0x0, symName: '-[DDLog .cxx_destruct]', symObjAddr: 0x2738, symBinAddr: 0x72C8, symSize: 0x10 }
+  - { offsetInCU: 0x31FF, offset: 0x5F153, size: 0x8, addend: 0x0, symName: '-[DDLoggerNode initWithLogger:loggerQueue:level:]', symObjAddr: 0x2748, symBinAddr: 0x72D8, symSize: 0xA8 }
+  - { offsetInCU: 0x32BB, offset: 0x5F20F, size: 0x8, addend: 0x0, symName: '+[DDLoggerNode nodeWithLogger:loggerQueue:level:]', symObjAddr: 0x27F0, symBinAddr: 0x7380, symSize: 0x7D }
+  - { offsetInCU: 0x3399, offset: 0x5F2ED, size: 0x8, addend: 0x0, symName: '-[DDLoggerNode dealloc]', symObjAddr: 0x286D, symBinAddr: 0x73FD, symSize: 0x2F }
+  - { offsetInCU: 0x33CD, offset: 0x5F321, size: 0x8, addend: 0x0, symName: '-[DDLoggerNode logger]', symObjAddr: 0x289C, symBinAddr: 0x742C, symSize: 0xA }
+  - { offsetInCU: 0x3402, offset: 0x5F356, size: 0x8, addend: 0x0, symName: '-[DDLoggerNode level]', symObjAddr: 0x28A6, symBinAddr: 0x7436, symSize: 0xA }
+  - { offsetInCU: 0x3437, offset: 0x5F38B, size: 0x8, addend: 0x0, symName: '-[DDLoggerNode loggerQueue]', symObjAddr: 0x28B0, symBinAddr: 0x7440, symSize: 0xA }
+  - { offsetInCU: 0x346C, offset: 0x5F3C0, size: 0x8, addend: 0x0, symName: '-[DDLoggerNode .cxx_destruct]', symObjAddr: 0x28BA, symBinAddr: 0x744A, symSize: 0x28 }
+  - { offsetInCU: 0x34A0, offset: 0x5F3F4, size: 0x8, addend: 0x0, symName: '-[DDLogMessage init]', symObjAddr: 0x28E2, symBinAddr: 0x7472, symSize: 0x2F }
+  - { offsetInCU: 0x34D8, offset: 0x5F42C, size: 0x8, addend: 0x0, symName: '-[DDLogMessage initWithFormat:formatted:level:flag:context:file:function:line:tag:options:timestamp:]', symObjAddr: 0x2911, symBinAddr: 0x74A1, symSize: 0x38B }
+  - { offsetInCU: 0x3934, offset: 0x5F888, size: 0x8, addend: 0x0, symName: '-[DDLogMessage initWithFormat:args:level:flag:context:file:function:line:tag:options:timestamp:]', symObjAddr: 0x2C9C, symBinAddr: 0x782C, symSize: 0x14B }
+  - { offsetInCU: 0x3BA5, offset: 0x5FAF9, size: 0x8, addend: 0x0, symName: '-[DDLogMessage initWithMessage:level:flag:context:file:function:line:tag:options:timestamp:]', symObjAddr: 0x2DE7, symBinAddr: 0x7977, symSize: 0x46 }
+  - { offsetInCU: 0x3CDF, offset: 0x5FC33, size: 0x8, addend: 0x0, symName: '-[DDLogMessage isEqual:]', symObjAddr: 0x2E2D, symBinAddr: 0x79BD, symSize: 0x24C }
+  - { offsetInCU: 0x3EDE, offset: 0x5FE32, size: 0x8, addend: 0x0, symName: '-[DDLogMessage hash]', symObjAddr: 0x3079, symBinAddr: 0x7C09, symSize: 0x113 }
+  - { offsetInCU: 0x3FC1, offset: 0x5FF15, size: 0x8, addend: 0x0, symName: '-[DDLogMessage copyWithZone:]', symObjAddr: 0x318C, symBinAddr: 0x7D1C, symSize: 0xF4 }
+  - { offsetInCU: 0x4023, offset: 0x5FF77, size: 0x8, addend: 0x0, symName: '-[DDLogMessage tag]', symObjAddr: 0x3280, symBinAddr: 0x7E10, symSize: 0xE }
+  - { offsetInCU: 0x405B, offset: 0x5FFAF, size: 0x8, addend: 0x0, symName: '-[DDLogMessage message]', symObjAddr: 0x328E, symBinAddr: 0x7E1E, symSize: 0xA }
+  - { offsetInCU: 0x4091, offset: 0x5FFE5, size: 0x8, addend: 0x0, symName: '-[DDLogMessage messageFormat]', symObjAddr: 0x3298, symBinAddr: 0x7E28, symSize: 0xA }
+  - { offsetInCU: 0x40C7, offset: 0x6001B, size: 0x8, addend: 0x0, symName: '-[DDLogMessage level]', symObjAddr: 0x32A2, symBinAddr: 0x7E32, symSize: 0xA }
+  - { offsetInCU: 0x40FD, offset: 0x60051, size: 0x8, addend: 0x0, symName: '-[DDLogMessage flag]', symObjAddr: 0x32AC, symBinAddr: 0x7E3C, symSize: 0xA }
+  - { offsetInCU: 0x4133, offset: 0x60087, size: 0x8, addend: 0x0, symName: '-[DDLogMessage context]', symObjAddr: 0x32B6, symBinAddr: 0x7E46, symSize: 0xA }
+  - { offsetInCU: 0x4169, offset: 0x600BD, size: 0x8, addend: 0x0, symName: '-[DDLogMessage file]', symObjAddr: 0x32C0, symBinAddr: 0x7E50, symSize: 0xA }
+  - { offsetInCU: 0x419F, offset: 0x600F3, size: 0x8, addend: 0x0, symName: '-[DDLogMessage fileName]', symObjAddr: 0x32CA, symBinAddr: 0x7E5A, symSize: 0xA }
+  - { offsetInCU: 0x41D5, offset: 0x60129, size: 0x8, addend: 0x0, symName: '-[DDLogMessage function]', symObjAddr: 0x32D4, symBinAddr: 0x7E64, symSize: 0xA }
+  - { offsetInCU: 0x420B, offset: 0x6015F, size: 0x8, addend: 0x0, symName: '-[DDLogMessage line]', symObjAddr: 0x32DE, symBinAddr: 0x7E6E, symSize: 0xA }
+  - { offsetInCU: 0x4241, offset: 0x60195, size: 0x8, addend: 0x0, symName: '-[DDLogMessage representedObject]', symObjAddr: 0x32E8, symBinAddr: 0x7E78, symSize: 0xA }
+  - { offsetInCU: 0x4277, offset: 0x601CB, size: 0x8, addend: 0x0, symName: '-[DDLogMessage options]', symObjAddr: 0x32F2, symBinAddr: 0x7E82, symSize: 0xA }
+  - { offsetInCU: 0x42AD, offset: 0x60201, size: 0x8, addend: 0x0, symName: '-[DDLogMessage timestamp]', symObjAddr: 0x32FC, symBinAddr: 0x7E8C, symSize: 0xA }
+  - { offsetInCU: 0x42E3, offset: 0x60237, size: 0x8, addend: 0x0, symName: '-[DDLogMessage threadID]', symObjAddr: 0x3306, symBinAddr: 0x7E96, symSize: 0xA }
+  - { offsetInCU: 0x4319, offset: 0x6026D, size: 0x8, addend: 0x0, symName: '-[DDLogMessage threadName]', symObjAddr: 0x3310, symBinAddr: 0x7EA0, symSize: 0xA }
+  - { offsetInCU: 0x434F, offset: 0x602A3, size: 0x8, addend: 0x0, symName: '-[DDLogMessage queueLabel]', symObjAddr: 0x331A, symBinAddr: 0x7EAA, symSize: 0xD }
+  - { offsetInCU: 0x4385, offset: 0x602D9, size: 0x8, addend: 0x0, symName: '-[DDLogMessage qos]', symObjAddr: 0x3327, symBinAddr: 0x7EB7, symSize: 0xD }
+  - { offsetInCU: 0x43BB, offset: 0x6030F, size: 0x8, addend: 0x0, symName: '-[DDLogMessage .cxx_destruct]', symObjAddr: 0x3334, symBinAddr: 0x7EC4, symSize: 0x8E }
+  - { offsetInCU: 0x43EF, offset: 0x60343, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger init]', symObjAddr: 0x33C2, symBinAddr: 0x7F52, symSize: 0xD4 }
+  - { offsetInCU: 0x44FB, offset: 0x6044F, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger dealloc]', symObjAddr: 0x3496, symBinAddr: 0x8026, symSize: 0x2F }
+  - { offsetInCU: 0x452F, offset: 0x60483, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger logMessage:]', symObjAddr: 0x34C5, symBinAddr: 0x8055, symSize: 0x6 }
+  - { offsetInCU: 0x456C, offset: 0x604C0, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger logFormatter]', symObjAddr: 0x34CB, symBinAddr: 0x805B, symSize: 0x102 }
+  - { offsetInCU: 0x4610, offset: 0x60564, size: 0x8, addend: 0x0, symName: '___32-[DDAbstractLogger logFormatter]_block_invoke', symObjAddr: 0x35CD, symBinAddr: 0x815D, symSize: 0x57 }
+  - { offsetInCU: 0x4679, offset: 0x605CD, size: 0x8, addend: 0x0, symName: '___32-[DDAbstractLogger logFormatter]_block_invoke_2', symObjAddr: 0x3624, symBinAddr: 0x81B4, symSize: 0x1E }
+  - { offsetInCU: 0x46CC, offset: 0x60620, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger setLogFormatter:]', symObjAddr: 0x3642, symBinAddr: 0x81D2, symSize: 0x111 }
+  - { offsetInCU: 0x47D6, offset: 0x6072A, size: 0x8, addend: 0x0, symName: '___36-[DDAbstractLogger setLogFormatter:]_block_invoke', symObjAddr: 0x3753, symBinAddr: 0x82E3, symSize: 0xD6 }
+  - { offsetInCU: 0x48B6, offset: 0x6080A, size: 0x8, addend: 0x0, symName: '___36-[DDAbstractLogger setLogFormatter:]_block_invoke_2', symObjAddr: 0x3829, symBinAddr: 0x83B9, symSize: 0x16 }
+  - { offsetInCU: 0x4917, offset: 0x6086B, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger loggerQueue]', symObjAddr: 0x386F, symBinAddr: 0x83CF, symSize: 0xE }
+  - { offsetInCU: 0x494F, offset: 0x608A3, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger loggerName]', symObjAddr: 0x387D, symBinAddr: 0x83DD, symSize: 0x1A }
+  - { offsetInCU: 0x49AA, offset: 0x608FE, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger isOnGlobalLoggingQueue]', symObjAddr: 0x3897, symBinAddr: 0x83F7, symSize: 0x18 }
+  - { offsetInCU: 0x49EC, offset: 0x60940, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger isOnInternalLoggerQueue]', symObjAddr: 0x38AF, symBinAddr: 0x840F, symSize: 0x11 }
+  - { offsetInCU: 0x4A3B, offset: 0x6098F, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger setLoggerQueue:]', symObjAddr: 0x38C0, symBinAddr: 0x8420, symSize: 0x11 }
+  - { offsetInCU: 0x4A7B, offset: 0x609CF, size: 0x8, addend: 0x0, symName: '-[DDAbstractLogger .cxx_destruct]', symObjAddr: 0x38D1, symBinAddr: 0x8431, symSize: 0x28 }
+  - { offsetInCU: 0x4AAF, offset: 0x60A03, size: 0x8, addend: 0x0, symName: '-[DDLoggerInformation initWithLogger:andLevel:]', symObjAddr: 0x38F9, symBinAddr: 0x8459, symSize: 0x77 }
+  - { offsetInCU: 0x4B32, offset: 0x60A86, size: 0x8, addend: 0x0, symName: '+[DDLoggerInformation informationWithLogger:andLevel:]', symObjAddr: 0x3970, symBinAddr: 0x84D0, symSize: 0x58 }
+  - { offsetInCU: 0x4BD0, offset: 0x60B24, size: 0x8, addend: 0x0, symName: '-[DDLoggerInformation logger]', symObjAddr: 0x39C8, symBinAddr: 0x8528, symSize: 0xA }
+  - { offsetInCU: 0x4C06, offset: 0x60B5A, size: 0x8, addend: 0x0, symName: '-[DDLoggerInformation level]', symObjAddr: 0x39D2, symBinAddr: 0x8532, symSize: 0xA }
+  - { offsetInCU: 0x4C3C, offset: 0x60B90, size: 0x8, addend: 0x0, symName: '-[DDLoggerInformation .cxx_destruct]', symObjAddr: 0x39DC, symBinAddr: 0x853C, symSize: 0x14 }
+  - { offsetInCU: 0x27, offset: 0x616D7, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter init]', symObjAddr: 0x0, symBinAddr: 0x8550, symSize: 0x69 }
+  - { offsetInCU: 0x1AF, offset: 0x6185F, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter init]', symObjAddr: 0x0, symBinAddr: 0x8550, symSize: 0x69 }
+  - { offsetInCU: 0x206, offset: 0x618B6, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter addToAllowlist:]', symObjAddr: 0x69, symBinAddr: 0x85B9, symSize: 0x16 }
+  - { offsetInCU: 0x25C, offset: 0x6190C, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter removeFromAllowlist:]', symObjAddr: 0x7F, symBinAddr: 0x85CF, symSize: 0x16 }
+  - { offsetInCU: 0x2B2, offset: 0x61962, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter allowlist]', symObjAddr: 0x95, symBinAddr: 0x85E5, symSize: 0x16 }
+  - { offsetInCU: 0x2F5, offset: 0x619A5, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter isOnAllowlist:]', symObjAddr: 0xAB, symBinAddr: 0x85FB, symSize: 0x16 }
+  - { offsetInCU: 0x34F, offset: 0x619FF, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter formatLogMessage:]', symObjAddr: 0xC1, symBinAddr: 0x8611, symSize: 0x69 }
+  - { offsetInCU: 0x3DF, offset: 0x61A8F, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter .cxx_destruct]', symObjAddr: 0x12A, symBinAddr: 0x867A, symSize: 0x10 }
+  - { offsetInCU: 0x412, offset: 0x61AC2, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter init]', symObjAddr: 0x13A, symBinAddr: 0x868A, symSize: 0x69 }
+  - { offsetInCU: 0x469, offset: 0x61B19, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter addToDenylist:]', symObjAddr: 0x1A3, symBinAddr: 0x86F3, symSize: 0x16 }
+  - { offsetInCU: 0x4BF, offset: 0x61B6F, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter removeFromDenylist:]', symObjAddr: 0x1B9, symBinAddr: 0x8709, symSize: 0x16 }
+  - { offsetInCU: 0x515, offset: 0x61BC5, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter denylist]', symObjAddr: 0x1CF, symBinAddr: 0x871F, symSize: 0x16 }
+  - { offsetInCU: 0x558, offset: 0x61C08, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter isOnDenylist:]', symObjAddr: 0x1E5, symBinAddr: 0x8735, symSize: 0x16 }
+  - { offsetInCU: 0x5B2, offset: 0x61C62, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter formatLogMessage:]', symObjAddr: 0x1FB, symBinAddr: 0x874B, symSize: 0x69 }
+  - { offsetInCU: 0x642, offset: 0x61CF2, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter .cxx_destruct]', symObjAddr: 0x264, symBinAddr: 0x87B4, symSize: 0x10 }
+  - { offsetInCU: 0x675, offset: 0x61D25, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet init]', symObjAddr: 0x274, symBinAddr: 0x87C4, symSize: 0x77 }
+  - { offsetInCU: 0x71B, offset: 0x61DCB, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet dealloc]', symObjAddr: 0x2EB, symBinAddr: 0x883B, symSize: 0x3A }
+  - { offsetInCU: 0x76F, offset: 0x61E1F, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet addToSet:]', symObjAddr: 0x325, symBinAddr: 0x8875, symSize: 0x70 }
+  - { offsetInCU: 0x838, offset: 0x61EE8, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet removeFromSet:]', symObjAddr: 0x395, symBinAddr: 0x88E5, symSize: 0x70 }
+  - { offsetInCU: 0x8DB, offset: 0x61F8B, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet currentSet]', symObjAddr: 0x405, symBinAddr: 0x8955, symSize: 0x46 }
+  - { offsetInCU: 0x95A, offset: 0x6200A, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet isInSet:]', symObjAddr: 0x44B, symBinAddr: 0x899B, symSize: 0x77 }
+  - { offsetInCU: 0xA11, offset: 0x620C1, size: 0x8, addend: 0x0, symName: '-[DDLoggingContextSet .cxx_destruct]', symObjAddr: 0x4C2, symBinAddr: 0x8A12, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x623B4, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture start]', symObjAddr: 0x0, symBinAddr: 0x8A24, symSize: 0x7D }
+  - { offsetInCU: 0x4F, offset: 0x623DC, size: 0x8, addend: 0x0, symName: __cancel, symObjAddr: 0x4C29, symBinAddr: 0x20578, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x62401, size: 0x8, addend: 0x0, symName: __captureLevel, symObjAddr: 0x850, symBinAddr: 0x20390, symSize: 0x0 }
+  - { offsetInCU: 0x193, offset: 0x62520, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture start]', symObjAddr: 0x0, symBinAddr: 0x8A24, symSize: 0x7D }
+  - { offsetInCU: 0x23D, offset: 0x625CA, size: 0x8, addend: 0x0, symName: '___24+[DDASLLogCapture start]_block_invoke', symObjAddr: 0x7D, symBinAddr: 0x8AA1, symSize: 0x16 }
+  - { offsetInCU: 0x288, offset: 0x62615, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture stop]', symObjAddr: 0x93, symBinAddr: 0x8AB7, symSize: 0xD }
+  - { offsetInCU: 0x2B7, offset: 0x62644, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture captureLevel]', symObjAddr: 0xA0, symBinAddr: 0x8AC4, symSize: 0xD }
+  - { offsetInCU: 0x2EA, offset: 0x62677, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture setCaptureLevel:]', symObjAddr: 0xAD, symBinAddr: 0x8AD1, symSize: 0xD }
+  - { offsetInCU: 0x327, offset: 0x626B4, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture configureAslQuery:]', symObjAddr: 0xBA, symBinAddr: 0x8ADE, symSize: 0x4E }
+  - { offsetInCU: 0x3E9, offset: 0x62776, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture aslMessageReceived:]', symObjAddr: 0x108, symBinAddr: 0x8B2C, symSize: 0x224 }
+  - { offsetInCU: 0x5FE, offset: 0x6298B, size: 0x8, addend: 0x0, symName: '+[DDASLLogCapture captureAslLogs]', symObjAddr: 0x32C, symBinAddr: 0x8D50, symSize: 0x114 }
+  - { offsetInCU: 0x73A, offset: 0x62AC7, size: 0x8, addend: 0x0, symName: '___33+[DDASLLogCapture captureAslLogs]_block_invoke', symObjAddr: 0x440, symBinAddr: 0x8E64, symSize: 0x186 }
+  - { offsetInCU: 0x976, offset: 0x62D03, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x5C6, symBinAddr: 0x8FEA, symSize: 0x17 }
+  - { offsetInCU: 0x99F, offset: 0x62D2C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x5DD, symBinAddr: 0x9001, symSize: 0x13 }
+  - { offsetInCU: 0x27, offset: 0x6317B, size: 0x8, addend: 0x0, symName: '-[DDFileLogPlainTextMessageSerializer init]', symObjAddr: 0x0, symBinAddr: 0x9020, symSize: 0x2F }
+  - { offsetInCU: 0x41, offset: 0x63195, size: 0x8, addend: 0x0, symName: _kDDDefaultLogMaxFileSize, symObjAddr: 0x62B0, symBinAddr: 0x13670, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x631B7, size: 0x8, addend: 0x0, symName: _kDDDefaultLogRollingFrequency, symObjAddr: 0x62B8, symBinAddr: 0x13678, symSize: 0x0 }
+  - { offsetInCU: 0xB3, offset: 0x63207, size: 0x8, addend: 0x0, symName: _kDDDefaultLogMaxNumLogFiles, symObjAddr: 0x62C0, symBinAddr: 0x13680, symSize: 0x0 }
+  - { offsetInCU: 0xD5, offset: 0x63229, size: 0x8, addend: 0x0, symName: _kDDDefaultLogFilesDiskQuota, symObjAddr: 0x62C8, symBinAddr: 0x13688, symSize: 0x0 }
+  - { offsetInCU: 0xEB, offset: 0x6323F, size: 0x8, addend: 0x0, symName: _kDDRollingLeeway, symObjAddr: 0x62D0, symBinAddr: 0x13690, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0x63255, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault createNewLogFileWithError:]', symObjAddr: 0x1C53, symBinAddr: 0xAC63, symSize: 0x533 }
+  - { offsetInCU: 0x4EE, offset: 0x63642, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault applicationName]', symObjAddr: 0x219E, symBinAddr: 0xB1AE, symSize: 0x30 }
+  - { offsetInCU: 0x51A, offset: 0x6366E, size: 0x8, addend: 0x0, symName: _applicationName._appName, symObjAddr: 0x23A78, symBinAddr: 0x20580, symSize: 0x0 }
+  - { offsetInCU: 0x531, offset: 0x63685, size: 0x8, addend: 0x0, symName: _applicationName.onceToken, symObjAddr: 0x23A80, symBinAddr: 0x20588, symSize: 0x0 }
+  - { offsetInCU: 0x571, offset: 0x636C5, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_scheduleTimerToRollLogFileDueToAge]', symObjAddr: 0x307A, symBinAddr: 0xC03A, symSize: 0x1F3 }
+  - { offsetInCU: 0x789, offset: 0x638DD, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) lt_logData:]', symObjAddr: 0x492D, symBinAddr: 0xD8CD, symSize: 0x2BF }
+  - { offsetInCU: 0x7B1, offset: 0x63905, size: 0x8, addend: 0x0, symName: '_lt_logData:.implementsDeprecatedWillLog', symObjAddr: 0x23A88, symBinAddr: 0x20590, symSize: 0x0 }
+  - { offsetInCU: 0x7C8, offset: 0x6391C, size: 0x8, addend: 0x0, symName: '_lt_logData:.implementsDeprecatedDidLog', symObjAddr: 0x23A89, symBinAddr: 0x20591, symSize: 0x0 }
+  - { offsetInCU: 0x7DF, offset: 0x63933, size: 0x8, addend: 0x0, symName: '_lt_logData:.onceToken', symObjAddr: 0x23A90, symBinAddr: 0x20598, symSize: 0x0 }
+  - { offsetInCU: 0xA72, offset: 0x63BC6, size: 0x8, addend: 0x0, symName: _exception_count, symObjAddr: 0x23A98, symBinAddr: 0x205A0, symSize: 0x0 }
+  - { offsetInCU: 0xA83, offset: 0x63BD7, size: 0x8, addend: 0x0, symName: __xattrToExtensionName, symObjAddr: 0x5BC6, symBinAddr: 0xEB66, symSize: 0x69 }
+  - { offsetInCU: 0xAAB, offset: 0x63BFF, size: 0x8, addend: 0x0, symName: __xattrToExtensionName._xattrToExtensionNameMap, symObjAddr: 0x23AA0, symBinAddr: 0x205A8, symSize: 0x0 }
+  - { offsetInCU: 0xAC2, offset: 0x63C16, size: 0x8, addend: 0x0, symName: __xattrToExtensionName._token, symObjAddr: 0x23AA8, symBinAddr: 0x205B0, symSize: 0x0 }
+  - { offsetInCU: 0xF9F, offset: 0x640F3, size: 0x8, addend: 0x0, symName: '-[DDFileLogPlainTextMessageSerializer init]', symObjAddr: 0x0, symBinAddr: 0x9020, symSize: 0x2F }
+  - { offsetInCU: 0xFD6, offset: 0x6412A, size: 0x8, addend: 0x0, symName: '-[DDFileLogPlainTextMessageSerializer dataForString:originatingFromMessage:]', symObjAddr: 0x2F, symBinAddr: 0x904F, symSize: 0x6B }
+  - { offsetInCU: 0x1065, offset: 0x641B9, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault initWithLogsDirectory:]', symObjAddr: 0x9A, symBinAddr: 0x90BA, symSize: 0x1CA }
+  - { offsetInCU: 0x11E1, offset: 0x64335, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault initWithLogsDirectory:defaultFileProtectionLevel:]', symObjAddr: 0x264, symBinAddr: 0x9284, symSize: 0xCE }
+  - { offsetInCU: 0x12E8, offset: 0x6443C, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault init]', symObjAddr: 0x332, symBinAddr: 0x9352, symSize: 0x14 }
+  - { offsetInCU: 0x1337, offset: 0x6448B, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault didAddToFileLogger:]', symObjAddr: 0x346, symBinAddr: 0x9366, symSize: 0xA }
+  - { offsetInCU: 0x1374, offset: 0x644C8, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault deleteOldFilesForConfigurationChange]', symObjAddr: 0x350, symBinAddr: 0x9370, symSize: 0x73 }
+  - { offsetInCU: 0x1472, offset: 0x645C6, size: 0x8, addend: 0x0, symName: '___63-[DDLogFileManagerDefault deleteOldFilesForConfigurationChange]_block_invoke', symObjAddr: 0x3C3, symBinAddr: 0x93E3, symSize: 0x31 }
+  - { offsetInCU: 0x14C4, offset: 0x64618, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault setLogFilesDiskQuota:]', symObjAddr: 0x412, symBinAddr: 0x9422, symSize: 0x1E }
+  - { offsetInCU: 0x150F, offset: 0x64663, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault setMaximumNumberOfLogFiles:]', symObjAddr: 0x430, symBinAddr: 0x9440, symSize: 0x1E }
+  - { offsetInCU: 0x155A, offset: 0x646AE, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logFileProtection]', symObjAddr: 0x44E, symBinAddr: 0x945E, symSize: 0x4C }
+  - { offsetInCU: 0x15AB, offset: 0x646FF, size: 0x8, addend: 0x0, symName: _doesAppRunInBackground, symObjAddr: 0x49A, symBinAddr: 0x94AA, symSize: 0x1ED }
+  - { offsetInCU: 0x16F3, offset: 0x64847, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault deleteOldLogFilesWithError:]', symObjAddr: 0x687, symBinAddr: 0x9697, symSize: 0x320 }
+  - { offsetInCU: 0x19C5, offset: 0x64B19, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault cleanupLogFilesWithError:]', symObjAddr: 0x9A7, symBinAddr: 0x99B7, symSize: 0x12 }
+  - { offsetInCU: 0x1A27, offset: 0x64B7B, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault defaultLogsDirectory]', symObjAddr: 0x9B9, symBinAddr: 0x99C9, symSize: 0x8B }
+  - { offsetInCU: 0x1AF1, offset: 0x64C45, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logsDirectory]', symObjAddr: 0xA44, symBinAddr: 0x9A54, symSize: 0x9D }
+  - { offsetInCU: 0x1B97, offset: 0x64CEB, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault isLogFile:]', symObjAddr: 0xAE1, symBinAddr: 0x9AF1, symSize: 0xB9 }
+  - { offsetInCU: 0x1C7E, offset: 0x64DD2, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logFileDateFormatter]', symObjAddr: 0xB9A, symBinAddr: 0x9BAA, symSize: 0xE }
+  - { offsetInCU: 0x1CB6, offset: 0x64E0A, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault unsortedLogFilePaths]', symObjAddr: 0xBA8, symBinAddr: 0x9BB8, symSize: 0x31E }
+  - { offsetInCU: 0x1ECD, offset: 0x65021, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault unsortedLogFileNames]', symObjAddr: 0xEC6, symBinAddr: 0x9ED6, symSize: 0x1D9 }
+  - { offsetInCU: 0x2003, offset: 0x65157, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault unsortedLogFileInfos]', symObjAddr: 0x109F, symBinAddr: 0xA0AF, symSize: 0x1E3 }
+  - { offsetInCU: 0x2160, offset: 0x652B4, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault sortedLogFilePaths]', symObjAddr: 0x1282, symBinAddr: 0xA292, symSize: 0x1D9 }
+  - { offsetInCU: 0x2296, offset: 0x653EA, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault sortedLogFileNames]', symObjAddr: 0x145B, symBinAddr: 0xA46B, symSize: 0x1D9 }
+  - { offsetInCU: 0x23CC, offset: 0x65520, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault sortedLogFileInfos]', symObjAddr: 0x1634, symBinAddr: 0xA644, symSize: 0x90 }
+  - { offsetInCU: 0x2430, offset: 0x65584, size: 0x8, addend: 0x0, symName: '___45-[DDLogFileManagerDefault sortedLogFileInfos]_block_invoke', symObjAddr: 0x16C4, symBinAddr: 0xA6D4, symSize: 0x3EB }
+  - { offsetInCU: 0x284B, offset: 0x6599F, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault newLogFileName]', symObjAddr: 0x1AAF, symBinAddr: 0xAABF, symSize: 0xD7 }
+  - { offsetInCU: 0x2936, offset: 0x65A8A, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logFileHeader]', symObjAddr: 0x1B86, symBinAddr: 0xAB96, symSize: 0x8 }
+  - { offsetInCU: 0x296A, offset: 0x65ABE, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logFileHeaderData]', symObjAddr: 0x1B8E, symBinAddr: 0xAB9E, symSize: 0xC5 }
+  - { offsetInCU: 0x2A1F, offset: 0x65B73, size: 0x8, addend: 0x0, symName: '___53-[DDLogFileManagerDefault createNewLogFileWithError:]_block_invoke', symObjAddr: 0x2186, symBinAddr: 0xB196, symSize: 0x18 }
+  - { offsetInCU: 0x2AAE, offset: 0x65C02, size: 0x8, addend: 0x0, symName: '___42-[DDLogFileManagerDefault applicationName]_block_invoke', symObjAddr: 0x21CE, symBinAddr: 0xB1DE, symSize: 0x10A }
+  - { offsetInCU: 0x2B7B, offset: 0x65CCF, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault maximumNumberOfLogFiles]', symObjAddr: 0x22D8, symBinAddr: 0xB2E8, symSize: 0xA }
+  - { offsetInCU: 0x2BB0, offset: 0x65D04, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logFilesDiskQuota]', symObjAddr: 0x22E2, symBinAddr: 0xB2F2, symSize: 0xA }
+  - { offsetInCU: 0x2BE5, offset: 0x65D39, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault logMessageSerializer]', symObjAddr: 0x22EC, symBinAddr: 0xB2FC, symSize: 0xA }
+  - { offsetInCU: 0x2C1A, offset: 0x65D6E, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault setLogMessageSerializer:]', symObjAddr: 0x22F6, symBinAddr: 0xB306, symSize: 0x11 }
+  - { offsetInCU: 0x2C59, offset: 0x65DAD, size: 0x8, addend: 0x0, symName: '-[DDLogFileManagerDefault .cxx_destruct]', symObjAddr: 0x2307, symBinAddr: 0xB317, symSize: 0x3E }
+  - { offsetInCU: 0x2C8C, offset: 0x65DE0, size: 0x8, addend: 0x0, symName: '-[DDLogFileFormatterDefault init]', symObjAddr: 0x2345, symBinAddr: 0xB355, symSize: 0x14 }
+  - { offsetInCU: 0x2CDC, offset: 0x65E30, size: 0x8, addend: 0x0, symName: '-[DDLogFileFormatterDefault initWithDateFormatter:]', symObjAddr: 0x2359, symBinAddr: 0xB369, symSize: 0x151 }
+  - { offsetInCU: 0x2DF7, offset: 0x65F4B, size: 0x8, addend: 0x0, symName: '-[DDLogFileFormatterDefault formatLogMessage:]', symObjAddr: 0x24AA, symBinAddr: 0xB4BA, symSize: 0xBC }
+  - { offsetInCU: 0x2EA2, offset: 0x65FF6, size: 0x8, addend: 0x0, symName: '-[DDLogFileFormatterDefault .cxx_destruct]', symObjAddr: 0x2566, symBinAddr: 0xB576, symSize: 0x10 }
+  - { offsetInCU: 0x2ED6, offset: 0x6602A, size: 0x8, addend: 0x0, symName: '-[DDFileLogger init]', symObjAddr: 0x2576, symBinAddr: 0xB586, symSize: 0x5C }
+  - { offsetInCU: 0x2F48, offset: 0x6609C, size: 0x8, addend: 0x0, symName: '-[DDFileLogger initWithLogFileManager:]', symObjAddr: 0x25D2, symBinAddr: 0xB5E2, symSize: 0x14 }
+  - { offsetInCU: 0x2FAF, offset: 0x66103, size: 0x8, addend: 0x0, symName: '-[DDFileLogger initWithLogFileManager:completionQueue:]', symObjAddr: 0x25E6, symBinAddr: 0xB5F6, symSize: 0x164 }
+  - { offsetInCU: 0x30C5, offset: 0x66219, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_cleanup]', symObjAddr: 0x274A, symBinAddr: 0xB75A, symSize: 0x171 }
+  - { offsetInCU: 0x31E9, offset: 0x6633D, size: 0x8, addend: 0x0, symName: '-[DDFileLogger dealloc]', symObjAddr: 0x28BB, symBinAddr: 0xB8CB, symSize: 0xB5 }
+  - { offsetInCU: 0x3298, offset: 0x663EC, size: 0x8, addend: 0x0, symName: '___23-[DDFileLogger dealloc]_block_invoke', symObjAddr: 0x2970, symBinAddr: 0xB980, symSize: 0x16 }
+  - { offsetInCU: 0x32E6, offset: 0x6643A, size: 0x8, addend: 0x0, symName: '-[DDFileLogger maximumFileSize]', symObjAddr: 0x2986, symBinAddr: 0xB996, symSize: 0x143 }
+  - { offsetInCU: 0x33B6, offset: 0x6650A, size: 0x8, addend: 0x0, symName: '___31-[DDFileLogger maximumFileSize]_block_invoke', symObjAddr: 0x2AC9, symBinAddr: 0xBAD9, symSize: 0x21 }
+  - { offsetInCU: 0x3411, offset: 0x66565, size: 0x8, addend: 0x0, symName: '___31-[DDFileLogger maximumFileSize]_block_invoke.346', symObjAddr: 0x2B41, symBinAddr: 0xBB01, symSize: 0x3F }
+  - { offsetInCU: 0x3492, offset: 0x665E6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x2B80, symBinAddr: 0xBB40, symSize: 0x30 }
+  - { offsetInCU: 0x34C7, offset: 0x6661B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x2BB0, symBinAddr: 0xBB70, symSize: 0x25 }
+  - { offsetInCU: 0x34FE, offset: 0x66652, size: 0x8, addend: 0x0, symName: '-[DDFileLogger setMaximumFileSize:]', symObjAddr: 0x2BD5, symBinAddr: 0xBB95, symSize: 0xEB }
+  - { offsetInCU: 0x35C5, offset: 0x66719, size: 0x8, addend: 0x0, symName: '___35-[DDFileLogger setMaximumFileSize:]_block_invoke', symObjAddr: 0x2CC0, symBinAddr: 0xBC80, symSize: 0x50 }
+  - { offsetInCU: 0x3624, offset: 0x66778, size: 0x8, addend: 0x0, symName: '___35-[DDFileLogger setMaximumFileSize:]_block_invoke.349', symObjAddr: 0x2D10, symBinAddr: 0xBCD0, symSize: 0x3F }
+  - { offsetInCU: 0x36A5, offset: 0x667F9, size: 0x8, addend: 0x0, symName: '-[DDFileLogger rollingFrequency]', symObjAddr: 0x2D4F, symBinAddr: 0xBD0F, symSize: 0x14B }
+  - { offsetInCU: 0x3775, offset: 0x668C9, size: 0x8, addend: 0x0, symName: '___32-[DDFileLogger rollingFrequency]_block_invoke', symObjAddr: 0x2E9A, symBinAddr: 0xBE5A, symSize: 0x23 }
+  - { offsetInCU: 0x37D0, offset: 0x66924, size: 0x8, addend: 0x0, symName: '___32-[DDFileLogger rollingFrequency]_block_invoke_2', symObjAddr: 0x2EBD, symBinAddr: 0xBE7D, symSize: 0x3F }
+  - { offsetInCU: 0x3851, offset: 0x669A5, size: 0x8, addend: 0x0, symName: '-[DDFileLogger setRollingFrequency:]', symObjAddr: 0x2EFC, symBinAddr: 0xBEBC, symSize: 0xEC }
+  - { offsetInCU: 0x3918, offset: 0x66A6C, size: 0x8, addend: 0x0, symName: '___36-[DDFileLogger setRollingFrequency:]_block_invoke', symObjAddr: 0x2FE8, symBinAddr: 0xBFA8, symSize: 0x53 }
+  - { offsetInCU: 0x3977, offset: 0x66ACB, size: 0x8, addend: 0x0, symName: '___36-[DDFileLogger setRollingFrequency:]_block_invoke_2', symObjAddr: 0x303B, symBinAddr: 0xBFFB, symSize: 0x3F }
+  - { offsetInCU: 0x3A7C, offset: 0x66BD0, size: 0x8, addend: 0x0, symName: '___53-[DDFileLogger lt_scheduleTimerToRollLogFileDueToAge]_block_invoke', symObjAddr: 0x326D, symBinAddr: 0xC22D, symSize: 0x46 }
+  - { offsetInCU: 0x3ADA, offset: 0x66C2E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x32B3, symBinAddr: 0xC273, symSize: 0x12 }
+  - { offsetInCU: 0x3B03, offset: 0x66C57, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x32C5, symBinAddr: 0xC285, symSize: 0xE }
+  - { offsetInCU: 0x3B22, offset: 0x66C76, size: 0x8, addend: 0x0, symName: '-[DDFileLogger rollLogFile]', symObjAddr: 0x32D3, symBinAddr: 0xC293, symSize: 0x14 }
+  - { offsetInCU: 0x3B6F, offset: 0x66CC3, size: 0x8, addend: 0x0, symName: '-[DDFileLogger rollLogFileWithCompletionBlock:]', symObjAddr: 0x32E7, symBinAddr: 0xC2A7, symSize: 0x126 }
+  - { offsetInCU: 0x3C9F, offset: 0x66DF3, size: 0x8, addend: 0x0, symName: '___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke', symObjAddr: 0x340D, symBinAddr: 0xC3CD, symSize: 0xA0 }
+  - { offsetInCU: 0x3D33, offset: 0x66E87, size: 0x8, addend: 0x0, symName: '___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke_2', symObjAddr: 0x34AD, symBinAddr: 0xC46D, symSize: 0xC }
+  - { offsetInCU: 0x3D7D, offset: 0x66ED1, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x34B9, symBinAddr: 0xC479, symSize: 0x17 }
+  - { offsetInCU: 0x3DA6, offset: 0x66EFA, size: 0x8, addend: 0x0, symName: '___47-[DDFileLogger rollLogFileWithCompletionBlock:]_block_invoke.362', symObjAddr: 0x34D0, symBinAddr: 0xC490, symSize: 0x3F }
+  - { offsetInCU: 0x3E27, offset: 0x66F7B, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_rollLogFileNow]', symObjAddr: 0x350F, symBinAddr: 0xC4CF, symSize: 0x2E0 }
+  - { offsetInCU: 0x405E, offset: 0x671B2, size: 0x8, addend: 0x0, symName: '___33-[DDFileLogger lt_rollLogFileNow]_block_invoke', symObjAddr: 0x37EF, symBinAddr: 0xC7AF, symSize: 0x2A }
+  - { offsetInCU: 0x40C4, offset: 0x67218, size: 0x8, addend: 0x0, symName: '___33-[DDFileLogger lt_rollLogFileNow]_block_invoke.367', symObjAddr: 0x383E, symBinAddr: 0xC7DE, symSize: 0x25 }
+  - { offsetInCU: 0x4123, offset: 0x67277, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_maybeRollLogFileDueToAge]', symObjAddr: 0x3863, symBinAddr: 0xC803, symSize: 0x69 }
+  - { offsetInCU: 0x4177, offset: 0x672CB, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_maybeRollLogFileDueToSize]', symObjAddr: 0x38CC, symBinAddr: 0xC86C, symSize: 0xBF }
+  - { offsetInCU: 0x422F, offset: 0x67383, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_shouldLogFileBeArchived:]', symObjAddr: 0x398B, symBinAddr: 0xC92B, symSize: 0x15E }
+  - { offsetInCU: 0x43A5, offset: 0x674F9, size: 0x8, addend: 0x0, symName: '-[DDFileLogger currentLogFileInfo]', symObjAddr: 0x3AE9, symBinAddr: 0xCA89, symSize: 0x16E }
+  - { offsetInCU: 0x448D, offset: 0x675E1, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x3C57, symBinAddr: 0xCBF7, symSize: 0x16 }
+  - { offsetInCU: 0x44B2, offset: 0x67606, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x3C6D, symBinAddr: 0xCC0D, symSize: 0xF }
+  - { offsetInCU: 0x44DD, offset: 0x67631, size: 0x8, addend: 0x0, symName: '___34-[DDFileLogger currentLogFileInfo]_block_invoke', symObjAddr: 0x3C7C, symBinAddr: 0xCC1C, symSize: 0x3E }
+  - { offsetInCU: 0x4548, offset: 0x6769C, size: 0x8, addend: 0x0, symName: '___34-[DDFileLogger currentLogFileInfo]_block_invoke_2', symObjAddr: 0x3CBA, symBinAddr: 0xCC5A, symSize: 0x20 }
+  - { offsetInCU: 0x45A9, offset: 0x676FD, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_currentLogFileInfo]', symObjAddr: 0x3CDA, symBinAddr: 0xCC7A, symSize: 0x1AD }
+  - { offsetInCU: 0x4716, offset: 0x6786A, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_shouldUseLogFile:isResuming:]', symObjAddr: 0x3E87, symBinAddr: 0xCE27, symSize: 0x1CB }
+  - { offsetInCU: 0x48E1, offset: 0x67A35, size: 0x8, addend: 0x0, symName: '___47-[DDFileLogger lt_shouldUseLogFile:isResuming:]_block_invoke', symObjAddr: 0x4052, symBinAddr: 0xCFF2, symSize: 0x27 }
+  - { offsetInCU: 0x4947, offset: 0x67A9B, size: 0x8, addend: 0x0, symName: '___47-[DDFileLogger lt_shouldUseLogFile:isResuming:]_block_invoke_2', symObjAddr: 0x4079, symBinAddr: 0xD019, symSize: 0x25 }
+  - { offsetInCU: 0x49A6, offset: 0x67AFA, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_monitorCurrentLogFileForExternalChanges]', symObjAddr: 0x409E, symBinAddr: 0xD03E, symSize: 0xF5 }
+  - { offsetInCU: 0x4A53, offset: 0x67BA7, size: 0x8, addend: 0x0, symName: '___58-[DDFileLogger lt_monitorCurrentLogFileForExternalChanges]_block_invoke', symObjAddr: 0x4193, symBinAddr: 0xD133, symSize: 0x46 }
+  - { offsetInCU: 0x4AB1, offset: 0x67C05, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_currentLogFileHandle]', symObjAddr: 0x41D9, symBinAddr: 0xD179, symSize: 0x132 }
+  - { offsetInCU: 0x4BDC, offset: 0x67D30, size: 0x8, addend: 0x0, symName: '-[DDFileLogger logMessage:]', symObjAddr: 0x430B, symBinAddr: 0xD2AB, symSize: 0x61 }
+  - { offsetInCU: 0x4C75, offset: 0x67DC9, size: 0x8, addend: 0x0, symName: '-[DDFileLogger willLogMessage:]', symObjAddr: 0x436C, symBinAddr: 0xD30C, symSize: 0x6 }
+  - { offsetInCU: 0x4CB2, offset: 0x67E06, size: 0x8, addend: 0x0, symName: '-[DDFileLogger didLogMessage:]', symObjAddr: 0x4372, symBinAddr: 0xD312, symSize: 0x12 }
+  - { offsetInCU: 0x4D06, offset: 0x67E5A, size: 0x8, addend: 0x0, symName: '-[DDFileLogger shouldArchiveRecentLogFileInfo:]', symObjAddr: 0x4384, symBinAddr: 0xD324, symSize: 0x8 }
+  - { offsetInCU: 0x4D47, offset: 0x67E9B, size: 0x8, addend: 0x0, symName: '-[DDFileLogger willRemoveLogger]', symObjAddr: 0x438C, symBinAddr: 0xD32C, symSize: 0x12 }
+  - { offsetInCU: 0x4D8E, offset: 0x67EE2, size: 0x8, addend: 0x0, symName: '-[DDFileLogger flush]', symObjAddr: 0x439E, symBinAddr: 0xD33E, symSize: 0xFC }
+  - { offsetInCU: 0x4E6C, offset: 0x67FC0, size: 0x8, addend: 0x0, symName: '___21-[DDFileLogger flush]_block_invoke', symObjAddr: 0x449A, symBinAddr: 0xD43A, symSize: 0x2F }
+  - { offsetInCU: 0x4EBA, offset: 0x6800E, size: 0x8, addend: 0x0, symName: '___21-[DDFileLogger flush]_block_invoke_2', symObjAddr: 0x44C9, symBinAddr: 0xD469, symSize: 0x3F }
+  - { offsetInCU: 0x4F3B, offset: 0x6808F, size: 0x8, addend: 0x0, symName: '-[DDFileLogger lt_flush]', symObjAddr: 0x4508, symBinAddr: 0xD4A8, symSize: 0xD3 }
+  - { offsetInCU: 0x4FF0, offset: 0x68144, size: 0x8, addend: 0x0, symName: '-[DDFileLogger loggerName]', symObjAddr: 0x45DB, symBinAddr: 0xD57B, symSize: 0x14 }
+  - { offsetInCU: 0x5024, offset: 0x68178, size: 0x8, addend: 0x0, symName: '-[DDFileLogger doNotReuseLogFiles]', symObjAddr: 0x45EF, symBinAddr: 0xD58F, symSize: 0x12 }
+  - { offsetInCU: 0x505A, offset: 0x681AE, size: 0x8, addend: 0x0, symName: '-[DDFileLogger setDoNotReuseLogFiles:]', symObjAddr: 0x4601, symBinAddr: 0xD5A1, symSize: 0x10 }
+  - { offsetInCU: 0x5098, offset: 0x681EC, size: 0x8, addend: 0x0, symName: '-[DDFileLogger logFileManager]', symObjAddr: 0x4611, symBinAddr: 0xD5B1, symSize: 0x11 }
+  - { offsetInCU: 0x50CE, offset: 0x68222, size: 0x8, addend: 0x0, symName: '-[DDFileLogger automaticallyAppendNewlineForCustomFormatters]', symObjAddr: 0x4622, symBinAddr: 0xD5C2, symSize: 0x10 }
+  - { offsetInCU: 0x5104, offset: 0x68258, size: 0x8, addend: 0x0, symName: '-[DDFileLogger setAutomaticallyAppendNewlineForCustomFormatters:]', symObjAddr: 0x4632, symBinAddr: 0xD5D2, symSize: 0x10 }
+  - { offsetInCU: 0x5142, offset: 0x68296, size: 0x8, addend: 0x0, symName: '-[DDFileLogger .cxx_destruct]', symObjAddr: 0x4642, symBinAddr: 0xD5E2, symSize: 0x75 }
+  - { offsetInCU: 0x5176, offset: 0x682CA, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) logData:]', symObjAddr: 0x46B7, symBinAddr: 0xD657, symSize: 0x12A }
+  - { offsetInCU: 0x52A6, offset: 0x683FA, size: 0x8, addend: 0x0, symName: '___34-[DDFileLogger(Internal) logData:]_block_invoke', symObjAddr: 0x47E1, symBinAddr: 0xD781, symSize: 0x33 }
+  - { offsetInCU: 0x5305, offset: 0x68459, size: 0x8, addend: 0x0, symName: '___34-[DDFileLogger(Internal) logData:]_block_invoke_2', symObjAddr: 0x4814, symBinAddr: 0xD7B4, symSize: 0x3F }
+  - { offsetInCU: 0x5386, offset: 0x684DA, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) lt_deprecationCatchAll]', symObjAddr: 0x4853, symBinAddr: 0xD7F3, symSize: 0x6 }
+  - { offsetInCU: 0x53B6, offset: 0x6850A, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) methodSignatureForSelector:]', symObjAddr: 0x4859, symBinAddr: 0xD7F9, symSize: 0x6E }
+  - { offsetInCU: 0x540B, offset: 0x6855F, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) forwardInvocation:]', symObjAddr: 0x48C7, symBinAddr: 0xD867, symSize: 0x66 }
+  - { offsetInCU: 0x54BB, offset: 0x6860F, size: 0x8, addend: 0x0, symName: '___37-[DDFileLogger(Internal) lt_logData:]_block_invoke', symObjAddr: 0x4BEC, symBinAddr: 0xDB8C, symSize: 0x54 }
+  - { offsetInCU: 0x5525, offset: 0x68679, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) lt_logFileSerializer]', symObjAddr: 0x4C40, symBinAddr: 0xDBE0, symSize: 0x78 }
+  - { offsetInCU: 0x5589, offset: 0x686DD, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Internal) lt_dataForMessage:]', symObjAddr: 0x4CB8, symBinAddr: 0xDC58, symSize: 0x192 }
+  - { offsetInCU: 0x56F2, offset: 0x68846, size: 0x8, addend: 0x0, symName: '+[DDLogFileInfo logFileWithPath:]', symObjAddr: 0x4E4A, symBinAddr: 0xDDEA, symSize: 0x52 }
+  - { offsetInCU: 0x576F, offset: 0x688C3, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo initWithFilePath:]', symObjAddr: 0x4E9C, symBinAddr: 0xDE3C, symSize: 0x73 }
+  - { offsetInCU: 0x5801, offset: 0x68955, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo fileAttributes]', symObjAddr: 0x4F0F, symBinAddr: 0xDEAF, symSize: 0xD7 }
+  - { offsetInCU: 0x5891, offset: 0x689E5, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo fileName]', symObjAddr: 0x4FE6, symBinAddr: 0xDF86, symSize: 0x48 }
+  - { offsetInCU: 0x58E1, offset: 0x68A35, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo modificationDate]', symObjAddr: 0x502E, symBinAddr: 0xDFCE, symSize: 0x7F }
+  - { offsetInCU: 0x5951, offset: 0x68AA5, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo creationDate]', symObjAddr: 0x50AD, symBinAddr: 0xE04D, symSize: 0x7F }
+  - { offsetInCU: 0x59C1, offset: 0x68B15, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo fileSize]', symObjAddr: 0x512C, symBinAddr: 0xE0CC, symSize: 0x86 }
+  - { offsetInCU: 0x5A45, offset: 0x68B99, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo age]', symObjAddr: 0x51B2, symBinAddr: 0xE152, symSize: 0x55 }
+  - { offsetInCU: 0x5AA9, offset: 0x68BFD, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo isSymlink]', symObjAddr: 0x5207, symBinAddr: 0xE1A7, symSize: 0x74 }
+  - { offsetInCU: 0x5B19, offset: 0x68C6D, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo description]', symObjAddr: 0x527B, symBinAddr: 0xE21B, symSize: 0x2C5 }
+  - { offsetInCU: 0x5CCB, offset: 0x68E1F, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo isArchived]', symObjAddr: 0x5540, symBinAddr: 0xE4E0, symSize: 0x19 }
+  - { offsetInCU: 0x5D16, offset: 0x68E6A, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo setIsArchived:]', symObjAddr: 0x5559, symBinAddr: 0xE4F9, symSize: 0x29 }
+  - { offsetInCU: 0x5D6E, offset: 0x68EC2, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo reset]', symObjAddr: 0x5582, symBinAddr: 0xE522, symSize: 0x4F }
+  - { offsetInCU: 0x5DD2, offset: 0x68F26, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo renameFile:]', symObjAddr: 0x55D1, symBinAddr: 0xE571, symSize: 0x1ED }
+  - { offsetInCU: 0x5FFF, offset: 0x69153, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo _hasExtensionAttributeWithName:]', symObjAddr: 0x57BE, symBinAddr: 0xE75E, symSize: 0x10F }
+  - { offsetInCU: 0x6137, offset: 0x6928B, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo _removeExtensionAttributeWithName:]', symObjAddr: 0x58CD, symBinAddr: 0xE86D, symSize: 0x215 }
+  - { offsetInCU: 0x638C, offset: 0x694E0, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo hasExtendedAttributeWithName:]', symObjAddr: 0x5AE2, symBinAddr: 0xEA82, symSize: 0xE4 }
+  - { offsetInCU: 0x651F, offset: 0x69673, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo addExtendedAttributeWithName:]', symObjAddr: 0x5C2F, symBinAddr: 0xEBCF, symSize: 0x103 }
+  - { offsetInCU: 0x6673, offset: 0x697C7, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo removeExtendedAttributeWithName:]', symObjAddr: 0x5D32, symBinAddr: 0xECD2, symSize: 0x120 }
+  - { offsetInCU: 0x67DA, offset: 0x6992E, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo isEqual:]', symObjAddr: 0x5E52, symBinAddr: 0xEDF2, symSize: 0x94 }
+  - { offsetInCU: 0x68C4, offset: 0x69A18, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo hash]', symObjAddr: 0x5EE6, symBinAddr: 0xEE86, symSize: 0x16 }
+  - { offsetInCU: 0x6908, offset: 0x69A5C, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo reverseCompareDatesUs:them:]', symObjAddr: 0x5EFC, symBinAddr: 0xEE9C, symSize: 0x3A }
+  - { offsetInCU: 0x6968, offset: 0x69ABC, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo reverseCompareByCreationDate:]', symObjAddr: 0x5F36, symBinAddr: 0xEED6, symSize: 0x97 }
+  - { offsetInCU: 0x6A3C, offset: 0x69B90, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo reverseCompareByModificationDate:]', symObjAddr: 0x5FCD, symBinAddr: 0xEF6D, symSize: 0x97 }
+  - { offsetInCU: 0x6B10, offset: 0x69C64, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo filePath]', symObjAddr: 0x6064, symBinAddr: 0xF004, symSize: 0xA }
+  - { offsetInCU: 0x6B46, offset: 0x69C9A, size: 0x8, addend: 0x0, symName: '-[DDLogFileInfo .cxx_destruct]', symObjAddr: 0x606E, symBinAddr: 0xF00E, symSize: 0x54 }
+  - { offsetInCU: 0x6B7A, offset: 0x69CCE, size: 0x8, addend: 0x0, symName: ____xattrToExtensionName_block_invoke, symObjAddr: 0x60C2, symBinAddr: 0xF062, symSize: 0x8E }
+  - { offsetInCU: 0x27, offset: 0x6AEE9, size: 0x8, addend: 0x0, symName: '-[DDOSLogLevelMapperDefault init]', symObjAddr: 0x0, symBinAddr: 0xF0F0, symSize: 0x2F }
+  - { offsetInCU: 0x35, offset: 0x6AEF7, size: 0x8, addend: 0x0, symName: '+[DDOSLogger sharedInstance]', symObjAddr: 0xA2, symBinAddr: 0xF192, symSize: 0x63 }
+  - { offsetInCU: 0x5F, offset: 0x6AF21, size: 0x8, addend: 0x0, symName: _sharedInstance.DDOSLoggerOnceToken, symObjAddr: 0x5C20, symBinAddr: 0x205B8, symSize: 0x0 }
+  - { offsetInCU: 0xB7, offset: 0x6AF79, size: 0x8, addend: 0x0, symName: '-[DDOSLogger logMessage:]', symObjAddr: 0x489, symBinAddr: 0xF579, symSize: 0x1A3 }
+  - { offsetInCU: 0x2BC, offset: 0x6B17E, size: 0x8, addend: 0x0, symName: _sharedInstance, symObjAddr: 0x5C28, symBinAddr: 0x205C0, symSize: 0x0 }
+  - { offsetInCU: 0x509, offset: 0x6B3CB, size: 0x8, addend: 0x0, symName: '-[DDOSLogLevelMapperDefault init]', symObjAddr: 0x0, symBinAddr: 0xF0F0, symSize: 0x2F }
+  - { offsetInCU: 0x540, offset: 0x6B402, size: 0x8, addend: 0x0, symName: '-[DDOSLogLevelMapperDefault osLogTypeForLogFlag:]', symObjAddr: 0x2F, symBinAddr: 0xF11F, symSize: 0x37 }
+  - { offsetInCU: 0x581, offset: 0x6B443, size: 0x8, addend: 0x0, symName: '-[DDOSLogLevelMapperSimulatorConsoleAppWorkaround osLogTypeForLogFlag:]', symObjAddr: 0x66, symBinAddr: 0xF156, symSize: 0x3C }
+  - { offsetInCU: 0x61F, offset: 0x6B4E1, size: 0x8, addend: 0x0, symName: '___28+[DDOSLogger sharedInstance]_block_invoke', symObjAddr: 0x105, symBinAddr: 0xF1F5, symSize: 0x48 }
+  - { offsetInCU: 0x682, offset: 0x6B544, size: 0x8, addend: 0x0, symName: '-[DDOSLogger initWithSubsystem:category:]', symObjAddr: 0x14D, symBinAddr: 0xF23D, symSize: 0xF2 }
+  - { offsetInCU: 0x782, offset: 0x6B644, size: 0x8, addend: 0x0, symName: '-[DDOSLogger init]', symObjAddr: 0x23F, symBinAddr: 0xF32F, symSize: 0x16 }
+  - { offsetInCU: 0x7D7, offset: 0x6B699, size: 0x8, addend: 0x0, symName: '-[DDOSLogger initWithSubsystem:category:logLevelMapper:]', symObjAddr: 0x255, symBinAddr: 0xF345, symSize: 0x71 }
+  - { offsetInCU: 0x889, offset: 0x6B74B, size: 0x8, addend: 0x0, symName: '-[DDOSLogger initWithLogLevelMapper:]', symObjAddr: 0x2C6, symBinAddr: 0xF3B6, symSize: 0x19 }
+  - { offsetInCU: 0x8F9, offset: 0x6B7BB, size: 0x8, addend: 0x0, symName: '-[DDOSLogger logLevelMapper]', symObjAddr: 0x2DF, symBinAddr: 0xF3CF, symSize: 0x51 }
+  - { offsetInCU: 0x948, offset: 0x6B80A, size: 0x8, addend: 0x0, symName: '-[DDOSLogger logger]', symObjAddr: 0x330, symBinAddr: 0xF420, symSize: 0x145 }
+  - { offsetInCU: 0xA61, offset: 0x6B923, size: 0x8, addend: 0x0, symName: '-[DDOSLogger loggerName]', symObjAddr: 0x475, symBinAddr: 0xF565, symSize: 0x14 }
+  - { offsetInCU: 0xAC8, offset: 0x6B98A, size: 0x8, addend: 0x0, symName: '-[DDOSLogger subsystem]', symObjAddr: 0x62C, symBinAddr: 0xF71C, symSize: 0x11 }
+  - { offsetInCU: 0xAFD, offset: 0x6B9BF, size: 0x8, addend: 0x0, symName: '-[DDOSLogger category]', symObjAddr: 0x63D, symBinAddr: 0xF72D, symSize: 0x11 }
+  - { offsetInCU: 0xB32, offset: 0x6B9F4, size: 0x8, addend: 0x0, symName: '-[DDOSLogger .cxx_destruct]', symObjAddr: 0x64E, symBinAddr: 0xF73E, symSize: 0x53 }
+  - { offsetInCU: 0x27, offset: 0x6BD5C, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy initWithFileLogger:]', symObjAddr: 0x0, symBinAddr: 0xF791, symSize: 0x7D }
+  - { offsetInCU: 0x3CB, offset: 0x6C100, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy initWithFileLogger:]', symObjAddr: 0x0, symBinAddr: 0xF791, symSize: 0x7D }
+  - { offsetInCU: 0x48A, offset: 0x6C1BF, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy dealloc]', symObjAddr: 0x7D, symBinAddr: 0xF80E, symSize: 0xD0 }
+  - { offsetInCU: 0x54B, offset: 0x6C280, size: 0x8, addend: 0x0, symName: '___26-[DDBufferedProxy dealloc]_block_invoke', symObjAddr: 0x14D, symBinAddr: 0xF8DE, symSize: 0x35 }
+  - { offsetInCU: 0x5A9, offset: 0x6C2DE, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy flushBuffer]', symObjAddr: 0x1A0, symBinAddr: 0xF913, symSize: 0x78 }
+  - { offsetInCU: 0x60C, offset: 0x6C341, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy lt_sendBufferedDataToFileLogger]', symObjAddr: 0x218, symBinAddr: 0xF98B, symSize: 0x76 }
+  - { offsetInCU: 0x693, offset: 0x6C3C8, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy logMessage:]', symObjAddr: 0x28E, symBinAddr: 0xFA01, symSize: 0x9D }
+  - { offsetInCU: 0x729, offset: 0x6C45E, size: 0x8, addend: 0x0, symName: '___30-[DDBufferedProxy logMessage:]_block_invoke', symObjAddr: 0x32B, symBinAddr: 0xFA9E, symSize: 0x69 }
+  - { offsetInCU: 0x7E3, offset: 0x6C518, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy flush]', symObjAddr: 0x394, symBinAddr: 0xFB07, symSize: 0x129 }
+  - { offsetInCU: 0x8D7, offset: 0x6C60C, size: 0x8, addend: 0x0, symName: '___24-[DDBufferedProxy flush]_block_invoke', symObjAddr: 0x4BD, symBinAddr: 0xFC30, symSize: 0x6B }
+  - { offsetInCU: 0x94E, offset: 0x6C683, size: 0x8, addend: 0x0, symName: '___24-[DDBufferedProxy flush]_block_invoke_2', symObjAddr: 0x528, symBinAddr: 0xFC9B, symSize: 0x6F }
+  - { offsetInCU: 0x9F8, offset: 0x6C72D, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy setMaxBufferSizeBytes:]', symObjAddr: 0x5EC, symBinAddr: 0xFD0A, symSize: 0x4A }
+  - { offsetInCU: 0xA8B, offset: 0x6C7C0, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy wrapWithBuffer]', symObjAddr: 0x636, symBinAddr: 0xFD54, symSize: 0x9 }
+  - { offsetInCU: 0xAC0, offset: 0x6C7F5, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy unwrapFromBuffer]', symObjAddr: 0x63F, symBinAddr: 0xFD5D, symSize: 0x12 }
+  - { offsetInCU: 0xB0A, offset: 0x6C83F, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy methodSignatureForSelector:]', symObjAddr: 0x651, symBinAddr: 0xFD6F, symSize: 0x5F }
+  - { offsetInCU: 0xB7D, offset: 0x6C8B2, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy respondsToSelector:]', symObjAddr: 0x6B0, symBinAddr: 0xFDCE, symSize: 0x51 }
+  - { offsetInCU: 0xBF8, offset: 0x6C92D, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy forwardInvocation:]', symObjAddr: 0x701, symBinAddr: 0xFE1F, symSize: 0x69 }
+  - { offsetInCU: 0xC98, offset: 0x6C9CD, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy fileLogger]', symObjAddr: 0x76A, symBinAddr: 0xFE88, symSize: 0x11 }
+  - { offsetInCU: 0xCCD, offset: 0x6CA02, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy setFileLogger:]', symObjAddr: 0x77B, symBinAddr: 0xFE99, symSize: 0x14 }
+  - { offsetInCU: 0xD0C, offset: 0x6CA41, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy buffer]', symObjAddr: 0x78F, symBinAddr: 0xFEAD, symSize: 0x11 }
+  - { offsetInCU: 0xD41, offset: 0x6CA76, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy setBuffer:]', symObjAddr: 0x7A0, symBinAddr: 0xFEBE, symSize: 0x14 }
+  - { offsetInCU: 0xD80, offset: 0x6CAB5, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy maxBufferSizeBytes]', symObjAddr: 0x7B4, symBinAddr: 0xFED2, symSize: 0x11 }
+  - { offsetInCU: 0xDB5, offset: 0x6CAEA, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy currentBufferSizeBytes]', symObjAddr: 0x7C5, symBinAddr: 0xFEE3, symSize: 0x11 }
+  - { offsetInCU: 0xDEA, offset: 0x6CB1F, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy setCurrentBufferSizeBytes:]', symObjAddr: 0x7D6, symBinAddr: 0xFEF4, symSize: 0x11 }
+  - { offsetInCU: 0xE27, offset: 0x6CB5C, size: 0x8, addend: 0x0, symName: '-[DDBufferedProxy .cxx_destruct]', symObjAddr: 0x7E7, symBinAddr: 0xFF05, symSize: 0x31 }
+  - { offsetInCU: 0xE5A, offset: 0x6CB8F, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Buffering) wrapWithBuffer]', symObjAddr: 0x818, symBinAddr: 0xFF36, symSize: 0x36 }
+  - { offsetInCU: 0xEA5, offset: 0x6CBDA, size: 0x8, addend: 0x0, symName: '-[DDFileLogger(Buffering) unwrapFromBuffer]', symObjAddr: 0x84E, symBinAddr: 0xFF6C, symSize: 0x9 }
+  - { offsetInCU: 0xF4C, offset: 0x6CC81, size: 0x8, addend: 0x0, symName: ___DDGetDefaultBufferSizeBytes_block_invoke, symObjAddr: 0x857, symBinAddr: 0xFF75, symSize: 0x12D }
+  - { offsetInCU: 0x1071, offset: 0x6CDA6, size: 0x8, addend: 0x0, symName: ___DDGetMaxBufferSizeBytes_block_invoke, symObjAddr: 0x984, symBinAddr: 0x100A2, symSize: 0x12D }
+  - { offsetInCU: 0x27, offset: 0x6D415, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter init]', symObjAddr: 0x0, symBinAddr: 0x101CF, symSize: 0xC3 }
+  - { offsetInCU: 0x41, offset: 0x6D42F, size: 0x8, addend: 0x0, symName: _DDQualityOfServiceUserInteractive, symObjAddr: 0xC60, symBinAddr: 0x18888, symSize: 0x0 }
+  - { offsetInCU: 0x6C, offset: 0x6D45A, size: 0x8, addend: 0x0, symName: _DDQualityOfServiceUserInitiated, symObjAddr: 0xC68, symBinAddr: 0x18890, symSize: 0x0 }
+  - { offsetInCU: 0x82, offset: 0x6D470, size: 0x8, addend: 0x0, symName: _DDQualityOfServiceDefault, symObjAddr: 0xC70, symBinAddr: 0x18898, symSize: 0x0 }
+  - { offsetInCU: 0x98, offset: 0x6D486, size: 0x8, addend: 0x0, symName: _DDQualityOfServiceUtility, symObjAddr: 0xC78, symBinAddr: 0x188A0, symSize: 0x0 }
+  - { offsetInCU: 0xAE, offset: 0x6D49C, size: 0x8, addend: 0x0, symName: _DDQualityOfServiceBackground, symObjAddr: 0xC80, symBinAddr: 0x188A8, symSize: 0x0 }
+  - { offsetInCU: 0xC4, offset: 0x6D4B2, size: 0x8, addend: 0x0, symName: _DDQualityOfServiceUnspecified, symObjAddr: 0xC88, symBinAddr: 0x188B0, symSize: 0x0 }
+  - { offsetInCU: 0x272, offset: 0x6D660, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter init]', symObjAddr: 0x0, symBinAddr: 0x101CF, symSize: 0xC3 }
+  - { offsetInCU: 0x335, offset: 0x6D723, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter initWithMode:]', symObjAddr: 0xC3, symBinAddr: 0x10292, symSize: 0x12 }
+  - { offsetInCU: 0x38A, offset: 0x6D778, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter dealloc]', symObjAddr: 0xD5, symBinAddr: 0x102A4, symSize: 0x3A }
+  - { offsetInCU: 0x3DE, offset: 0x6D7CC, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter replacementStringForQueueLabel:]', symObjAddr: 0x10F, symBinAddr: 0x102DE, symSize: 0x67 }
+  - { offsetInCU: 0x4BC, offset: 0x6D8AA, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter setReplacementString:forQueueLabel:]', symObjAddr: 0x176, symBinAddr: 0x10345, symSize: 0x94 }
+  - { offsetInCU: 0x5BB, offset: 0x6D9A9, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter createDateFormatter]', symObjAddr: 0x20A, symBinAddr: 0x103D9, symSize: 0x52 }
+  - { offsetInCU: 0x622, offset: 0x6DA10, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter configureDateFormatter:]', symObjAddr: 0x25C, symBinAddr: 0x1042B, symSize: 0xD3 }
+  - { offsetInCU: 0x722, offset: 0x6DB10, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter stringFromDate:]', symObjAddr: 0x32F, symBinAddr: 0x104FE, symSize: 0x16 }
+  - { offsetInCU: 0x77C, offset: 0x6DB6A, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter queueThreadLabelForLogMessage:]', symObjAddr: 0x345, symBinAddr: 0x10514, symSize: 0x384 }
+  - { offsetInCU: 0xA6A, offset: 0x6DE58, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter formatLogMessage:]', symObjAddr: 0x6C9, symBinAddr: 0x10898, symSize: 0x119 }
+  - { offsetInCU: 0xB53, offset: 0x6DF41, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter minQueueLength]', symObjAddr: 0x7E2, symBinAddr: 0x109B1, symSize: 0xA }
+  - { offsetInCU: 0xB88, offset: 0x6DF76, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter setMinQueueLength:]', symObjAddr: 0x7EC, symBinAddr: 0x109BB, symSize: 0xA }
+  - { offsetInCU: 0xBC5, offset: 0x6DFB3, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter maxQueueLength]', symObjAddr: 0x7F6, symBinAddr: 0x109C5, symSize: 0xA }
+  - { offsetInCU: 0xBFA, offset: 0x6DFE8, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter setMaxQueueLength:]', symObjAddr: 0x800, symBinAddr: 0x109CF, symSize: 0xA }
+  - { offsetInCU: 0xC37, offset: 0x6E025, size: 0x8, addend: 0x0, symName: '-[DDDispatchQueueLogFormatter .cxx_destruct]', symObjAddr: 0x80A, symBinAddr: 0x109D9, symSize: 0x28 }
+  - { offsetInCU: 0xC6A, offset: 0x6E058, size: 0x8, addend: 0x0, symName: '-[DDAtomicCounter initWithDefaultValue:]', symObjAddr: 0x832, symBinAddr: 0x10A01, symSize: 0x3B }
+  - { offsetInCU: 0xCB1, offset: 0x6E09F, size: 0x8, addend: 0x0, symName: '-[DDAtomicCounter value]', symObjAddr: 0x86D, symBinAddr: 0x10A3C, symSize: 0x9 }
+  - { offsetInCU: 0xCE6, offset: 0x6E0D4, size: 0x8, addend: 0x0, symName: '-[DDAtomicCounter increment]', symObjAddr: 0x876, symBinAddr: 0x10A45, symSize: 0x12 }
+  - { offsetInCU: 0xD2B, offset: 0x6E119, size: 0x8, addend: 0x0, symName: '-[DDAtomicCounter decrement]', symObjAddr: 0x888, symBinAddr: 0x10A57, symSize: 0x12 }
+  - { offsetInCU: 0x27, offset: 0x6E42E, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger init]', symObjAddr: 0x0, symBinAddr: 0x10A69, symSize: 0x82 }
+  - { offsetInCU: 0x2B4, offset: 0x6E6BB, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger init]', symObjAddr: 0x0, symBinAddr: 0x10A69, symSize: 0x82 }
+  - { offsetInCU: 0x2EB, offset: 0x6E6F2, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger dealloc]', symObjAddr: 0x82, symBinAddr: 0x10AEB, symSize: 0x53 }
+  - { offsetInCU: 0x347, offset: 0x6E74E, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger db_log:]', symObjAddr: 0xD5, symBinAddr: 0x10B3E, symSize: 0x8 }
+  - { offsetInCU: 0x386, offset: 0x6E78D, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger db_save]', symObjAddr: 0xDD, symBinAddr: 0x10B46, symSize: 0x6 }
+  - { offsetInCU: 0x3B5, offset: 0x6E7BC, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger db_delete]', symObjAddr: 0xE3, symBinAddr: 0x10B4C, symSize: 0x6 }
+  - { offsetInCU: 0x3E4, offset: 0x6E7EB, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger db_saveAndDelete]', symObjAddr: 0xE9, symBinAddr: 0x10B52, symSize: 0x6 }
+  - { offsetInCU: 0x413, offset: 0x6E81A, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger performSaveAndSuspendSaveTimer]', symObjAddr: 0xEF, symBinAddr: 0x10B58, symSize: 0x82 }
+  - { offsetInCU: 0x477, offset: 0x6E87E, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger performDelete]', symObjAddr: 0x171, symBinAddr: 0x10BDA, symSize: 0x47 }
+  - { offsetInCU: 0x4E8, offset: 0x6E8EF, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger destroySaveTimer]', symObjAddr: 0x1B8, symBinAddr: 0x10C21, symSize: 0x65 }
+  - { offsetInCU: 0x57E, offset: 0x6E985, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger updateAndResumeSaveTimer]', symObjAddr: 0x21D, symBinAddr: 0x10C86, symSize: 0xBF }
+  - { offsetInCU: 0x651, offset: 0x6EA58, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger createSuspendedSaveTimer]', symObjAddr: 0x2DC, symBinAddr: 0x10D45, symSize: 0xDA }
+  - { offsetInCU: 0x725, offset: 0x6EB2C, size: 0x8, addend: 0x0, symName: '___52-[DDAbstractDatabaseLogger createSuspendedSaveTimer]_block_invoke', symObjAddr: 0x3B6, symBinAddr: 0x10E1F, symSize: 0x2F }
+  - { offsetInCU: 0x770, offset: 0x6EB77, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger destroyDeleteTimer]', symObjAddr: 0x403, symBinAddr: 0x10E4E, symSize: 0x3A }
+  - { offsetInCU: 0x7BD, offset: 0x6EBC4, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger updateDeleteTimer]', symObjAddr: 0x43D, symBinAddr: 0x10E88, symSize: 0x8C }
+  - { offsetInCU: 0x856, offset: 0x6EC5D, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger createAndStartDeleteTimer]', symObjAddr: 0x4C9, symBinAddr: 0x10F14, symSize: 0xFF }
+  - { offsetInCU: 0x909, offset: 0x6ED10, size: 0x8, addend: 0x0, symName: '___53-[DDAbstractDatabaseLogger createAndStartDeleteTimer]_block_invoke', symObjAddr: 0x5C8, symBinAddr: 0x11013, symSize: 0x2F }
+  - { offsetInCU: 0x954, offset: 0x6ED5B, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger saveThreshold]', symObjAddr: 0x5F7, symBinAddr: 0x11042, symSize: 0xCE }
+  - { offsetInCU: 0x9F1, offset: 0x6EDF8, size: 0x8, addend: 0x0, symName: '___41-[DDAbstractDatabaseLogger saveThreshold]_block_invoke', symObjAddr: 0x6C5, symBinAddr: 0x11110, symSize: 0x79 }
+  - { offsetInCU: 0xA7D, offset: 0x6EE84, size: 0x8, addend: 0x0, symName: '___41-[DDAbstractDatabaseLogger saveThreshold]_block_invoke_2', symObjAddr: 0x73E, symBinAddr: 0x11189, symSize: 0x21 }
+  - { offsetInCU: 0xAD4, offset: 0x6EEDB, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger setSaveThreshold:]', symObjAddr: 0x7B6, symBinAddr: 0x111AA, symSize: 0x103 }
+  - { offsetInCU: 0xBD3, offset: 0x6EFDA, size: 0x8, addend: 0x0, symName: '___45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke', symObjAddr: 0x8B9, symBinAddr: 0x112AD, symSize: 0x5C }
+  - { offsetInCU: 0xC2E, offset: 0x6F035, size: 0x8, addend: 0x0, symName: '___45-[DDAbstractDatabaseLogger setSaveThreshold:]_block_invoke.25', symObjAddr: 0x915, symBinAddr: 0x11309, symSize: 0x3F }
+  - { offsetInCU: 0xCAC, offset: 0x6F0B3, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger saveInterval]', symObjAddr: 0x9A9, symBinAddr: 0x11348, symSize: 0xD6 }
+  - { offsetInCU: 0xD37, offset: 0x6F13E, size: 0x8, addend: 0x0, symName: '___40-[DDAbstractDatabaseLogger saveInterval]_block_invoke', symObjAddr: 0xA7F, symBinAddr: 0x1141E, symSize: 0x79 }
+  - { offsetInCU: 0xDC7, offset: 0x6F1CE, size: 0x8, addend: 0x0, symName: '___40-[DDAbstractDatabaseLogger saveInterval]_block_invoke_2', symObjAddr: 0xAF8, symBinAddr: 0x11497, symSize: 0x23 }
+  - { offsetInCU: 0xE22, offset: 0x6F229, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger setSaveInterval:]', symObjAddr: 0xB1B, symBinAddr: 0x114BA, symSize: 0x104 }
+  - { offsetInCU: 0xF11, offset: 0x6F318, size: 0x8, addend: 0x0, symName: '___44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke', symObjAddr: 0xC1F, symBinAddr: 0x115BE, symSize: 0xA7 }
+  - { offsetInCU: 0xF88, offset: 0x6F38F, size: 0x8, addend: 0x0, symName: '___44-[DDAbstractDatabaseLogger setSaveInterval:]_block_invoke_2', symObjAddr: 0xCC6, symBinAddr: 0x11665, symSize: 0x3F }
+  - { offsetInCU: 0x1009, offset: 0x6F410, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger maxAge]', symObjAddr: 0xD05, symBinAddr: 0x116A4, symSize: 0xD6 }
+  - { offsetInCU: 0x1094, offset: 0x6F49B, size: 0x8, addend: 0x0, symName: '___34-[DDAbstractDatabaseLogger maxAge]_block_invoke', symObjAddr: 0xDDB, symBinAddr: 0x1177A, symSize: 0x79 }
+  - { offsetInCU: 0x1124, offset: 0x6F52B, size: 0x8, addend: 0x0, symName: '___34-[DDAbstractDatabaseLogger maxAge]_block_invoke_2', symObjAddr: 0xE54, symBinAddr: 0x117F3, symSize: 0x23 }
+  - { offsetInCU: 0x117F, offset: 0x6F586, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger setMaxAge:]', symObjAddr: 0xE77, symBinAddr: 0x11816, symSize: 0x104 }
+  - { offsetInCU: 0x126E, offset: 0x6F675, size: 0x8, addend: 0x0, symName: '___38-[DDAbstractDatabaseLogger setMaxAge:]_block_invoke', symObjAddr: 0xF7B, symBinAddr: 0x1191A, symSize: 0xA3 }
+  - { offsetInCU: 0x131B, offset: 0x6F722, size: 0x8, addend: 0x0, symName: '___38-[DDAbstractDatabaseLogger setMaxAge:]_block_invoke_2', symObjAddr: 0x101E, symBinAddr: 0x119BD, symSize: 0x3F }
+  - { offsetInCU: 0x139C, offset: 0x6F7A3, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger deleteInterval]', symObjAddr: 0x105D, symBinAddr: 0x119FC, symSize: 0xD6 }
+  - { offsetInCU: 0x1427, offset: 0x6F82E, size: 0x8, addend: 0x0, symName: '___42-[DDAbstractDatabaseLogger deleteInterval]_block_invoke', symObjAddr: 0x1133, symBinAddr: 0x11AD2, symSize: 0x79 }
+  - { offsetInCU: 0x14B7, offset: 0x6F8BE, size: 0x8, addend: 0x0, symName: '___42-[DDAbstractDatabaseLogger deleteInterval]_block_invoke_2', symObjAddr: 0x11AC, symBinAddr: 0x11B4B, symSize: 0x23 }
+  - { offsetInCU: 0x1512, offset: 0x6F919, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger setDeleteInterval:]', symObjAddr: 0x11CF, symBinAddr: 0x11B6E, symSize: 0x104 }
+  - { offsetInCU: 0x1601, offset: 0x6FA08, size: 0x8, addend: 0x0, symName: '___46-[DDAbstractDatabaseLogger setDeleteInterval:]_block_invoke', symObjAddr: 0x12D3, symBinAddr: 0x11C72, symSize: 0x89 }
+  - { offsetInCU: 0x1660, offset: 0x6FA67, size: 0x8, addend: 0x0, symName: '___46-[DDAbstractDatabaseLogger setDeleteInterval:]_block_invoke_2', symObjAddr: 0x135C, symBinAddr: 0x11CFB, symSize: 0x3F }
+  - { offsetInCU: 0x16E1, offset: 0x6FAE8, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger deleteOnEverySave]', symObjAddr: 0x139B, symBinAddr: 0x11D3A, symSize: 0xCE }
+  - { offsetInCU: 0x176C, offset: 0x6FB73, size: 0x8, addend: 0x0, symName: '___45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke', symObjAddr: 0x1469, symBinAddr: 0x11E08, symSize: 0x79 }
+  - { offsetInCU: 0x17FC, offset: 0x6FC03, size: 0x8, addend: 0x0, symName: '___45-[DDAbstractDatabaseLogger deleteOnEverySave]_block_invoke_2', symObjAddr: 0x14E2, symBinAddr: 0x11E81, symSize: 0x1F }
+  - { offsetInCU: 0x1857, offset: 0x6FC5E, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger setDeleteOnEverySave:]', symObjAddr: 0x1501, symBinAddr: 0x11EA0, symSize: 0x102 }
+  - { offsetInCU: 0x1946, offset: 0x6FD4D, size: 0x8, addend: 0x0, symName: '___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke', symObjAddr: 0x1603, symBinAddr: 0x11FA2, symSize: 0x17 }
+  - { offsetInCU: 0x199B, offset: 0x6FDA2, size: 0x8, addend: 0x0, symName: '___49-[DDAbstractDatabaseLogger setDeleteOnEverySave:]_block_invoke.32', symObjAddr: 0x161A, symBinAddr: 0x11FB9, symSize: 0x3F }
+  - { offsetInCU: 0x1A1C, offset: 0x6FE23, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger savePendingLogEntries]', symObjAddr: 0x1659, symBinAddr: 0x11FF8, symSize: 0xA4 }
+  - { offsetInCU: 0x1AD3, offset: 0x6FEDA, size: 0x8, addend: 0x0, symName: '___49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke', symObjAddr: 0x16FD, symBinAddr: 0x1209C, symSize: 0x2F }
+  - { offsetInCU: 0x1B21, offset: 0x6FF28, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger deleteOldLogEntries]', symObjAddr: 0x172C, symBinAddr: 0x120CB, symSize: 0xA4 }
+  - { offsetInCU: 0x1BD8, offset: 0x6FFDF, size: 0x8, addend: 0x0, symName: '___47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke', symObjAddr: 0x17D0, symBinAddr: 0x1216F, symSize: 0x2F }
+  - { offsetInCU: 0x1C26, offset: 0x7002D, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger didAddLogger]', symObjAddr: 0x17FF, symBinAddr: 0x1219E, symSize: 0x2E }
+  - { offsetInCU: 0x1C83, offset: 0x7008A, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger willRemoveLogger]', symObjAddr: 0x182D, symBinAddr: 0x121CC, symSize: 0x3B }
+  - { offsetInCU: 0x1CF4, offset: 0x700FB, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger logMessage:]', symObjAddr: 0x1868, symBinAddr: 0x12207, symSize: 0x82 }
+  - { offsetInCU: 0x1D99, offset: 0x701A0, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger flush]', symObjAddr: 0x18EA, symBinAddr: 0x12289, symSize: 0x12 }
+  - { offsetInCU: 0x1DE0, offset: 0x701E7, size: 0x8, addend: 0x0, symName: '-[DDAbstractDatabaseLogger .cxx_destruct]', symObjAddr: 0x18FC, symBinAddr: 0x1229B, symSize: 0x31 }
+  - { offsetInCU: 0x27, offset: 0x71088, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter(Deprecated) addToWhitelist:]', symObjAddr: 0x0, symBinAddr: 0x122CC, symSize: 0x12 }
+  - { offsetInCU: 0x78, offset: 0x710D9, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter(Deprecated) addToWhitelist:]', symObjAddr: 0x0, symBinAddr: 0x122CC, symSize: 0x12 }
+  - { offsetInCU: 0xD4, offset: 0x71135, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter(Deprecated) removeFromWhitelist:]', symObjAddr: 0x12, symBinAddr: 0x122DE, symSize: 0x12 }
+  - { offsetInCU: 0x130, offset: 0x71191, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter(Deprecated) whitelist]', symObjAddr: 0x24, symBinAddr: 0x122F0, symSize: 0x12 }
+  - { offsetInCU: 0x17A, offset: 0x711DB, size: 0x8, addend: 0x0, symName: '-[DDContextAllowlistFilterLogFormatter(Deprecated) isOnWhitelist:]', symObjAddr: 0x36, symBinAddr: 0x12302, symSize: 0x12 }
+  - { offsetInCU: 0x1DA, offset: 0x7123B, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter(Deprecated) addToBlacklist:]', symObjAddr: 0x48, symBinAddr: 0x12314, symSize: 0x12 }
+  - { offsetInCU: 0x236, offset: 0x71297, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter(Deprecated) removeFromBlacklist:]', symObjAddr: 0x5A, symBinAddr: 0x12326, symSize: 0x12 }
+  - { offsetInCU: 0x292, offset: 0x712F3, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter(Deprecated) blacklist]', symObjAddr: 0x6C, symBinAddr: 0x12338, symSize: 0x12 }
+  - { offsetInCU: 0x2DC, offset: 0x7133D, size: 0x8, addend: 0x0, symName: '-[DDContextDenylistFilterLogFormatter(Deprecated) isOnBlacklist:]', symObjAddr: 0x7E, symBinAddr: 0x1234A, symSize: 0x12 }
+  - { offsetInCU: 0x27, offset: 0x71438, size: 0x8, addend: 0x0, symName: '+[DDASLLogger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1235C, symSize: 0x63 }
+  - { offsetInCU: 0x4F, offset: 0x71460, size: 0x8, addend: 0x0, symName: _kDDASLKeyDDLog, symObjAddr: 0x368, symBinAddr: 0x188F0, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x71485, size: 0x8, addend: 0x0, symName: _kDDASLDDLogValue, symObjAddr: 0x370, symBinAddr: 0x188F8, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7148F, size: 0x8, addend: 0x0, symName: '+[DDASLLogger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1235C, symSize: 0x63 }
+  - { offsetInCU: 0xA8, offset: 0x714B9, size: 0x8, addend: 0x0, symName: _sharedInstance.DDASLLoggerOnceToken, symObjAddr: 0x4318, symBinAddr: 0x205E8, symSize: 0x0 }
+  - { offsetInCU: 0x100, offset: 0x71511, size: 0x8, addend: 0x0, symName: '-[DDASLLogger logMessage:]', symObjAddr: 0x139, symBinAddr: 0x12495, symSize: 0x1D6 }
+  - { offsetInCU: 0x2F6, offset: 0x71707, size: 0x8, addend: 0x0, symName: _sharedInstance, symObjAddr: 0x4320, symBinAddr: 0x205F0, symSize: 0x0 }
+  - { offsetInCU: 0x4E0, offset: 0x718F1, size: 0x8, addend: 0x0, symName: '___29+[DDASLLogger sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x123BF, symSize: 0x48 }
+  - { offsetInCU: 0x543, offset: 0x71954, size: 0x8, addend: 0x0, symName: '-[DDASLLogger init]', symObjAddr: 0xAB, symBinAddr: 0x12407, symSize: 0x7A }
+  - { offsetInCU: 0x5D9, offset: 0x719EA, size: 0x8, addend: 0x0, symName: '-[DDASLLogger loggerName]', symObjAddr: 0x125, symBinAddr: 0x12481, symSize: 0x14 }
+...

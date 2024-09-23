@@ -1,0 +1,4 @@
+framework module BonMot {
+  header "BonMot-Swift.h"
+  requires objc
+}

@@ -1,0 +1,28 @@
+{
+  "tvOS" : [
+
+  ],
+  "commitish" : "12.1.0",
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "name" : "ChannelIOFront",
+      "hash" : "073a184d3367b9fcec85e71c51c5db14773f15468a0187186ee8339f91762742",
+      "container" : "ChannelIOFront.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "container" : "ChannelIOFront.xcframework",
+      "name" : "ChannelIOFront",
+      "hash" : "b462f7b7c92c60382a01451aa51a1b87dc43a190fe4c7ec722c6541329e576a9",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+    }
+  ]
+}

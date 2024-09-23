@@ -1,0 +1,74 @@
+{
+  "iOS" : [
+    {
+      "name" : "MDFInternationalization",
+      "hash" : "1bfdde3c9c1a6a6790e4b7d4b3a286ef81c91cd2e6876375e2afb67893eccc24",
+      "container" : "MDFInternationalization.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "name" : "MDFInternationalization",
+      "hash" : "405993336feac5be75fac1c6487bae0ee9268b687c04245617142b48c133b0a1",
+      "identifier" : "ios-arm64",
+      "container" : "MDFInternationalization.xcframework"
+    },
+    {
+      "name" : "MDFTextAccessibility",
+      "container" : "MDFTextAccessibility.xcframework",
+      "identifier" : "ios-arm64",
+      "hash" : "1b7865e07ad45b80f55a340e41fc3ed8b65a12ce1bfc94519301e6b68a6777df"
+    },
+    {
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "90b2d6b9fc0716840cd0fc121b47020e17cf27f08ace2a5bd62842ec740e8a31",
+      "container" : "MDFTextAccessibility.xcframework",
+      "name" : "MDFTextAccessibility"
+    },
+    {
+      "hash" : "9df941166461aad2aa1e651b70648d639200e82a1ef31b87897a5ed50e204740",
+      "name" : "MaterialComponents",
+      "identifier" : "ios-arm64",
+      "container" : "MaterialComponents.xcframework"
+    },
+    {
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "container" : "MaterialComponents.xcframework",
+      "name" : "MaterialComponents",
+      "hash" : "dde223716b0265c1d57c29e72834daeff016f9e4bdbfa712e1db3dc13d74186e"
+    },
+    {
+      "name" : "MotionAnimator",
+      "container" : "MotionAnimator.xcframework",
+      "hash" : "81cd723db34c315afe4619be04f685fc645f3f356ac20299c5441a502b2edb11",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "95b21042703ffc7a1317edd1d8687aff9069a5a6b8c79c15608ba4974418af4a",
+      "name" : "MotionAnimator",
+      "container" : "MotionAnimator.xcframework"
+    },
+    {
+      "container" : "MotionInterchange.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "MotionInterchange",
+      "hash" : "def8cebe0a16c9c591189e923d741aeac5dd645633b48739916abf0af474a2d6"
+    },
+    {
+      "identifier" : "ios-arm64",
+      "hash" : "b52006b0b2b330bf23ccca1b63e001c5ec063b38af39f9d16670d4b1656fc201",
+      "container" : "MotionInterchange.xcframework",
+      "name" : "MotionInterchange"
+    }
+  ],
+  "commitish" : "124.0.1",
+  "tvOS" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}
