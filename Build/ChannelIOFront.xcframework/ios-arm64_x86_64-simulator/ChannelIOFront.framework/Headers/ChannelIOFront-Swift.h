@@ -614,18 +614,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isBooted;)
 /// Close ChannelIO Messenger UI when it is opened.
 /// It same with clicking close button in ChannelIO Messenger UI.
 + (void)hideMessenger;
-/// Hides the Channel Popup on the global screen.
-+ (void)hidePopup;
 /// Open chat directly. See more case below.
 /// \param chatId Chat id to open directly. If chat id is invalid, open lounge. If chat id is null, open chat with parameter message. See message parameter.
 ///
 /// \param message Preset text message when open empty user chat. <em>This parameter is valid when the chat id is null.</em>
 ///
 + (void)openChatWith:(NSString * _Nullable)chatId message:(NSString * _Nullable)message;
-/// Opens a user chat and starts the specified workflow.
-/// \param workflowId The ID of workflow to start with. An error page will be shown if such workflow does not exist.
+/// Open supportBot directly. See more case below.
+/// \param supportBotId SupportBot id to open directly. If SupportBot id is invalid, open lounge. If SupportBot id is null, open chat with parameter message. See message parameter.
 ///
-+ (void)openWorkflowWith:(NSString * _Nullable)workflowId;
+/// \param message Preset text message when open empty user chat. <em>This parameter is valid when the SupportBot id is null.</em>
+///
++ (void)openSupportBotWith:(NSString * _Nullable)supportBotId message:(NSString * _Nullable)message;
 /// Update user profile (objective-c)
 /// \param profile A dictionary with profile key and profile value pair. Set a value to nil to remove existing value
 ///
@@ -815,15 +815,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isBooted;)
 ///
 /// \endcode
 + (void)openStoredPushNotification;
-/// Sets the name of the screen along with user chat profile. If <code>track</code> is called before <code>setPage</code>, the event will not reflect the page information.
+/// Channel tracks how the user navigates throughout the app usage and logs an event so that operators can easily diagnose the cause of the problem or plan a marketing strategy. Operators can see PageView events in the user info tab.
+/// However, if you are using Single Activity Architecture or implementing some custom navigation logics, logging Activity name may not be appropriate. In this case, you may set a custom name for the page using setPage() method. Discover what is page for details.
 /// important:
 /// Passing null as argument to setPage is not the same with calling resetPage. A setPage(null) call will literally set page name as null.
-/// \param page This is the screen name when track is called. When calling <code>.track(nil)</code>, the event’s page is set to <code>null</code>.
-///
-/// \param profile The user chat profile value. When nil is assigned to a specific field within the profile object, only the value of that field is cleared.
-///
-+ (void)setPage:(NSString * _Nullable)page profile:(NSDictionary<NSString *, id> * _Nonnull)profile;
-/// Resets the name of the screen and user chat profile value set by <code>setPage</code>. The default page name is the name of the ViewController class that calls <code>track</code>.
++ (void)setPage:(NSString * _Nullable)page;
+/// Reverts an action of setPage().  Depending on the platform, name of an Activity or ViewController will be used as a page name.
 + (void)resetPage;
 + (void)applyAppearance:(enum Appearance)appearance SWIFT_DEPRECATED_MSG("", "setAppearance:");
 + (void)setAppearance:(enum Appearance)appearance;
@@ -952,8 +949,6 @@ SWIFT_CLASS("_TtC14ChannelIOFront7Profile")
 - (Profile * _Nonnull)setWithEmail:(NSString * _Nonnull)email;
 - (Profile * _Nonnull)setWithPropertyKey:(NSString * _Nonnull)propertyKey value:(id _Nullable)value;
 @end
-
-
 
 
 
@@ -1701,18 +1696,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isBooted;)
 /// Close ChannelIO Messenger UI when it is opened.
 /// It same with clicking close button in ChannelIO Messenger UI.
 + (void)hideMessenger;
-/// Hides the Channel Popup on the global screen.
-+ (void)hidePopup;
 /// Open chat directly. See more case below.
 /// \param chatId Chat id to open directly. If chat id is invalid, open lounge. If chat id is null, open chat with parameter message. See message parameter.
 ///
 /// \param message Preset text message when open empty user chat. <em>This parameter is valid when the chat id is null.</em>
 ///
 + (void)openChatWith:(NSString * _Nullable)chatId message:(NSString * _Nullable)message;
-/// Opens a user chat and starts the specified workflow.
-/// \param workflowId The ID of workflow to start with. An error page will be shown if such workflow does not exist.
+/// Open supportBot directly. See more case below.
+/// \param supportBotId SupportBot id to open directly. If SupportBot id is invalid, open lounge. If SupportBot id is null, open chat with parameter message. See message parameter.
 ///
-+ (void)openWorkflowWith:(NSString * _Nullable)workflowId;
+/// \param message Preset text message when open empty user chat. <em>This parameter is valid when the SupportBot id is null.</em>
+///
++ (void)openSupportBotWith:(NSString * _Nullable)supportBotId message:(NSString * _Nullable)message;
 /// Update user profile (objective-c)
 /// \param profile A dictionary with profile key and profile value pair. Set a value to nil to remove existing value
 ///
@@ -1902,15 +1897,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isBooted;)
 ///
 /// \endcode
 + (void)openStoredPushNotification;
-/// Sets the name of the screen along with user chat profile. If <code>track</code> is called before <code>setPage</code>, the event will not reflect the page information.
+/// Channel tracks how the user navigates throughout the app usage and logs an event so that operators can easily diagnose the cause of the problem or plan a marketing strategy. Operators can see PageView events in the user info tab.
+/// However, if you are using Single Activity Architecture or implementing some custom navigation logics, logging Activity name may not be appropriate. In this case, you may set a custom name for the page using setPage() method. Discover what is page for details.
 /// important:
 /// Passing null as argument to setPage is not the same with calling resetPage. A setPage(null) call will literally set page name as null.
-/// \param page This is the screen name when track is called. When calling <code>.track(nil)</code>, the event’s page is set to <code>null</code>.
-///
-/// \param profile The user chat profile value. When nil is assigned to a specific field within the profile object, only the value of that field is cleared.
-///
-+ (void)setPage:(NSString * _Nullable)page profile:(NSDictionary<NSString *, id> * _Nonnull)profile;
-/// Resets the name of the screen and user chat profile value set by <code>setPage</code>. The default page name is the name of the ViewController class that calls <code>track</code>.
++ (void)setPage:(NSString * _Nullable)page;
+/// Reverts an action of setPage().  Depending on the platform, name of an Activity or ViewController will be used as a page name.
 + (void)resetPage;
 + (void)applyAppearance:(enum Appearance)appearance SWIFT_DEPRECATED_MSG("", "setAppearance:");
 + (void)setAppearance:(enum Appearance)appearance;
@@ -2039,8 +2031,6 @@ SWIFT_CLASS("_TtC14ChannelIOFront7Profile")
 - (Profile * _Nonnull)setWithEmail:(NSString * _Nonnull)email;
 - (Profile * _Nonnull)setWithPropertyKey:(NSString * _Nonnull)propertyKey value:(id _Nullable)value;
 @end
-
-
 
 
 

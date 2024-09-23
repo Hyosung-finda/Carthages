@@ -1,0 +1,4 @@
+framework module SentryPrivate {
+  header "SentryPrivate-Swift.h"
+  requires objc
+}

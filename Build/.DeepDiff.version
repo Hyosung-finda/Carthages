@@ -1,19 +1,19 @@
 {
-  "commitish" : "2.3.3",
   "iOS" : [
     {
       "identifier" : "ios-arm64",
-      "name" : "DeepDiff",
       "container" : "DeepDiff.xcframework",
-      "hash" : "7ec321493ddc9cd2f4769f6d597b9e8ecc28860fcec6d4b3bf43245cd157e320",
-      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+      "name" : "DeepDiff",
+      "hash" : "94cfad41fd496ed562f5830712696ad6124b2fc5e91d7d8e27135f46540f872f",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
     },
     {
-      "container" : "DeepDiff.xcframework",
       "name" : "DeepDiff",
-      "hash" : "b7ddf258f0a4e29aefeaedd4ee55f204c3c5e62aa4c15c701fe458780566b581",
       "identifier" : "ios-arm64_x86_64-simulator",
-      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+      "hash" : "c3489344fd950a280943dac4c7708b925e6aac392bace628ddb3e4b620575dc4",
+      "container" : "DeepDiff.xcframework",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
     }
-  ]
+  ],
+  "commitish" : "2.3.3"
 }

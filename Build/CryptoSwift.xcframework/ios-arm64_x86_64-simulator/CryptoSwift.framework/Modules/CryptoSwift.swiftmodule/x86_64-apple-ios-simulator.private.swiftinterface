@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=unchecked -O -module-name CryptoSwift
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import CryptoSwift
@@ -54,123 +54,6 @@ extension CryptoSwift.RSA : Swift.CustomStringConvertible {
   }
 }
 extension CryptoSwift.CS.BigUInt {
-  prefix public static func ~ (a: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt
-  public static func |= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
-  public static func &= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
-  public static func ^= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
-}
-extension CryptoSwift.CS.BigInt {
-  prefix public static func ~ (x: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
-  public static func & (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
-  public static func | (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
-  public static func ^ (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
-  public static func &= (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt)
-  public static func |= (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt)
-  public static func ^= (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt)
-}
-extension CryptoSwift.CS.BigUInt {
-  public mutating func multiply(byWord y: CryptoSwift.CS.BigUInt.Word)
-  public func multiplied(byWord y: CryptoSwift.CS.BigUInt.Word) -> CryptoSwift.CS.BigUInt
-  public mutating func multiplyAndAdd(_ x: CryptoSwift.CS.BigUInt, _ y: CryptoSwift.CS.BigUInt.Word, shiftedBy shift: Swift.Int = 0)
-  public func multiplied(by y: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt
-  public static var directMultiplicationLimit: Swift.Int
-  public static func * (x: CryptoSwift.CS.BigUInt, y: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt
-  public static func *= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
-}
-extension CryptoSwift.CS.BigInt {
-  public static func * (a: CryptoSwift.CS.BigInt, b: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
-  public static func *= (a: inout CryptoSwift.CS.BigInt, b: CryptoSwift.CS.BigInt)
-}
-extension CryptoSwift.CS.BigUInt {
-  public init?<T>(exactly source: T) where T : Swift.BinaryInteger
-  public init<T>(_ source: T) where T : Swift.BinaryInteger
-  public init<T>(truncatingIfNeeded source: T) where T : Swift.BinaryInteger
-  public init<T>(clamping source: T) where T : Swift.BinaryInteger
-}
-extension CryptoSwift.CS.BigInt {
-  public init()
-  public init(_ integer: CryptoSwift.CS.BigUInt)
-  public init<T>(_ source: T) where T : Swift.BinaryInteger
-  public init?<T>(exactly source: T) where T : Swift.BinaryInteger
-  public init<T>(clamping source: T) where T : Swift.BinaryInteger
-  public init<T>(truncatingIfNeeded source: T) where T : Swift.BinaryInteger
-}
-extension CryptoSwift.CS.BigUInt : Swift.ExpressibleByIntegerLiteral {
-  public init(integerLiteral value: Swift.UInt64)
-  public typealias IntegerLiteralType = Swift.UInt64
-}
-extension CryptoSwift.CS.BigInt : Swift.ExpressibleByIntegerLiteral {
-  public init(integerLiteral value: Swift.Int64)
-  public typealias IntegerLiteralType = Swift.Int64
-}
-public struct CFB : CryptoSwift.BlockMode {
-  public enum Error : Swift.Error {
-    case invalidInitializationVector
-    public static func == (a: CryptoSwift.CFB.Error, b: CryptoSwift.CFB.Error) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public enum SegmentSize : Swift.Int {
-    case cfb8
-    case cfb128
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  public let options: CryptoSwift.BlockModeOption
-  public let customBlockSize: Swift.Int?
-  public init(iv: Swift.Array<Swift.UInt8>, segmentSize: CryptoSwift.CFB.SegmentSize = .cfb128)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping CryptoSwift.CipherOperationOnBlock, encryptionOperation: @escaping CryptoSwift.CipherOperationOnBlock) throws -> any CryptoSwift.CipherModeWorker
-}
-extension Swift.Collection where Self.Element == Swift.UInt8, Self.Index == Swift.Int {
-  @inlinable internal func toUInt32Array() -> Swift.Array<Swift.UInt32> {
-    guard !isEmpty else {
-      return []
-    }
-
-    let c = strideCount(from: startIndex, to: endIndex, by: 4)
-    return Array<UInt32>(unsafeUninitializedCapacity: c) { buf, count in
-      var counter = 0
-      for idx in stride(from: startIndex, to: endIndex, by: 4) {
-        let val = UInt32(bytes: self, fromIndex: idx).bigEndian
-        buf[counter] = val
-        counter += 1
-      }
-      count = counter
-      assert(counter == c)
-    }
-  }
-  @inlinable internal func toUInt64Array() -> Swift.Array<Swift.UInt64> {
-    guard !isEmpty else {
-      return []
-    }
-
-    let c = strideCount(from: startIndex, to: endIndex, by: 8)
-    return Array<UInt64>(unsafeUninitializedCapacity: c) { buf, count in
-      var counter = 0
-      for idx in stride(from: startIndex, to: endIndex, by: 8) {
-        let val = UInt64(bytes: self, fromIndex: idx).bigEndian
-        buf[counter] = val
-        counter += 1
-      }
-      count = counter
-      assert(counter == c)
-    }
-  }
-}
-@usableFromInline
-internal func strideCount(from: Swift.Int, to: Swift.Int, by: Swift.Int) -> Swift.Int
-extension CryptoSwift.CS.BigUInt {
-  public func squareRoot() -> CryptoSwift.CS.BigUInt
-}
-extension CryptoSwift.CS.BigInt {
-  public func squareRoot() -> CryptoSwift.CS.BigInt
-}
-extension CryptoSwift.CS.BigUInt {
   public init?<S>(_ text: S, radix: Swift.Int = 10) where S : Swift.StringProtocol
 }
 extension CryptoSwift.CS.BigInt {
@@ -217,6 +100,155 @@ extension CryptoSwift.CS.BigInt : Swift.CustomPlaygroundDisplayConvertible {
     get
   }
 }
+extension CryptoSwift.CS.BigUInt {
+  public mutating func multiply(byWord y: CryptoSwift.CS.BigUInt.Word)
+  public func multiplied(byWord y: CryptoSwift.CS.BigUInt.Word) -> CryptoSwift.CS.BigUInt
+  public mutating func multiplyAndAdd(_ x: CryptoSwift.CS.BigUInt, _ y: CryptoSwift.CS.BigUInt.Word, shiftedBy shift: Swift.Int = 0)
+  public func multiplied(by y: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt
+  public static var directMultiplicationLimit: Swift.Int
+  public static func * (x: CryptoSwift.CS.BigUInt, y: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt
+  public static func *= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
+}
+extension CryptoSwift.CS.BigInt {
+  public static func * (a: CryptoSwift.CS.BigInt, b: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
+  public static func *= (a: inout CryptoSwift.CS.BigInt, b: CryptoSwift.CS.BigInt)
+}
+public struct CFB : CryptoSwift.BlockMode {
+  public enum Error : Swift.Error {
+    case invalidInitializationVector
+    public static func == (a: CryptoSwift.CFB.Error, b: CryptoSwift.CFB.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum SegmentSize : Swift.Int {
+    case cfb8
+    case cfb128
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public let options: CryptoSwift.BlockModeOption
+  public let customBlockSize: Swift.Int?
+  public init(iv: Swift.Array<Swift.UInt8>, segmentSize: CryptoSwift.CFB.SegmentSize = .cfb128)
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping CryptoSwift.CipherOperationOnBlock, encryptionOperation: @escaping CryptoSwift.CipherOperationOnBlock) throws -> any CryptoSwift.CipherModeWorker
+}
+extension CryptoSwift.CS.BigUInt {
+  public subscript(bitAt index: Swift.Int) -> Swift.Bool {
+    get
+    set
+  }
+}
+extension CryptoSwift.CS.BigUInt {
+  public var bitWidth: Swift.Int {
+    get
+  }
+  public var leadingZeroBitCount: Swift.Int {
+    get
+  }
+  public var trailingZeroBitCount: Swift.Int {
+    get
+  }
+}
+extension CryptoSwift.CS.BigInt {
+  public var bitWidth: Swift.Int {
+    get
+  }
+  public var trailingZeroBitCount: Swift.Int {
+    get
+  }
+}
+extension CryptoSwift.CS.BigUInt {
+  public struct Words : Swift.RandomAccessCollection {
+    public var startIndex: Swift.Int {
+      get
+    }
+    public var endIndex: Swift.Int {
+      get
+    }
+    public subscript(index: Swift.Int) -> CryptoSwift.CS.BigUInt.Word {
+      get
+    }
+    public typealias Element = CryptoSwift.CS.BigUInt.Word
+    public typealias Index = Swift.Int
+    public typealias Indices = Swift.Range<Swift.Int>
+    public typealias Iterator = Swift.IndexingIterator<CryptoSwift.CS.BigUInt.Words>
+    public typealias SubSequence = Swift.Slice<CryptoSwift.CS.BigUInt.Words>
+  }
+  public var words: CryptoSwift.CS.BigUInt.Words {
+    get
+  }
+  public init<Words>(words: Words) where Words : Swift.Sequence, Words.Element == Swift.UInt
+}
+extension CryptoSwift.CS.BigInt {
+  public struct Words : Swift.RandomAccessCollection {
+    public typealias Indices = Swift.CountableRange<Swift.Int>
+    public var count: Swift.Int {
+      get
+    }
+    public var indices: CryptoSwift.CS.BigInt.Words.Indices {
+      get
+    }
+    public var startIndex: Swift.Int {
+      get
+    }
+    public var endIndex: Swift.Int {
+      get
+    }
+    public subscript(index: Swift.Int) -> Swift.UInt {
+      get
+    }
+    public typealias Element = Swift.UInt
+    public typealias Index = Swift.Int
+    public typealias Iterator = Swift.IndexingIterator<CryptoSwift.CS.BigInt.Words>
+    public typealias SubSequence = Swift.Slice<CryptoSwift.CS.BigInt.Words>
+  }
+  public var words: CryptoSwift.CS.BigInt.Words {
+    get
+  }
+  public init<S>(words: S) where S : Swift.Sequence, S.Element == Swift.UInt
+}
+extension Swift.Collection where Self.Element == Swift.UInt8, Self.Index == Swift.Int {
+  @inlinable internal func toUInt32Array() -> Swift.Array<Swift.UInt32> {
+    guard !isEmpty else {
+      return []
+    }
+
+    let c = strideCount(from: startIndex, to: endIndex, by: 4)
+    return Array<UInt32>(unsafeUninitializedCapacity: c) { buf, count in
+      var counter = 0
+      for idx in stride(from: startIndex, to: endIndex, by: 4) {
+        let val = UInt32(bytes: self, fromIndex: idx).bigEndian
+        buf[counter] = val
+        counter += 1
+      }
+      count = counter
+      assert(counter == c)
+    }
+  }
+  @inlinable internal func toUInt64Array() -> Swift.Array<Swift.UInt64> {
+    guard !isEmpty else {
+      return []
+    }
+
+    let c = strideCount(from: startIndex, to: endIndex, by: 8)
+    return Array<UInt64>(unsafeUninitializedCapacity: c) { buf, count in
+      var counter = 0
+      for idx in stride(from: startIndex, to: endIndex, by: 8) {
+        let val = UInt64(bytes: self, fromIndex: idx).bigEndian
+        buf[counter] = val
+        counter += 1
+      }
+      count = counter
+      assert(counter == c)
+    }
+  }
+}
+@usableFromInline
+internal func strideCount(from: Swift.Int, to: Swift.Int, by: Swift.Int) -> Swift.Int
 public class CMAC : CryptoSwift.Authenticator {
   public enum Error : Swift.Error {
     case wrongKeyLength
@@ -230,14 +262,6 @@ public class CMAC : CryptoSwift.Authenticator {
   public func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
   public func authenticate(_ bytes: Swift.Array<Swift.UInt8>, cipher: any CryptoSwift.Cipher) throws -> Swift.Array<Swift.UInt8>
   @objc deinit
-}
-extension CryptoSwift.CS.BigUInt {
-  public func isStrongProbablePrime(_ base: CryptoSwift.CS.BigUInt) -> Swift.Bool
-  public func isPrime(rounds: Swift.Int = 10) -> Swift.Bool
-}
-extension CryptoSwift.CS.BigInt {
-  public func isStrongProbablePrime(_ base: CryptoSwift.CS.BigInt) -> Swift.Bool
-  public func isPrime(rounds: Swift.Int = 10) -> Swift.Bool
 }
 final public class GCM : CryptoSwift.BlockMode {
   public enum Mode {
@@ -381,6 +405,16 @@ extension CryptoSwift.CS.BigInt : Swift.Codable {
 extension CryptoSwift.CS.BigUInt : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+extension CryptoSwift.CS.BigUInt {
+  public init(_ buffer: Swift.UnsafeRawBufferPointer)
+  public init(_ data: Foundation.Data)
+  public func serialize() -> Foundation.Data
+}
+extension CryptoSwift.CS.BigInt {
+  public init(_ buffer: Swift.UnsafeRawBufferPointer)
+  public init(_ data: Foundation.Data)
+  public func serialize() -> Foundation.Data
 }
 public enum CipherError : Swift.Error {
   case encrypt
@@ -830,6 +864,21 @@ extension CryptoSwift.PKCS5 {
     public func callAsFunction() -> Swift.Array<Swift.UInt8>
   }
 }
+extension CryptoSwift.CS.BigUInt {
+  prefix public static func ~ (a: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt
+  public static func |= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
+  public static func &= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
+  public static func ^= (a: inout CryptoSwift.CS.BigUInt, b: CryptoSwift.CS.BigUInt)
+}
+extension CryptoSwift.CS.BigInt {
+  prefix public static func ~ (x: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
+  public static func & (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
+  public static func | (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
+  public static func ^ (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt) -> CryptoSwift.CS.BigInt
+  public static func &= (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt)
+  public static func |= (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt)
+  public static func ^= (lhs: inout CryptoSwift.CS.BigInt, rhs: CryptoSwift.CS.BigInt)
+}
 extension Swift.UInt32 {
   @_specialize(exported: false, kind: full, where T == Swift.ArraySlice<Swift.UInt8>)
   @inlinable internal init<T>(bytes: T, fromIndex index: T.Index) where T : Swift.Collection, T.Element == Swift.UInt8, T.Index == Swift.Int {
@@ -865,6 +914,12 @@ public protocol Cryptors : AnyObject {
 }
 extension CryptoSwift.Cryptors {
   public static func randomIV(_ count: Swift.Int) -> Swift.Array<Swift.UInt8>
+}
+extension CryptoSwift.CS.BigUInt {
+  public func squareRoot() -> CryptoSwift.CS.BigUInt
+}
+extension CryptoSwift.CS.BigInt {
+  public func squareRoot() -> CryptoSwift.CS.BigInt
 }
 public struct ECB : CryptoSwift.BlockMode {
   public let options: CryptoSwift.BlockModeOption
@@ -980,16 +1035,6 @@ extension Swift.UInt64 {
     self = val0 | val1 | val2 | val3 | val4 | val5 | val6 | val7
   }
 }
-extension CryptoSwift.CS.BigUInt {
-  public init(_ buffer: Swift.UnsafeRawBufferPointer)
-  public init(_ data: Foundation.Data)
-  public func serialize() -> Foundation.Data
-}
-extension CryptoSwift.CS.BigInt {
-  public init(_ buffer: Swift.UnsafeRawBufferPointer)
-  public init(_ data: Foundation.Data)
-  public func serialize() -> Foundation.Data
-}
 public enum SignatureError : Swift.Error {
   case sign
   case verify
@@ -1095,6 +1140,28 @@ extension CryptoSwift.Bit {
   @inlinable internal func inverted() -> CryptoSwift.Bit {
     self == .zero ? .one : .zero
   }
+}
+extension CryptoSwift.CS.BigUInt {
+  public init?<T>(exactly source: T) where T : Swift.BinaryInteger
+  public init<T>(_ source: T) where T : Swift.BinaryInteger
+  public init<T>(truncatingIfNeeded source: T) where T : Swift.BinaryInteger
+  public init<T>(clamping source: T) where T : Swift.BinaryInteger
+}
+extension CryptoSwift.CS.BigInt {
+  public init()
+  public init(_ integer: CryptoSwift.CS.BigUInt)
+  public init<T>(_ source: T) where T : Swift.BinaryInteger
+  public init?<T>(exactly source: T) where T : Swift.BinaryInteger
+  public init<T>(clamping source: T) where T : Swift.BinaryInteger
+  public init<T>(truncatingIfNeeded source: T) where T : Swift.BinaryInteger
+}
+extension CryptoSwift.CS.BigUInt : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.UInt64)
+  public typealias IntegerLiteralType = Swift.UInt64
+}
+extension CryptoSwift.CS.BigInt : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.Int64)
+  public typealias IntegerLiteralType = Swift.Int64
 }
 extension CryptoSwift.ChaCha20 {
   convenience public init(key: Swift.String, iv: Swift.String) throws
@@ -1565,6 +1632,18 @@ extension Foundation.Data {
   }
   public func toHexString() -> Swift.String
 }
+extension CryptoSwift.CS.BigUInt {
+  public init?<T>(exactly source: T) where T : Swift.BinaryFloatingPoint
+  public init<T>(_ source: T) where T : Swift.BinaryFloatingPoint
+}
+extension CryptoSwift.CS.BigInt {
+  public init?<T>(exactly source: T) where T : Swift.BinaryFloatingPoint
+  public init<T>(_ source: T) where T : Swift.BinaryFloatingPoint
+}
+extension Swift.BinaryFloatingPoint where Self.RawExponent : Swift.FixedWidthInteger, Self.RawSignificand : Swift.FixedWidthInteger {
+  public init(_ value: CryptoSwift.CS.BigInt)
+  public init(_ value: CryptoSwift.CS.BigUInt)
+}
 public protocol _UInt8Type {
 }
 extension Swift.UInt8 : CryptoSwift._UInt8Type {
@@ -1703,81 +1782,6 @@ extension CryptoSwift.CS {
     }
     public func signum() -> CryptoSwift.CS.BigInt
   }
-}
-extension CryptoSwift.CS.BigUInt {
-  public subscript(bitAt index: Swift.Int) -> Swift.Bool {
-    get
-    set
-  }
-}
-extension CryptoSwift.CS.BigUInt {
-  public var bitWidth: Swift.Int {
-    get
-  }
-  public var leadingZeroBitCount: Swift.Int {
-    get
-  }
-  public var trailingZeroBitCount: Swift.Int {
-    get
-  }
-}
-extension CryptoSwift.CS.BigInt {
-  public var bitWidth: Swift.Int {
-    get
-  }
-  public var trailingZeroBitCount: Swift.Int {
-    get
-  }
-}
-extension CryptoSwift.CS.BigUInt {
-  public struct Words : Swift.RandomAccessCollection {
-    public var startIndex: Swift.Int {
-      get
-    }
-    public var endIndex: Swift.Int {
-      get
-    }
-    public subscript(index: Swift.Int) -> CryptoSwift.CS.BigUInt.Word {
-      get
-    }
-    public typealias Element = CryptoSwift.CS.BigUInt.Word
-    public typealias Index = Swift.Int
-    public typealias Indices = Swift.Range<Swift.Int>
-    public typealias Iterator = Swift.IndexingIterator<CryptoSwift.CS.BigUInt.Words>
-    public typealias SubSequence = Swift.Slice<CryptoSwift.CS.BigUInt.Words>
-  }
-  public var words: CryptoSwift.CS.BigUInt.Words {
-    get
-  }
-  public init<Words>(words: Words) where Words : Swift.Sequence, Words.Element == Swift.UInt
-}
-extension CryptoSwift.CS.BigInt {
-  public struct Words : Swift.RandomAccessCollection {
-    public typealias Indices = Swift.CountableRange<Swift.Int>
-    public var count: Swift.Int {
-      get
-    }
-    public var indices: CryptoSwift.CS.BigInt.Words.Indices {
-      get
-    }
-    public var startIndex: Swift.Int {
-      get
-    }
-    public var endIndex: Swift.Int {
-      get
-    }
-    public subscript(index: Swift.Int) -> Swift.UInt {
-      get
-    }
-    public typealias Element = Swift.UInt
-    public typealias Index = Swift.Int
-    public typealias Iterator = Swift.IndexingIterator<CryptoSwift.CS.BigInt.Words>
-    public typealias SubSequence = Swift.Slice<CryptoSwift.CS.BigInt.Words>
-  }
-  public var words: CryptoSwift.CS.BigInt.Words {
-    get
-  }
-  public init<S>(words: S) where S : Swift.Sequence, S.Element == Swift.UInt
 }
 extension CryptoSwift.AES : CryptoSwift.Cryptors {
   @inlinable final public func makeEncryptor() throws -> any CryptoSwift.Cryptor & CryptoSwift.Updatable {
@@ -1971,6 +1975,14 @@ extension CryptoSwift.PKCS5 {
     public func calculate() throws -> Swift.Array<Swift.UInt8>
     public func callAsFunction() throws -> Swift.Array<Swift.UInt8>
   }
+}
+extension CryptoSwift.CS.BigUInt {
+  public func isStrongProbablePrime(_ base: CryptoSwift.CS.BigUInt) -> Swift.Bool
+  public func isPrime(rounds: Swift.Int = 10) -> Swift.Bool
+}
+extension CryptoSwift.CS.BigInt {
+  public func isStrongProbablePrime(_ base: CryptoSwift.CS.BigInt) -> Swift.Bool
+  public func isPrime(rounds: Swift.Int = 10) -> Swift.Bool
 }
 public protocol Authenticator {
   func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
@@ -2220,18 +2232,6 @@ extension CryptoSwift.SHA3 : CryptoSwift.Updatable {
 
     return Array(result[0..<self.digestLength])
   }
-}
-extension CryptoSwift.CS.BigUInt {
-  public init?<T>(exactly source: T) where T : Swift.BinaryFloatingPoint
-  public init<T>(_ source: T) where T : Swift.BinaryFloatingPoint
-}
-extension CryptoSwift.CS.BigInt {
-  public init?<T>(exactly source: T) where T : Swift.BinaryFloatingPoint
-  public init<T>(_ source: T) where T : Swift.BinaryFloatingPoint
-}
-extension Swift.BinaryFloatingPoint where Self.RawExponent : Swift.FixedWidthInteger, Self.RawSignificand : Swift.FixedWidthInteger {
-  public init(_ value: CryptoSwift.CS.BigInt)
-  public init(_ value: CryptoSwift.CS.BigUInt)
 }
 extension CryptoSwift.CS.BigUInt {
   public func greatestCommonDivisor(with b: CryptoSwift.CS.BigUInt) -> CryptoSwift.CS.BigUInt

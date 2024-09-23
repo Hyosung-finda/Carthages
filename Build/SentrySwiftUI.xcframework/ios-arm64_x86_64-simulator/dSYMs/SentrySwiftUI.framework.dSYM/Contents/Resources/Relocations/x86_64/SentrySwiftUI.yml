@@ -1,40 +1,40 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/h/Library/Caches/org.carthage.CarthageKit/DerivedData/15.2_15C500b/sentry-cocoa/8.31.0/Build/Products/Release-iphonesimulator/SentrySwiftUI.framework/SentrySwiftUI'
+binary-path:     '/Users/mincheol/Library/Caches/org.carthage.CarthageKit/DerivedData/15.0_15A240d/sentry-cocoa/8.31.0/Build/Products/Release-iphonesimulator/SentrySwiftUI.framework/SentrySwiftUI'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x59EF0, size: 0x8, addend: 0x0, symName: _SentrySwiftUIVersionString, symObjAddr: 0x0, symBinAddr: 0x3950, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x59F25, size: 0x8, addend: 0x0, symName: _SentrySwiftUIVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3980, symSize: 0x0 }
-  - { offsetInCU: 0xBB, offset: 0x59FF6, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV_7contentACyxGSSSg_xyctcfC', symObjAddr: 0xE0, symBinAddr: 0x1520, symSize: 0x230 }
-  - { offsetInCU: 0x19F, offset: 0x5A0DA, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV4bodyQrvg', symObjAddr: 0x430, symBinAddr: 0x1870, symSize: 0x6F0 }
-  - { offsetInCU: 0x302, offset: 0x5A23D, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP4body4BodyQzvgTW', symObjAddr: 0xE60, symBinAddr: 0x22A0, symSize: 0x10 }
-  - { offsetInCU: 0x345, offset: 0x5A280, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x310, symBinAddr: 0x1750, symSize: 0x30 }
-  - { offsetInCU: 0x3D2, offset: 0x5A30D, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0xB20, symBinAddr: 0x1F60, symSize: 0x30 }
-  - { offsetInCU: 0x3E6, offset: 0x5A321, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV4bodyQrvgyyScMYccfU_TA', symObjAddr: 0xB80, symBinAddr: 0x1FC0, symSize: 0x90 }
-  - { offsetInCU: 0x40F, offset: 0x5A34A, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0xC10, symBinAddr: 0x2050, symSize: 0x30 }
-  - { offsetInCU: 0x427, offset: 0x5A362, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xC40, symBinAddr: 0x2080, symSize: 0x20 }
-  - { offsetInCU: 0x43B, offset: 0x5A376, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xC60, symBinAddr: 0x20A0, symSize: 0x10 }
-  - { offsetInCU: 0x44F, offset: 0x5A38A, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0xC70, symBinAddr: 0x20B0, symSize: 0x40 }
-  - { offsetInCU: 0x463, offset: 0x5A39E, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGMa', symObjAddr: 0xCE0, symBinAddr: 0x2120, symSize: 0x50 }
-  - { offsetInCU: 0x491, offset: 0x5A3CC, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV4bodyQrvgyycfU0_TA', symObjAddr: 0xD70, symBinAddr: 0x21B0, symSize: 0x50 }
-  - { offsetInCU: 0x4EB, offset: 0x5A426, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0RzlWOr', symObjAddr: 0xDC0, symBinAddr: 0x2200, symSize: 0x50 }
-  - { offsetInCU: 0x4FF, offset: 0x5A43A, size: 0x8, addend: 0x0, symName: '_$sSSWOr', symObjAddr: 0xE10, symBinAddr: 0x2250, symSize: 0x20 }
-  - { offsetInCU: 0x513, offset: 0x5A44E, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4ViewP06SentryaB0E11sentryTraceyQrSSSgF', symObjAddr: 0xE70, symBinAddr: 0x22B0, symSize: 0xD0 }
-  - { offsetInCU: 0x584, offset: 0x5A4BF, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4ViewP06SentryaB0E11sentryTraceyQrSSSgFxycfU_TA', symObjAddr: 0xF80, symBinAddr: 0x23C0, symSize: 0x30 }
-  - { offsetInCU: 0x5BF, offset: 0x5A4FA, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AA4BodyAeFP_AHWT', symObjAddr: 0xFB0, symBinAddr: 0x23F0, symSize: 0x30 }
-  - { offsetInCU: 0x5D3, offset: 0x5A50E, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVMi', symObjAddr: 0xFE0, symBinAddr: 0x2420, symSize: 0x10 }
-  - { offsetInCU: 0x5E7, offset: 0x5A522, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwCP', symObjAddr: 0xFF0, symBinAddr: 0x2430, symSize: 0x30 }
-  - { offsetInCU: 0x5FB, offset: 0x5A536, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwxx', symObjAddr: 0x1020, symBinAddr: 0x2460, symSize: 0x40 }
-  - { offsetInCU: 0x60F, offset: 0x5A54A, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwcp', symObjAddr: 0x1060, symBinAddr: 0x24A0, symSize: 0x80 }
-  - { offsetInCU: 0x623, offset: 0x5A55E, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwca', symObjAddr: 0x10E0, symBinAddr: 0x2520, symSize: 0xB0 }
-  - { offsetInCU: 0x637, offset: 0x5A572, size: 0x8, addend: 0x0, symName: ___swift_memcpy72_8, symObjAddr: 0x1190, symBinAddr: 0x25D0, symSize: 0x30 }
-  - { offsetInCU: 0x64B, offset: 0x5A586, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwta', symObjAddr: 0x11C0, symBinAddr: 0x2600, symSize: 0x80 }
-  - { offsetInCU: 0x65F, offset: 0x5A59A, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwet', symObjAddr: 0x1240, symBinAddr: 0x2680, symSize: 0x40 }
-  - { offsetInCU: 0x673, offset: 0x5A5AE, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwst', symObjAddr: 0x1280, symBinAddr: 0x26C0, symSize: 0x50 }
-  - { offsetInCU: 0x687, offset: 0x5A5C2, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVMa', symObjAddr: 0x12D0, symBinAddr: 0x2710, symSize: 0x10 }
-  - { offsetInCU: 0x69B, offset: 0x5A5D6, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1360, symBinAddr: 0x27A0, symSize: 0x30 }
-  - { offsetInCU: 0x6AF, offset: 0x5A5EA, size: 0x8, addend: 0x0, symName: ___swift_instantiateGenericMetadata, symObjAddr: 0x1390, symBinAddr: 0x27D0, symSize: 0x26 }
-  - { offsetInCU: 0x70A, offset: 0x5A645, size: 0x8, addend: 0x0, symName: '_$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSS_Tg5', symObjAddr: 0x340, symBinAddr: 0x1780, symSize: 0xF0 }
-  - { offsetInCU: 0x8DC, offset: 0x5A817, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP05_makeE04view6inputsAE01_E7OutputsVAE11_GraphValueVyxG_AE01_E6InputsVtFZTW', symObjAddr: 0xE30, symBinAddr: 0x2270, symSize: 0x10 }
-  - { offsetInCU: 0x8F8, offset: 0x5A833, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP05_makeE4List4view6inputsAE01_eG7OutputsVAE11_GraphValueVyxG_AE01_eG6InputsVtFZTW', symObjAddr: 0xE40, symBinAddr: 0x2280, symSize: 0x10 }
-  - { offsetInCU: 0x914, offset: 0x5A84F, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP14_viewListCount6inputsSiSgAE01_egH6InputsV_tFZTW', symObjAddr: 0xE50, symBinAddr: 0x2290, symSize: 0x10 }
+  - { offsetInCU: 0x34, offset: 0x59E95, size: 0x8, addend: 0x0, symName: _SentrySwiftUIVersionString, symObjAddr: 0x0, symBinAddr: 0x3950, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x59ECA, size: 0x8, addend: 0x0, symName: _SentrySwiftUIVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3980, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x59F9B, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV_7contentACyxGSSSg_xyctcfC', symObjAddr: 0xE0, symBinAddr: 0x1510, symSize: 0x230 }
+  - { offsetInCU: 0x19F, offset: 0x5A07F, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV4bodyQrvg', symObjAddr: 0x430, symBinAddr: 0x1860, symSize: 0x6F0 }
+  - { offsetInCU: 0x302, offset: 0x5A1E2, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP4body4BodyQzvgTW', symObjAddr: 0xE60, symBinAddr: 0x2290, symSize: 0x10 }
+  - { offsetInCU: 0x345, offset: 0x5A225, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x310, symBinAddr: 0x1740, symSize: 0x30 }
+  - { offsetInCU: 0x3D2, offset: 0x5A2B2, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0xB20, symBinAddr: 0x1F50, symSize: 0x30 }
+  - { offsetInCU: 0x3E6, offset: 0x5A2C6, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV4bodyQrvgyyScMYccfU_TA', symObjAddr: 0xB80, symBinAddr: 0x1FB0, symSize: 0x90 }
+  - { offsetInCU: 0x40F, offset: 0x5A2EF, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0xC10, symBinAddr: 0x2040, symSize: 0x30 }
+  - { offsetInCU: 0x427, offset: 0x5A307, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xC40, symBinAddr: 0x2070, symSize: 0x20 }
+  - { offsetInCU: 0x43B, offset: 0x5A31B, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xC60, symBinAddr: 0x2090, symSize: 0x10 }
+  - { offsetInCU: 0x44F, offset: 0x5A32F, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0xC70, symBinAddr: 0x20A0, symSize: 0x40 }
+  - { offsetInCU: 0x463, offset: 0x5A343, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGMa', symObjAddr: 0xCE0, symBinAddr: 0x2110, symSize: 0x50 }
+  - { offsetInCU: 0x491, offset: 0x5A371, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewV4bodyQrvgyycfU0_TA', symObjAddr: 0xD70, symBinAddr: 0x21A0, symSize: 0x50 }
+  - { offsetInCU: 0x4EB, offset: 0x5A3CB, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0RzlWOr', symObjAddr: 0xDC0, symBinAddr: 0x21F0, symSize: 0x50 }
+  - { offsetInCU: 0x4FF, offset: 0x5A3DF, size: 0x8, addend: 0x0, symName: '_$sSSWOr', symObjAddr: 0xE10, symBinAddr: 0x2240, symSize: 0x20 }
+  - { offsetInCU: 0x513, offset: 0x5A3F3, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4ViewP06SentryaB0E11sentryTraceyQrSSSgF', symObjAddr: 0xE70, symBinAddr: 0x22A0, symSize: 0xD0 }
+  - { offsetInCU: 0x584, offset: 0x5A464, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4ViewP06SentryaB0E11sentryTraceyQrSSSgFxycfU_TA', symObjAddr: 0xF80, symBinAddr: 0x23B0, symSize: 0x30 }
+  - { offsetInCU: 0x5BF, offset: 0x5A49F, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AA4BodyAeFP_AHWT', symObjAddr: 0xFB0, symBinAddr: 0x23E0, symSize: 0x30 }
+  - { offsetInCU: 0x5D3, offset: 0x5A4B3, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVMi', symObjAddr: 0xFE0, symBinAddr: 0x2410, symSize: 0x10 }
+  - { offsetInCU: 0x5E7, offset: 0x5A4C7, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwCP', symObjAddr: 0xFF0, symBinAddr: 0x2420, symSize: 0x30 }
+  - { offsetInCU: 0x5FB, offset: 0x5A4DB, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwxx', symObjAddr: 0x1020, symBinAddr: 0x2450, symSize: 0x40 }
+  - { offsetInCU: 0x60F, offset: 0x5A4EF, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwcp', symObjAddr: 0x1060, symBinAddr: 0x2490, symSize: 0x80 }
+  - { offsetInCU: 0x623, offset: 0x5A503, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwca', symObjAddr: 0x10E0, symBinAddr: 0x2510, symSize: 0xB0 }
+  - { offsetInCU: 0x637, offset: 0x5A517, size: 0x8, addend: 0x0, symName: ___swift_memcpy72_8, symObjAddr: 0x1190, symBinAddr: 0x25C0, symSize: 0x30 }
+  - { offsetInCU: 0x64B, offset: 0x5A52B, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwta', symObjAddr: 0x11C0, symBinAddr: 0x25F0, symSize: 0x80 }
+  - { offsetInCU: 0x65F, offset: 0x5A53F, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwet', symObjAddr: 0x1240, symBinAddr: 0x2670, symSize: 0x40 }
+  - { offsetInCU: 0x673, offset: 0x5A553, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVwst', symObjAddr: 0x1280, symBinAddr: 0x26B0, symSize: 0x50 }
+  - { offsetInCU: 0x687, offset: 0x5A567, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVMa', symObjAddr: 0x12D0, symBinAddr: 0x2700, symSize: 0x10 }
+  - { offsetInCU: 0x69B, offset: 0x5A57B, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1360, symBinAddr: 0x2790, symSize: 0x30 }
+  - { offsetInCU: 0x6AF, offset: 0x5A58F, size: 0x8, addend: 0x0, symName: ___swift_instantiateGenericMetadata, symObjAddr: 0x1390, symBinAddr: 0x27C0, symSize: 0x26 }
+  - { offsetInCU: 0x70A, offset: 0x5A5EA, size: 0x8, addend: 0x0, symName: '_$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSS_Tg5', symObjAddr: 0x340, symBinAddr: 0x1770, symSize: 0xF0 }
+  - { offsetInCU: 0x8DC, offset: 0x5A7BC, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP05_makeE04view6inputsAE01_E7OutputsVAE11_GraphValueVyxG_AE01_E6InputsVtFZTW', symObjAddr: 0xE30, symBinAddr: 0x2260, symSize: 0x10 }
+  - { offsetInCU: 0x8F8, offset: 0x5A7D8, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP05_makeE4List4view6inputsAE01_eG7OutputsVAE11_GraphValueVyxG_AE01_eG6InputsVtFZTW', symObjAddr: 0xE40, symBinAddr: 0x2270, symSize: 0x10 }
+  - { offsetInCU: 0x914, offset: 0x5A7F4, size: 0x8, addend: 0x0, symName: '_$s13SentrySwiftUI0A10TracedViewVyxG0bC00E0AaeFP14_viewListCount6inputsSiSgAE01_egH6InputsV_tFZTW', symObjAddr: 0xE50, symBinAddr: 0x2280, symSize: 0x10 }
 ...

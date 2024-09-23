@@ -1,23 +1,23 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/h/Library/Caches/org.carthage.CarthageKit/DerivedData/15.2_15C500b/SDWebImage/5.19.1/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImageMapKit/BuildProductsPath/Release-iphoneos/SDWebImageMapKit.framework/SDWebImageMapKit'
+binary-path:     '/Users/mincheol/Library/Caches/org.carthage.CarthageKit/DerivedData/15.0_15A240d/SDWebImage/5.19.1/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImageMapKit/BuildProductsPath/Release-iphoneos/SDWebImageMapKit.framework/SDWebImageMapKit'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x58E9C, size: 0x8, addend: 0x0, symName: _SDWebImageMapKitVersionString, symObjAddr: 0x0, symBinAddr: 0x4430, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x58ED1, size: 0x8, addend: 0x0, symName: _SDWebImageMapKitVersionNumber, symObjAddr: 0x38, symBinAddr: 0x4468, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x58F0E, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
-  - { offsetInCU: 0x43, offset: 0x58F2A, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
-  - { offsetInCU: 0x82, offset: 0x58F69, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:]', symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0xC }
-  - { offsetInCU: 0xCF, offset: 0x58FB6, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:]', symObjAddr: 0x1C, symBinAddr: 0x401C, symSize: 0xC }
-  - { offsetInCU: 0x12A, offset: 0x59011, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:]', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0xC }
-  - { offsetInCU: 0x193, offset: 0x5907A, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:completed:]', symObjAddr: 0x34, symBinAddr: 0x4034, symSize: 0x10 }
-  - { offsetInCU: 0x1E2, offset: 0x590C9, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:completed:]', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0xC }
-  - { offsetInCU: 0x23F, offset: 0x59126, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:completed:]', symObjAddr: 0x50, symBinAddr: 0x4050, symSize: 0xC }
-  - { offsetInCU: 0x2AA, offset: 0x59191, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:progress:completed:]', symObjAddr: 0x5C, symBinAddr: 0x405C, symSize: 0x10 }
-  - { offsetInCU: 0x325, offset: 0x5920C, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]', symObjAddr: 0x6C, symBinAddr: 0x406C, symSize: 0x1A0 }
-  - { offsetInCU: 0x3C8, offset: 0x592AF, size: 0x8, addend: 0x0, symName: '___101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke', symObjAddr: 0x20C, symBinAddr: 0x420C, symSize: 0x48 }
-  - { offsetInCU: 0x437, offset: 0x5931E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x254, symBinAddr: 0x4254, symSize: 0xC }
-  - { offsetInCU: 0x460, offset: 0x59347, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x260, symBinAddr: 0x4260, symSize: 0x8 }
-  - { offsetInCU: 0x47F, offset: 0x59366, size: 0x8, addend: 0x0, symName: '___101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke.1', symObjAddr: 0x268, symBinAddr: 0x4268, symSize: 0x20 }
-  - { offsetInCU: 0x51A, offset: 0x59401, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x288, symBinAddr: 0x4288, symSize: 0x10 }
-  - { offsetInCU: 0x543, offset: 0x5942A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x298, symBinAddr: 0x4298, symSize: 0x8 }
+  - { offsetInCU: 0x34, offset: 0x58E3B, size: 0x8, addend: 0x0, symName: _SDWebImageMapKitVersionString, symObjAddr: 0x0, symBinAddr: 0x4430, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x58E70, size: 0x8, addend: 0x0, symName: _SDWebImageMapKitVersionNumber, symObjAddr: 0x38, symBinAddr: 0x4468, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x58EAD, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offsetInCU: 0x43, offset: 0x58EC9, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offsetInCU: 0x82, offset: 0x58F08, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:]', symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0xC }
+  - { offsetInCU: 0xCF, offset: 0x58F55, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:]', symObjAddr: 0x1C, symBinAddr: 0x401C, symSize: 0xC }
+  - { offsetInCU: 0x12A, offset: 0x58FB0, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:]', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0xC }
+  - { offsetInCU: 0x193, offset: 0x59019, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:completed:]', symObjAddr: 0x34, symBinAddr: 0x4034, symSize: 0x10 }
+  - { offsetInCU: 0x1E2, offset: 0x59068, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:completed:]', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0xC }
+  - { offsetInCU: 0x23F, offset: 0x590C5, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:completed:]', symObjAddr: 0x50, symBinAddr: 0x4050, symSize: 0xC }
+  - { offsetInCU: 0x2AA, offset: 0x59130, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:progress:completed:]', symObjAddr: 0x5C, symBinAddr: 0x405C, symSize: 0x10 }
+  - { offsetInCU: 0x325, offset: 0x591AB, size: 0x8, addend: 0x0, symName: '-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]', symObjAddr: 0x6C, symBinAddr: 0x406C, symSize: 0x1A0 }
+  - { offsetInCU: 0x3C8, offset: 0x5924E, size: 0x8, addend: 0x0, symName: '___101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke', symObjAddr: 0x20C, symBinAddr: 0x420C, symSize: 0x48 }
+  - { offsetInCU: 0x437, offset: 0x592BD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x254, symBinAddr: 0x4254, symSize: 0xC }
+  - { offsetInCU: 0x460, offset: 0x592E6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x260, symBinAddr: 0x4260, symSize: 0x8 }
+  - { offsetInCU: 0x47F, offset: 0x59305, size: 0x8, addend: 0x0, symName: '___101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke.1', symObjAddr: 0x268, symBinAddr: 0x4268, symSize: 0x20 }
+  - { offsetInCU: 0x51A, offset: 0x593A0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x288, symBinAddr: 0x4288, symSize: 0x10 }
+  - { offsetInCU: 0x543, offset: 0x593C9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x298, symBinAddr: 0x4298, symSize: 0x8 }
 ...
