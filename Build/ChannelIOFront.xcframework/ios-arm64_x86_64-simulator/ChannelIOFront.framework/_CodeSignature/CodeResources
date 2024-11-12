@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mlZ2NtV+fAEztouQJI3Tft+Tn/c=
+		cd4XEoLCjnEhhJ7Gl7dbvfxFEfQ=
 		</data>
 		<key>Headers/ChannelIOFront-Swift.h</key>
 		<data>
-		QzohESdOP+v0qsUb4p24cUCUhik=
+		4Z7FEgnNKtbF1a//2kQ3Qjo7Uzg=
 		</data>
 		<key>Headers/ChannelIOFront.h</key>
 		<data>
-		q1GeGuJP3CncoqcW2P+i4fndJT0=
+		wiLuHjv65eiZQhR0isvPwA4TX3g=
 		</data>
 		<key>Headers/_ChannelIO_JGProgressHUD-Defines.h</key>
 		<data>
@@ -220,6 +220,10 @@
 		<data>
 		HhjLDxp3kbCPMA+IfpERPb/l6QA=
 		</data>
+		<key>Headers/_ChannelIO_SDImageSVGCoder.h</key>
+		<data>
+		zkrckNVVjMV++TLV868xJEPBfb0=
+		</data>
 		<key>Headers/_ChannelIO_SDImageTransformer.h</key>
 		<data>
 		eW7uCJ6Lkqs2ykVE9no78OF2rNo=
@@ -303,6 +307,10 @@
 		<key>Headers/_ChannelIO_SDWebImagePrefetcher.h</key>
 		<data>
 		Ja4Hj9wYJD1rE2iRfPkcjPfi2Cs=
+		</data>
+		<key>Headers/_ChannelIO_SDWebImageSVGCoderDefine.h</key>
+		<data>
+		yii43XzNUGswjU8xmtjLKvB+LPw=
 		</data>
 		<key>Headers/_ChannelIO_SDWebImageTransition.h</key>
 		<data>
@@ -418,47 +426,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x7zubn3iy+Vuh+CQ0tKjOUnNiCo=
+		cPjRyBMUIDfw/8mOV4bE3d/yRRw=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		g00ubCS7jWJly21y8/XlOgkDDHg=
+		MdHJXtRTyHBNpDmci28IYj2RwSs=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bNdKeheU4Ogtfy0RMD/uBBgwNqw=
+		ofrsLESc4lV0fR4HxGWjfsm1OIc=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Ah9J2I4HTqnCETADsoR3DArVGwg=
+		3I1v3Ez8IBIlCVM5EL5afThCGM0=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bNdKeheU4Ogtfy0RMD/uBBgwNqw=
+		ofrsLESc4lV0fR4HxGWjfsm1OIc=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yPl9H+oElEsZhvCi5Ua2xb52ieA=
+		ltI+nkTk0jzFVQIEYFdIopPL210=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		g00ubCS7jWJly21y8/XlOgkDDHg=
+		MdHJXtRTyHBNpDmci28IYj2RwSs=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fwEPWIkwvYPMNbq3384iIucRmKc=
+		CZQNDmQvx4bYQ0gcNApjE0qRREs=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		uutnFrntMeJRryhk7WQfLkY72kw=
+		EnadVprpRPYCuAYaUFuVi42hSkY=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fwEPWIkwvYPMNbq3384iIucRmKc=
+		CZQNDmQvx4bYQ0gcNApjE0qRREs=
 		</data>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kxCmf0eydiwiNa1KZa/cLSwRLdI=
+		TiQoZJhzVRUs8wSgj1mByu/CHqM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -516,7 +524,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QytsGw0AnBZVBmDG5Vswtm18fZM=
+			QOgO2bDe3OqMtblyxImFJNZ+V8I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -529,7 +537,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V9bBnP7zLw+Y0kt2OlekGSwbBto=
+			6PERuKFes9AMGYmCYNLlFJBfHVk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -538,7 +546,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gmY+cQJYHsyUnmmEwexdzL1GDbw=
+			pZ1zrdl9c0BFp3BEsTeh65iEL+U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -570,21 +578,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R8Eb6wkgp8WgJKirJCktLW+wtug8Jht00hak01PS7Pc=
+			A+hGUVQdsL/INaBw4BSdgBqL+lceS2/gQifKMBoSHF0=
 			</data>
 		</dict>
 		<key>Headers/ChannelIOFront-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BpMbcAY6+OLu49PL7d3IRujfXm70tRvIH+RJpUDPKIY=
+			nzAz63MwhHMr6vwOeuqvFbL/3N6B3kM7VVsirpEJvgI=
 			</data>
 		</dict>
 		<key>Headers/ChannelIOFront.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuitWozehxv+JAv4XIAp0P34F9Y2178Cubd/0XwA7t0=
+			hqkUfgQspCMzIVg2vgJ1QB0Q0HteB8iAYT/pX9JZYUM=
 			</data>
 		</dict>
 		<key>Headers/_ChannelIO_JGProgressHUD-Defines.h</key>
@@ -944,6 +952,13 @@
 			wTq6tpZg8EyMB0jEWOmS9kIEFXq2QvfmoCRA2A0aCxU=
 			</data>
 		</dict>
+		<key>Headers/_ChannelIO_SDImageSVGCoder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g9r1BivMcXNupp+3kZfNXdO+A0I0DIluB76MNWzdyEg=
+			</data>
+		</dict>
 		<key>Headers/_ChannelIO_SDImageTransformer.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1089,6 +1104,13 @@
 			<key>hash2</key>
 			<data>
 			BTspt7i6hUmCgU+hR3ZR8pgDAR1+ooSGtXRQ+tY/4rc=
+			</data>
+		</dict>
+		<key>Headers/_ChannelIO_SDWebImageSVGCoderDefine.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			980cbX5no1KKqbiiiUKUFFF1VKqdTmPy77ZJdDOOy6k=
 			</data>
 		</dict>
 		<key>Headers/_ChannelIO_SDWebImageTransition.h</key>
@@ -1291,70 +1313,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AIkbM1AEUZx7VPv6Co9weUyxhlF1b0L1q/Q5fUL/2YQ=
+			f8zarmDj+0tIrvRd8HIW9GO2qoqkorMhwubGHYzVKzs=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NmbxodV/xrYnbKVKjh1mUUULUWAIQUDlzi5fxgqEkNs=
+			GLWj6REIop9MUIxOCsOzngW/joITth/DK+aCj8Zo7H8=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0RW3REGLjhhBSB4QnjgPJ2WVquGGXkT8IPtgYMRtHIo=
+			SuUBSmPt/wRcQ3EUh1OpTPDS5fXTneCai6UY8DtJsf0=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NmbxodV/xrYnbKVKjh1mUUULUWAIQUDlzi5fxgqEkNs=
+			GLWj6REIop9MUIxOCsOzngW/joITth/DK+aCj8Zo7H8=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y7pnKcV6TlAJlA21ulKtdip9k11L5aFqw8CmnrvTO/Q=
+			CAJI5oSx/1h2envb4+AHMXt3AAewzTiDaS/8vmQZyA4=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AIkbM1AEUZx7VPv6Co9weUyxhlF1b0L1q/Q5fUL/2YQ=
+			f8zarmDj+0tIrvRd8HIW9GO2qoqkorMhwubGHYzVKzs=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQgyTPX4saBNlnufdRiNRs/hSAvSIFlKUjFTMmcFns4=
+			VwMdZx+Vn03s5nfWsWinIzDFkoZwDHO6jtnIys8TQWA=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			21f3/+MeC9sSo8OoryjWf7kSDjsgyT8DzanzYG+QarY=
+			Uc2qX7ZMU+P9fs1E+yjq1thS4hMoZi4ucR8MjgJ00n0=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQgyTPX4saBNlnufdRiNRs/hSAvSIFlKUjFTMmcFns4=
+			VwMdZx+Vn03s5nfWsWinIzDFkoZwDHO6jtnIys8TQWA=
 			</data>
 		</dict>
 		<key>Modules/ChannelIOFront.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rdW3FMk7mxoPNUGpLPZcxVclg1NtRMmDVainCXTtcfo=
+			NIOTkcL10+JWtMTt1sx+xJncdyhJyvgtRPCS2OtgPVo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1452,7 +1474,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EUP/MhAurbUT1kLSFWVTPe3+cYBRJoSHE57b1WwQlSY=
+			Vsr4xEbz9YpIVRy5ZHRUnA0ydY4z+U9DlvO+JyFIDGw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1468,7 +1490,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wrqgahVCNSNclfg7siZ7TM1MyD+5+v4x6heXIk5C+Dw=
+			dbw42iza36EQynsswYdyL3EpazA9yfRUr6Cy/XBEvv8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1477,7 +1499,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yd6CRhQIk4uFMXofsRp/AQGFE3788+63wt1MN7s4oiM=
+			vMVszcVVPsd/UUUkiH7uSYAPmivj+GTVAk9/YG7U/ds=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DeepDiff",
+    "printedName": "DeepDiff",
     "children": [
       {
         "kind": "Import",
@@ -379,6 +379,22 @@
         "moduleName": "DeepDiff",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -464,6 +480,22 @@
         "moduleName": "DeepDiff",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -580,6 +612,22 @@
         "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -686,6 +734,22 @@
         "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -836,6 +900,22 @@
         "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -988,6 +1068,22 @@
         "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1577,6 +1673,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1671,7 +1783,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1852,6 +1980,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2156,6 +2300,22 @@
           "Final",
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2321,6 +2481,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2523,6 +2697,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -2576,10 +2757,25 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DiffAware",
@@ -2601,6 +2797,13 @@
             ],
             "usr": "s:8DeepDiff0B5AwareP",
             "mangledName": "$s8DeepDiff0B5AwareP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2961,13 +3164,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Comparable",
             "printedName": "Comparable",
             "usr": "s:SL",
@@ -3142,6 +3338,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3335,6 +3545,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3537,6 +3761,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : DeepDiff.DiffAware>",
             "sugared_genericSig": "<T where T : DeepDiff.DiffAware>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -3551,6 +3776,7 @@
         "intro_iOS": "6.0",
         "objc_name": "UICollectionView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -3567,6 +3793,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3693,6 +3933,7 @@
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<Element>",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -3703,6 +3944,20 @@
             "printedName": "_DestructorSafeContainer",
             "usr": "s:s24_DestructorSafeContainerP",
             "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4453,6 +4708,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : DeepDiff.DiffAware>",
             "sugared_genericSig": "<T where T : DeepDiff.DiffAware>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -4467,6 +4723,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UITableView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -4483,6 +4740,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4560,81 +4831,11 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1939,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "Dictionary",
-      "offset": 2163,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7760,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7834,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8176,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8263,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/Heckel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8403,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/iOS\/UICollectionView+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 572,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/MoveReducer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 340,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/MoveReducer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1395,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/DeepDiff.swift",
-      "kind": "Array",
-      "offset": 587,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
@@ -4651,95 +4852,11 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "Array",
-      "offset": 2075,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2098,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2314,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "Array",
-      "offset": 2564,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2600,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2632,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2903,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3167,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3222,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4154,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/Shared\/Algorithms\/WagnerFischer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4293,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/iOS\/UITableView+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 743,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mincheol\/finda-app-ios\/Carthage\/Checkouts\/DeepDiff\/Sources\/iOS\/UITableView+Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1901,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

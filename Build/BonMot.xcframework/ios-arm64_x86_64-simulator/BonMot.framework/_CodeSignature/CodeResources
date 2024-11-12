@@ -6,43 +6,43 @@
 	<dict>
 		<key>Headers/BonMot-Swift.h</key>
 		<data>
-		W62TuEKlX42z/2v4hvOka/Veiwc=
+		T2TPMbMfYPfTsalZcG8E1tk2nW8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FOl2NzUF4K7dXzM+aT/ZrVKUmlU=
+		mD49ygLrx0a//9jWVno0PZdwFcg=
 		</data>
 		<key>Modules/BonMot.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MWR1fjIGJRLSY54y0bet2H71gGk=
+		UIkKvAKasNCTHTffk+s01X4Cavc=
 		</data>
 		<key>Modules/BonMot.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		wtN2Vp+DEer+WdwGAMh52zHC7E8=
+		ChkkykHIpljP9UINRLksYLGGbus=
 		</data>
 		<key>Modules/BonMot.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 		</data>
 		<key>Modules/BonMot.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TGOkjU95FC66ylhd2bmcWbd01M4=
+		x4ib0prS2eTX91yGqU1uncNNJR8=
 		</data>
 		<key>Modules/BonMot.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hPfNQTeIUfr4qNT/Y2NIa1H2uB8=
+		jSvGWbmBjV9CFroNb/SMNFQym8w=
 		</data>
 		<key>Modules/BonMot.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 		</data>
 		<key>Modules/BonMot.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KiHfPsEfAijSpg8vRSjiC+ZNpOY=
+		sqdvcujzNLuZhGVYAhQ9Nld7xD4=
 		</data>
 		<key>Modules/BonMot.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kESa+h/TVCe7zFaWX3wNSaAPzw0=
+		2KP/aCIKGiIYMSjeQIZXPtNKBtQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,99 +55,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W62TuEKlX42z/2v4hvOka/Veiwc=
+			T2TPMbMfYPfTsalZcG8E1tk2nW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			x4bdeTfXAGU5G3WBVyyDXA9QK5IsNjVsKyl/N9C5xoA=
+			6XLwhEqDE+Ij8pTdAAe9sst3Uh+3nkD51snSVMoSNrs=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MWR1fjIGJRLSY54y0bet2H71gGk=
+			UIkKvAKasNCTHTffk+s01X4Cavc=
 			</data>
 			<key>hash2</key>
 			<data>
-			GxC1c73UC92mj4nql67VX51RZPwis6a1Oq0QGEbT7fw=
+			21gmpxD+8MH09EWrK56WAqtOlHUmrqYZNaZknA1neBA=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wtN2Vp+DEer+WdwGAMh52zHC7E8=
+			ChkkykHIpljP9UINRLksYLGGbus=
 			</data>
 			<key>hash2</key>
 			<data>
-			FVfzuY0if3GeUIzkqryFge1suFjlBfrEDzKHA9kmNUQ=
+			mgkyGt+5QCurMtvx3jREsuR9iE+IBbNNXKi3pN92zGc=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TGOkjU95FC66ylhd2bmcWbd01M4=
+			x4ib0prS2eTX91yGqU1uncNNJR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dp36BMJxcgbkfkFAr/HTspSu+1Fm9SbyU2/VV3vVMYI=
+			1aZQ7EaTYoP5/7KNbktZIsF15+nGEkEM8gGXwjr5354=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hPfNQTeIUfr4qNT/Y2NIa1H2uB8=
+			jSvGWbmBjV9CFroNb/SMNFQym8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZwlRnI91tWmH6w3e0IiUi4Ohjt01D+oNe7wRwrVDB8=
+			6LF5HOJOsu7N3Iw2LQqfRr6fEtius1d/HXkGdHHymVI=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KiHfPsEfAijSpg8vRSjiC+ZNpOY=
+			sqdvcujzNLuZhGVYAhQ9Nld7xD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oqc89U5euP+Z63dSIDJQUzKsRlbKAM/WuGKg5Niyx1M=
+			I1YhQBw9fo3VBDX3FPGSapl8TB7dvJzP9Umk98ei3ic=
 			</data>
 		</dict>
 		<key>Modules/BonMot.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kESa+h/TVCe7zFaWX3wNSaAPzw0=
+			2KP/aCIKGiIYMSjeQIZXPtNKBtQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			feUZlLr7NpBRJuOHwSE4cKvzHEpe2UPNbQn+uK2/Xx0=
+			RvFGy+XfdUmRrLtXujfskJsO2x/FWYmRCOlMBsbN3s0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

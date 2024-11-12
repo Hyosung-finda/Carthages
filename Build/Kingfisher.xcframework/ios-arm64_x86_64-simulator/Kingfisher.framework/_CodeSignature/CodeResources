@@ -6,43 +6,43 @@
 	<dict>
 		<key>Headers/Kingfisher-Swift.h</key>
 		<data>
-		lt71z+Zh0QQIMQitNJh3+JXuT+w=
+		9d4P+wZ5gOfnjm4sV4WTO4rzD6Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IPP67RQXyFQEf0F0snbE4fQ/dlM=
+		n4i1R9HpBcpP+5E4zfP7qY1eYQ4=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		+TzzdlPzJ49eaENOflhLh8WLGxU=
+		2dyUhspI0hhcbhdNd7vDvcp4aLE=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tPYTz2/jIEkJ0wL4gLil+ERFgE0=
+		OePs8Bh+F77iwEGpaQDMoZ6VB1I=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		euk10/72TfJQAxv+N9/gFYbYj4k=
+		iTL13EDM3ODZTIl4SSQkgDHBcDk=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5eQgqdNiSX+rmle6zPreb2kveLU=
+		QUYjUwa0mLz2p0spoNhh4oRdEVA=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NDuE/9PHs9xlnOOFriiOk7+tg6U=
+		uqxGwmaUg7bowZsuGEYELgX58h8=
 		</data>
 		<key>Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iQa2gxLHarzLASQ7PKSPNak0r9k=
+		rSzLnCPkkBtfIlp9UU3lxfSwvoI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,63 +59,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xWNgRGo66nDCcK87ZVyejynh/1lXpwS7iCbmbBfo60=
+			ftDwjzGzirIydT7fn5d39A2DPPqQTgUcfw6W3v+cg54=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v1bwA4PkWCobzipkGkCSZuUspNHv+D+h2Els3BXz04U=
+			ejjaBzmlkzSxL3PYI+Lq88jIH3CrAQl8Dr4/5+vUmYo=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qy/DQWUxvx1Cy7JVbDAHnyK+7b4GFBcasShnAzFq474=
+			JJ/5CJrpJ3HDwrYpQm8nbqm0/0HJJQCuRcDZOkwVNDg=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xdBnjA6ubX3JTWMQ01+8bshfQ4cZR6etptZAesjbqeY=
+			ZYTqcIb74Z/1kkwUt47Hzzs+GI0qfnSrTYJSvIiP+XQ=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L1luNVzOWo13SgJD8RmXzrdG9Zb5J5XvAKDZY0txlHM=
+			vK7OYTaLWNNUdV5RN3qajc6iK9mFNVKHUYLm2AOtrJA=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uzKVPjj/p+EODIwbDnpEZLMaSIK2etA98y6O5cRPCzI=
+			uSd3EroXeORiyMl9ldB5n/F16IOwmdAQEIhOVoPmu5c=
 			</data>
 		</dict>
 		<key>Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vSgprC8koNPTRYsZL49CB5a81AOgVQ8GkQscoUhZUVs=
+			+knExiUeJUM5N63tu5iuJ00jnYPRg3MgnqKPAXKcsjM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

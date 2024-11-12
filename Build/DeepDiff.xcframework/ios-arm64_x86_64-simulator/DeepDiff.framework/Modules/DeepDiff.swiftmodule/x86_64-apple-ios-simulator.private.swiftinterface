@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DeepDiff
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DeepDiff
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import Swift
 import UIKit
@@ -81,10 +81,11 @@ extension Swift.Character : DeepDiff.DiffAware {
   public typealias DiffId = Swift.Character
 }
 extension Foundation.UUID : DeepDiff.DiffAware {
+  @available(iOS 6.0, tvOS 9.0, watchOS 2.0, macOS 10.8, *)
   public typealias DiffId = Foundation.UUID
 }
 extension UIKit.UICollectionView {
-  @_Concurrency.MainActor(unsafe) public func reload<T>(changes: [DeepDiff.Change<T>], section: Swift.Int = 0, updateData: () -> Swift.Void, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : DeepDiff.DiffAware
+  @_Concurrency.MainActor @preconcurrency public func reload<T>(changes: [DeepDiff.Change<T>], section: Swift.Int = 0, updateData: () -> Swift.Void, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : DeepDiff.DiffAware
 }
 extension Swift.Array {
   public func executeIfPresent(_ closure: ([Element]) -> Swift.Void)
@@ -97,5 +98,5 @@ final public class WagnerFischer<T> where T : DeepDiff.DiffAware {
   @objc deinit
 }
 extension UIKit.UITableView {
-  @_Concurrency.MainActor(unsafe) public func reload<T>(changes: [DeepDiff.Change<T>], section: Swift.Int = 0, insertionAnimation: UIKit.UITableView.RowAnimation = .automatic, deletionAnimation: UIKit.UITableView.RowAnimation = .automatic, replacementAnimation: UIKit.UITableView.RowAnimation = .automatic, updateData: () -> Swift.Void, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : DeepDiff.DiffAware
+  @_Concurrency.MainActor @preconcurrency public func reload<T>(changes: [DeepDiff.Change<T>], section: Swift.Int = 0, insertionAnimation: UIKit.UITableView.RowAnimation = .automatic, deletionAnimation: UIKit.UITableView.RowAnimation = .automatic, replacementAnimation: UIKit.UITableView.RowAnimation = .automatic, updateData: () -> Swift.Void, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : DeepDiff.DiffAware
 }

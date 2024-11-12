@@ -1,19 +1,54 @@
 {
-  "commitish" : "4.5.0",
   "iOS" : [
     {
-      "container" : "Lottie.xcframework",
       "identifier" : "ios-arm64",
-      "hash" : "24840200d6a5f2d3556d88b5068df8bc335bb484afca6cf61a5b2a439daf5e71",
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "name" : "Lottie"
+      "name" : "Lottie",
+      "hash" : "70b6718fae7103b53e02384ffb8f955194acdc014815e7727a25d200fafd2fc3",
+      "container" : "Lottie.xcframework",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
     },
     {
-      "hash" : "a6a3f5aa2e039801f0fd35f5250cef7496dd494a2d3ebf027749dd003329095a",
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "identifier" : "ios-arm64_x86_64-maccatalyst",
+      "hash" : "7a1bc6f84cf78434cbbe94e1c25c72a876fe40ff59b943d0be052a6766fbf2f1",
       "container" : "Lottie.xcframework",
+      "name" : "Lottie",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+    },
+    {
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "name" : "Lottie",
       "identifier" : "ios-arm64_x86_64-simulator",
+      "container" : "Lottie.xcframework",
+      "hash" : "192c7214f87d12007d33a0d357c36c147a80c93a51fa973f19de026702ddab15"
+    }
+  ],
+  "Mac" : [
+    {
+      "identifier" : "macos-arm64_x86_64",
+      "name" : "Lottie",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "hash" : "26dde12982794707e7c81ad7cc87a3f2d20ea8bb3bee75603bbceacfe3bf42ab",
+      "container" : "Lottie.xcframework"
+    }
+  ],
+  "tvOS" : [
+    {
+      "container" : "Lottie.xcframework",
+      "name" : "Lottie",
+      "hash" : "d26440b6b5e887be2f559de3ca72734433cf429ee7e7e6c7653e840e22d5c371",
+      "identifier" : "tvos-arm64",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+    },
+    {
+      "container" : "Lottie.xcframework",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "hash" : "13745434e872998da8f9b14b90273ecc844f8fc0547069bac477f3da41a86bab",
+      "identifier" : "tvos-arm64_x86_64-simulator",
       "name" : "Lottie"
     }
+  ],
+  "commitish" : "4.5.0",
+  "watchOS" : [
+
   ]
 }

@@ -134,6 +134,8 @@
 // SDWebImageWebPCoder
 #import "_ChannelIO_SDImageWebPCoder.h"
 #import "_ChannelIO_UIImage+WebP.h"
+#import "_ChannelIO_SDImageSVGCoder.h"
+
 // webplib
 #import "_ChannelIO_decode.h"
 #import "_ChannelIO_encode.h"

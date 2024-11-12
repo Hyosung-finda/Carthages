@@ -1,29 +1,29 @@
 {
+  "commitish" : "5.19.1",
   "iOS" : [
     {
-      "hash" : "4410db785579849b04f30fd5473b7390ef37b7452dc3b5738b3a2f0aa56f7021",
+      "hash" : "4afb45723d1d3e3be1bc4e89193b0ea74fdac6cf9ad7ca5902332a82a3ff0087",
       "name" : "SDWebImage",
-      "identifier" : "ios-arm64",
-      "container" : "SDWebImage.xcframework"
+      "container" : "SDWebImage.xcframework",
+      "identifier" : "ios-arm64"
     },
     {
+      "name" : "SDWebImage",
       "container" : "SDWebImage.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator",
-      "name" : "SDWebImage",
-      "hash" : "af37a6fa5fbaa1579cc7e71622cb4623b767ae0ce80e220ded0a92388e6f4bb1"
+      "hash" : "01d02abef30726222398a7410f9783f678c8925ab4f54cf230d6793f1914e573"
     },
     {
-      "hash" : "6c48d8c5ace82764dad99afcea9402cef94c7ef63fa73d7a9d7511d4e37248ca",
+      "hash" : "c25f170482f0082182d7b69ae00fa748a42b18138e7c196c7278caf7f559cbcf",
       "container" : "SDWebImageMapKit.xcframework",
-      "identifier" : "ios-arm64",
-      "name" : "SDWebImageMapKit"
-    },
-    {
-      "hash" : "6b4c36f0dd1342d0185a7c11171bbb0dddaa4d35ff0b73245b1dd7b2a7c44b88",
       "name" : "SDWebImageMapKit",
-      "container" : "SDWebImageMapKit.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "de0f73f33be85d39d4b09319d264ac0c1b31f7030b65ad8c183527fa2e3fcb3f",
+      "container" : "SDWebImageMapKit.xcframework",
+      "name" : "SDWebImageMapKit",
+      "identifier" : "ios-arm64"
     }
-  ],
-  "commitish" : "5.19.1"
+  ]
 }

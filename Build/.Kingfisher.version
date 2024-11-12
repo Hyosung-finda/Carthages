@@ -1,19 +1,19 @@
 {
+  "commitish" : "7.12.0",
   "iOS" : [
     {
+      "hash" : "176b98937190211d413a395ea8e20c52f4f210be972e20fa2db8b3ae1043eac8",
+      "swiftToolchainVersion" : "6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)",
+      "name" : "Kingfisher",
       "container" : "Kingfisher.xcframework",
-      "identifier" : "ios-arm64",
-      "hash" : "f2df33114e91d7b1b818ee9789c460e78eccae170b2918b045865b1babe212bd",
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "name" : "Kingfisher"
+      "identifier" : "ios-arm64"
     },
     {
+      "hash" : "2697d4d7d5e74b56e97bbb681cabcb5a3c0583aadd8de8c747873853c21c356e",
+      "swiftToolchainVersion" : "6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)",
       "identifier" : "ios-arm64_x86_64-simulator",
       "container" : "Kingfisher.xcframework",
-      "name" : "Kingfisher",
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "hash" : "865d9c4ffb3f1e3ea28e37401f8b7ac9e4a9fe8bd2f054142c9dd16b3bfca8f8"
+      "name" : "Kingfisher"
     }
-  ],
-  "commitish" : "7.12.0"
+  ]
 }
